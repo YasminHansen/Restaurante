@@ -1,0 +1,14 @@
+uuid: 9f5afec6-8fd8-4b34-b0cd-e179bb081fbf
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Feedback do site'
+recipients:
+  - yasmin@mmda.com.br
+reply: ''
+weight: 0
+message: 'Sua mensagem foi enviada.'
+redirect: ''

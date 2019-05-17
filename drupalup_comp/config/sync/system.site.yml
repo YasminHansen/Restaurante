@@ -1,0 +1,14 @@
+uuid: df3a0b3f-3f51-46d2-a47a-329b923cf64f
+name: UpKids
+mail: yasmin@mmda.com.br
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: pt-br
+default_langcode: pt-br
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
