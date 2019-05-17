@@ -1,0 +1,5 @@
+name: Background Banner Simples
+type: module
+description: Colocando imagem de background no título do banner simples
+
+core: '8.x'

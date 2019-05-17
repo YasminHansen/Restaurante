@@ -1,0 +1,31 @@
+uuid: e8faa81c-e75e-4f45-af6b-f8caad0e7d5c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pagina_flexivel.body
+    - node.type.pagina_flexivel
+  module:
+    - text
+    - user
+id: node.pagina_flexivel.teaser
+targetEntityType: node
+bundle: pagina_flexivel
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

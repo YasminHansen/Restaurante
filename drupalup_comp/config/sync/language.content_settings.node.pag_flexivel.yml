@@ -1,0 +1,11 @@
+uuid: 0ec0c7d8-014c-4456-b988-c8c2d59d1096
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.pag_flexivel
+id: node.pag_flexivel
+target_entity_type_id: node
+target_bundle: pag_flexivel
+default_langcode: site_default
+language_alterable: false
