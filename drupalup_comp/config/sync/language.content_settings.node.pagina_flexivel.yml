@@ -1,0 +1,11 @@
+uuid: 19023c1f-c795-4849-be56-2ecfe8cbc0d4
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.pagina_flexivel
+id: node.pagina_flexivel
+target_entity_type_id: node
+target_bundle: pagina_flexivel
+default_langcode: site_default
+language_alterable: false

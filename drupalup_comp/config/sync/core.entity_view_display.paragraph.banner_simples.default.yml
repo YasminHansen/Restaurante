@@ -1,0 +1,42 @@
+uuid: 93bd4cb3-6b50-4442-b30e-b9b6933853de
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner_simples.field_imagem_do_banner
+    - field.field.paragraph.banner_simples.field_texto_banner
+    - field.field.paragraph.banner_simples.field_titulo_banner
+    - paragraphs.paragraphs_type.banner_simples
+  module:
+    - image
+    - text
+id: paragraph.banner_simples.default
+targetEntityType: paragraph
+bundle: banner_simples
+mode: default
+content:
+  field_imagem_do_banner:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_texto_banner:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_titulo_banner:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,9 @@
+uuid: 9319b744-7e81-4195-80bb-5c7d14723de5
+langcode: pt-br
+status: true
+dependencies: {  }
+id: banner_simples
+label: 'Banner Simples'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

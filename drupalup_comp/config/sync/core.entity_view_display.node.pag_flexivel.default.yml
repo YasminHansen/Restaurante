@@ -1,0 +1,27 @@
+uuid: c33ada6d-64cf-42e8-afa8-435d7908e4fb
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.pag_flexivel.field_paragraph
+    - node.type.pag_flexivel
+  module:
+    - entity_reference_revisions
+    - user
+id: node.pag_flexivel.default
+targetEntityType: node
+bundle: pag_flexivel
+mode: default
+content:
+  field_paragraph:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  links: true
