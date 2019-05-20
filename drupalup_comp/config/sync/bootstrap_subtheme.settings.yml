@@ -1,7 +1,7 @@
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://localhost/Restaurante/drupalup_comp/web/themes/bootstrap_subtheme/favicon.ico'
+  url: 'http://localhost/UpKids/drupalup_comp/web/themes/bootstrap_subtheme/favicon.ico'
   use_default: 1
 schemas:
   bootstrap: 8000
@@ -23,3 +23,4 @@ cdn_cache_ttl_assets: '0'
 cdn_cache_ttl_library: '0'
 reset_http_request_cache: ''
 table: ''
+fluid_container: 1
