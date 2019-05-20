@@ -32,4 +32,5 @@ content:
     region: content
 hidden:
   created: true
+  field_imagem_do_banner: true
   status: true

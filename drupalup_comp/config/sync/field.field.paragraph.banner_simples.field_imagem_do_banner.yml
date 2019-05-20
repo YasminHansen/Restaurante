@@ -1,0 +1,38 @@
+uuid: 71651e3e-dfd7-4c60-8d2d-41c9ac0648a0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_imagem_do_banner
+    - paragraphs.paragraphs_type.banner_simples
+  module:
+    - image
+id: paragraph.banner_simples.field_imagem_do_banner
+field_name: field_imagem_do_banner
+entity_type: paragraph
+bundle: banner_simples
+label: Imagem
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image
