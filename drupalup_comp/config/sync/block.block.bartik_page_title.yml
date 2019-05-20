@@ -1,6 +1,6 @@
 uuid: 4f8b1382-cd3b-4a4a-ab02-2e8846e8f043
 langcode: pt-br
-status: true
+status: false
 dependencies:
   theme:
     - bartik
@@ -8,7 +8,7 @@ _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: bartik_page_title
 theme: bartik
-region: content
+region: breadcrumb
 weight: -50
 provider: null
 plugin: page_title_block
