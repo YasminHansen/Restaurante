@@ -2,3 +2,15 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
+
+.paragraph--type--banner-simples{
+	background-size: contain;
+	height: 400px;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 3em;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
