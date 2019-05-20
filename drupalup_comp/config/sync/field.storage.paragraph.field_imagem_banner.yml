@@ -1,4 +1,4 @@
-uuid: 76f492a0-13c6-4c73-83bb-d02aaf8bb702
+uuid: e4ce4c7f-cadb-4916-b3ce-91d8c685eded
 langcode: pt-br
 status: true
 dependencies:
@@ -6,18 +6,18 @@ dependencies:
     - file
     - image
     - paragraphs
-id: paragraph.field_imagem_do_banner
-field_name: field_imagem_do_banner
+id: paragraph.field_imagem_banner
+field_name: field_imagem_banner
 entity_type: paragraph
 type: image
 settings:
   uri_scheme: public
   default_image:
-    uuid: ''
+    uuid: ad3f70a3-2114-440b-92f3-95706eb4b992
     alt: ''
     title: ''
-    width: null
-    height: null
+    width: 1920
+    height: 400
   target_type: file
   display_field: false
   display_default: false

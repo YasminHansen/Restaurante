@@ -1,38 +1,38 @@
-uuid: b996c20a-0c24-4b32-8d6d-7fb5e3391ab6
+uuid: 03de7d8d-7503-4c4a-87eb-7250a4504829
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_imagem_do_banner
-    - paragraphs.paragraphs_type.imagem_banner
+    - field.storage.paragraph.field_imagem_banner
+    - paragraphs.paragraphs_type.banner_simples
   module:
     - image
-id: paragraph.imagem_banner.field_imagem_do_banner
-field_name: field_imagem_do_banner
+id: paragraph.banner_simples.field_imagem_banner
+field_name: field_imagem_banner
 entity_type: paragraph
-bundle: imagem_banner
-label: 'imagem banner'
+bundle: banner_simples
+label: 'Imagem banner'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
   alt_field: true
   alt_field_required: true
   title_field: false
   title_field_required: false
-  max_resolution: ''
-  min_resolution: ''
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null
     height: null
-  file_directory: '[date:custom:Y]-[date:custom:m]'
-  max_filesize: ''
   handler: 'default:file'
   handler_settings: {  }
 field_type: image
