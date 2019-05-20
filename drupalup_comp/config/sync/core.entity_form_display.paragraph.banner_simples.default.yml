@@ -3,7 +3,7 @@ langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.field.paragraph.banner_simples.field_imagem_do_banner
+    - field.field.paragraph.banner_simples.field_imagem_banner
     - field.field.paragraph.banner_simples.field_titulo_banner
     - image.style.thumbnail
     - paragraphs.paragraphs_type.banner_simples
@@ -14,8 +14,8 @@ targetEntityType: paragraph
 bundle: banner_simples
 mode: default
 content:
-  field_imagem_do_banner:
-    weight: 2
+  field_imagem_banner:
+    weight: 0
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail

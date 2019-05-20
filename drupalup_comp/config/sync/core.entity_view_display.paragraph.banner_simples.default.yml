@@ -3,7 +3,7 @@ langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.field.paragraph.banner_simples.field_imagem_do_banner
+    - field.field.paragraph.banner_simples.field_imagem_banner
     - field.field.paragraph.banner_simples.field_titulo_banner
     - paragraphs.paragraphs_type.banner_simples
   module:
@@ -13,8 +13,8 @@ targetEntityType: paragraph
 bundle: banner_simples
 mode: default
 content:
-  field_imagem_do_banner:
-    weight: 1
+  field_imagem_banner:
+    weight: 0
     label: hidden
     settings:
       image_style: ''
@@ -23,7 +23,7 @@ content:
     type: image
     region: content
   field_titulo_banner:
-    weight: 0
+    weight: 1
     label: hidden
     settings:
       link_to_entity: false

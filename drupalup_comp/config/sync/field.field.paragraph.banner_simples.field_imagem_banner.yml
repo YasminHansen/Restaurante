@@ -1,20 +1,20 @@
-uuid: 71651e3e-dfd7-4c60-8d2d-41c9ac0648a0
+uuid: 03de7d8d-7503-4c4a-87eb-7250a4504829
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_imagem_do_banner
+    - field.storage.paragraph.field_imagem_banner
     - paragraphs.paragraphs_type.banner_simples
   module:
     - image
-id: paragraph.banner_simples.field_imagem_do_banner
-field_name: field_imagem_do_banner
+id: paragraph.banner_simples.field_imagem_banner
+field_name: field_imagem_banner
 entity_type: paragraph
 bundle: banner_simples
-label: Imagem
+label: 'Imagem banner'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
