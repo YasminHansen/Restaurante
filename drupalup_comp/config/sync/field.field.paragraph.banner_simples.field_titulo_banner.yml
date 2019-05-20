@@ -9,7 +9,7 @@ id: paragraph.banner_simples.field_titulo_banner
 field_name: field_titulo_banner
 entity_type: paragraph
 bundle: banner_simples
-label: Título
+label: 'Título banner'
 description: ''
 required: false
 translatable: false
