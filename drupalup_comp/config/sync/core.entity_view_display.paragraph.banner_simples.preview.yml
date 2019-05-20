@@ -1,35 +1,34 @@
-uuid: 5afc7eb8-783a-46f6-b1f3-d6d6da23dab1
+uuid: d6dfb8df-8324-47be-9e48-66dadf8fb575
 langcode: pt-br
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.paragraph.preview
     - field.field.paragraph.banner_simples.field_imagem_do_banner
     - field.field.paragraph.banner_simples.field_titulo_banner
-    - image.style.thumbnail
     - paragraphs.paragraphs_type.banner_simples
   module:
     - image
-id: paragraph.banner_simples.default
+id: paragraph.banner_simples.preview
 targetEntityType: paragraph
 bundle: banner_simples
-mode: default
+mode: preview
 content:
   field_imagem_do_banner:
-    weight: 2
+    weight: 1
+    label: hidden
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      image_style: ''
+      image_link: ''
     third_party_settings: {  }
-    type: image_image
+    type: image
     region: content
   field_titulo_banner:
-    weight: 1
+    weight: 0
+    label: hidden
     settings:
-      size: 60
-      placeholder: ''
+      link_to_entity: false
     third_party_settings: {  }
-    type: string_textfield
+    type: string
     region: content
-hidden:
-  created: true
-  status: true
+hidden: {  }

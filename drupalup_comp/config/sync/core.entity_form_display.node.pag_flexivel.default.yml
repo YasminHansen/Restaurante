@@ -13,15 +13,9 @@ targetEntityType: node
 bundle: pag_flexivel
 mode: default
 content:
-  created:
-    type: datetime_timestamp
-    weight: 2
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_paragraph:
     type: entity_reference_paragraphs
-    weight: 7
+    weight: 2
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -31,16 +25,9 @@ content:
       default_paragraph_type: ''
     third_party_settings: {  }
     region: content
-  langcode:
-    type: language_select
-    weight: 0
-    region: content
-    settings:
-      include_locked: true
-    third_party_settings: {  }
   path:
     type: path
-    weight: 5
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -48,31 +35,13 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 3
-    region: content
-    third_party_settings: {  }
-  status:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 6
-    region: content
-    third_party_settings: {  }
-  sticky:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 4
-    region: content
-    third_party_settings: {  }
-  uid:
-    type: entity_reference_autocomplete
-    weight: 1
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+    weight: 0
     region: content
     third_party_settings: {  }
 hidden:
+  created: true
+  langcode: true
+  status: true
+  sticky: true
   title: true
+  uid: true
