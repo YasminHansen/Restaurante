@@ -38,19 +38,17 @@
  * @ingroup themeable
  */
 #}
-{%
-  set classes = [
-    'paragraph',
-    'paragraph--type--' ~ paragraph.bundle|clean_class,
-    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
-    not paragraph.isPublished() ? 'paragraph--unpublished'
-  ]
-%}
 {% block paragraph %}
-  {{ dump(paragraph|keys)}}
-  {{ content.field_imagem_banner }}
-  {{ content.field_imagem_paragraph }}
-  {{ content.field_titulo_banner }}
+  {{ kint(content) }}
+    {% block content %}
 
-açs ldkjaçsdl fkjaçsdlfkj
+    <div class="imagem-banner">
+      {{ content.field_imagem_banner['0']}}
+      <div class="title-highlight">
+        {{ content.field_titulo_banner['0'] }}
+      </div>
+    </div>
+       {# {{ content }} #}
+    {% endblock %}
+
 {% endblock paragraph %}

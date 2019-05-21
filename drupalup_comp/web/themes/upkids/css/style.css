@@ -2,15 +2,17 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
+.imagem-banner{
+  height: 400px;
+  /*background: url('../../../../web/Material/saude-gato-20160727-02.jpg');*/
+}
 
-.paragraph--type--banner-simples{
-	background-size: contain;
-	height: 400px;
-	background-repeat: no-repeat;
-	text-align: center;
-	font-size: 3em;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.title-highlight{
+  font-size: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -40%;
+  text-shadow: 2px 2px 5px #000;
 }
