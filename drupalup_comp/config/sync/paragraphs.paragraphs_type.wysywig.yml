@@ -1,0 +1,9 @@
+uuid: 404c9fb4-6c0f-48ef-942f-1d8b8c539698
+langcode: pt-br
+status: true
+dependencies: {  }
+id: wysywig
+label: Wysywig
+icon_uuid: null
+description: 'Tipo de parágrafo para criar uma área wysiwyg com campos que mudam de disposição.'
+behavior_plugins: {  }

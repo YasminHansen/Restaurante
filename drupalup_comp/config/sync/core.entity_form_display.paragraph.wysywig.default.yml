@@ -1,0 +1,52 @@
+uuid: 9d8119c1-d8a6-4cc1-8cf9-b0ba289353e1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.wysywig.field_campo_select
+    - field.field.paragraph.wysywig.field_img_wysiwyg
+    - field.field.paragraph.wysywig.field_texto_wysiwyg
+    - field.field.paragraph.wysywig.field_titulo_wysiwyg
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.wysywig
+  module:
+    - image
+    - text
+id: paragraph.wysywig.default
+targetEntityType: paragraph
+bundle: wysywig
+mode: default
+content:
+  field_campo_select:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_img_wysiwyg:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_texto_wysiwyg:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_titulo_wysiwyg:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
