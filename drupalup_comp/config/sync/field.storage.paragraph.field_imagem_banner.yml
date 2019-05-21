@@ -1,4 +1,4 @@
-uuid: e4ce4c7f-cadb-4916-b3ce-91d8c685eded
+uuid: eb4aacef-158d-4706-9d22-d332a6590a4a
 langcode: pt-br
 status: true
 dependencies:
@@ -13,11 +13,11 @@ type: image
 settings:
   uri_scheme: public
   default_image:
-    uuid: ad3f70a3-2114-440b-92f3-95706eb4b992
+    uuid: ''
     alt: ''
     title: ''
-    width: 1920
-    height: 400
+    width: null
+    height: null
   target_type: file
   display_field: false
   display_default: false

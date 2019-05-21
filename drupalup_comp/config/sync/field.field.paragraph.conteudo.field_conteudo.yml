@@ -1,0 +1,21 @@
+uuid: f0a905c7-1ae3-499d-b480-5b005fafba12
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_conteudo
+    - paragraphs.paragraphs_type.conteudo
+  module:
+    - text
+id: paragraph.conteudo.field_conteudo
+field_name: field_conteudo
+entity_type: paragraph
+bundle: conteudo
+label: conteudo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.banner_simples.field_imagem_banner
+    - field.field.paragraph.banner_simples.field_imagem_paragraph
     - field.field.paragraph.banner_simples.field_titulo_banner
     - image.style.thumbnail
     - paragraphs.paragraphs_type.banner_simples
@@ -15,7 +16,7 @@ bundle: banner_simples
 mode: default
 content:
   field_imagem_banner:
-    weight: 0
+    weight: 1
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -23,14 +24,15 @@ content:
     type: image_image
     region: content
   field_titulo_banner:
-    weight: 1
+    type: string_textfield
+    weight: 0
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
 hidden:
   created: true
   field_imagem_do_banner: true
+  field_imagem_paragraph: true
   status: true

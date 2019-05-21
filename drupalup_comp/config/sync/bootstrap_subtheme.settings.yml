@@ -24,3 +24,4 @@ cdn_cache_ttl_library: '0'
 reset_http_request_cache: ''
 table: ''
 fluid_container: 1
+langcode: pt-br

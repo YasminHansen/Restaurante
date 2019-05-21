@@ -15,7 +15,7 @@ mode: default
 content:
   field_paragraph:
     type: entity_reference_paragraphs
-    weight: 2
+    weight: 3
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -27,7 +27,7 @@ content:
     region: content
   path:
     type: path
-    weight: 1
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -38,10 +38,17 @@ content:
     weight: 0
     region: content
     third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
 hidden:
   created: true
   langcode: true
   status: true
   sticky: true
-  title: true
   uid: true
