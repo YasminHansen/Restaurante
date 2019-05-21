@@ -1,6 +1,6 @@
 uuid: b8694957-8134-4430-9aa3-9d390c509922
 langcode: pt-br
-status: true
+status: false
 dependencies:
   module:
     - help

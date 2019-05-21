@@ -1,0 +1,22 @@
+uuid: a8ee346b-ec34-4c06-87b8-a1cb2723af3a
+langcode: pt-br
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - upkids
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: upkids_help
+theme: upkids
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  provider: help
+  label_display: '0'
+visibility: {  }

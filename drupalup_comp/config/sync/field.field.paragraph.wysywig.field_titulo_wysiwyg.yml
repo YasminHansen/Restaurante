@@ -1,0 +1,19 @@
+uuid: ea98c770-9c92-47a1-b67a-0658980bd80a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_wysiwyg
+    - paragraphs.paragraphs_type.wysywig
+id: paragraph.wysywig.field_titulo_wysiwyg
+field_name: field_titulo_wysiwyg
+entity_type: paragraph
+bundle: wysywig
+label: 'titulo wysiwyg'
+description: 'Escreva um título para este conteúdo.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

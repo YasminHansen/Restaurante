@@ -1,0 +1,21 @@
+uuid: 9422869f-33d5-4b66-b0a2-32c2a59230a7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_wysiwyg
+    - paragraphs.paragraphs_type.wysywig
+  module:
+    - text
+id: paragraph.wysywig.field_texto_wysiwyg
+field_name: field_texto_wysiwyg
+entity_type: paragraph
+bundle: wysywig
+label: 'texto wysiwyg'
+description: 'Digite um texto ou informação que você deseja.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

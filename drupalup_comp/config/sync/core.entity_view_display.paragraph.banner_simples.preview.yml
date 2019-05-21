@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.banner_simples.field_imagem_banner
     - field.field.paragraph.banner_simples.field_imagem_paragraph
     - field.field.paragraph.banner_simples.field_titulo_banner
     - paragraphs.paragraphs_type.banner_simples
@@ -21,4 +22,5 @@ content:
     type: string
     region: content
 hidden:
+  field_imagem_banner: true
   field_imagem_paragraph: true

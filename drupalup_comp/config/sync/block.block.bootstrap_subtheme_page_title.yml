@@ -1,6 +1,6 @@
 uuid: 7c5ce5de-f03f-4dfa-9cda-1284cc55e31f
 langcode: pt-br
-status: true
+status: false
 dependencies:
   theme:
     - bootstrap_subtheme

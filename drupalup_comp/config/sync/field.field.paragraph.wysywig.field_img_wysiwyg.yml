@@ -1,0 +1,38 @@
+uuid: 77f56580-98ec-4b56-944b-49fb3a33c391
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_img_wysiwyg
+    - paragraphs.paragraphs_type.wysywig
+  module:
+    - image
+id: paragraph.wysywig.field_img_wysiwyg
+field_name: field_img_wysiwyg
+entity_type: paragraph
+bundle: wysywig
+label: 'img wysiwyg'
+description: 'Suba uma imagem de sua escolha'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,20 @@
+uuid: 80deeac1-891c-4bf0-9002-658bc5371751
+langcode: pt-br
+status: false
+dependencies:
+  theme:
+    - upkids
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: upkids_page_title
+theme: upkids
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título da página'
+  provider: core
+  label_display: '0'
+visibility: {  }

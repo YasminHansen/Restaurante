@@ -1,0 +1,23 @@
+uuid: c399b29e-55ea-4ada-8a09-0d96ee0e7c72
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_campo_select
+    - paragraphs.paragraphs_type.wysywig
+  module:
+    - options
+id: paragraph.wysywig.field_campo_select
+field_name: field_campo_select
+entity_type: paragraph
+bundle: wysywig
+label: campo_select
+description: 'Escolha a cor de fundo'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Fundo branco'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

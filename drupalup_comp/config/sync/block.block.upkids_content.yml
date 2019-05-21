@@ -1,0 +1,22 @@
+uuid: 06c74780-1d0f-4ab9-ae82-b5dd50b9ef5f
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - upkids
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: upkids_content
+theme: upkids
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Conteúdo da página principal'
+  provider: system
+  label_display: '0'
+visibility: {  }

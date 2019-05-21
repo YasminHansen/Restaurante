@@ -1,0 +1,20 @@
+uuid: 3b5f379e-898e-4770-bd32-ddfc32aafa32
+langcode: pt-br
+status: false
+dependencies:
+  theme:
+    - upkids
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: upkids_local_actions
+theme: upkids
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
