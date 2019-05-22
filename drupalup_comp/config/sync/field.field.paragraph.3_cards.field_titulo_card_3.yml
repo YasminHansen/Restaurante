@@ -1,0 +1,21 @@
+uuid: d18118dc-4d10-4270-a1b2-cd839ebb14b2
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_card_3
+    - paragraphs.paragraphs_type.3_cards
+  module:
+    - text
+id: paragraph.3_cards.field_titulo_card_3
+field_name: field_titulo_card_3
+entity_type: paragraph
+bundle: 3_cards
+label: 'Título card 3'
+description: 'Informe o título deste destaque.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

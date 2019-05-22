@@ -1,0 +1,21 @@
+uuid: 49f4aa79-a204-400b-b59a-7b864baec96b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_card_1
+    - paragraphs.paragraphs_type.3_cards
+  module:
+    - text
+id: paragraph.3_cards.field_texto_card_1
+field_name: field_texto_card_1
+entity_type: paragraph
+bundle: 3_cards
+label: 'Texto do card 1'
+description: 'Insira um texto para ficar destacado no site junto do primeiro ícone.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

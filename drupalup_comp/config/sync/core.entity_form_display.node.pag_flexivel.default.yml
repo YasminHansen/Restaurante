@@ -3,6 +3,7 @@ langcode: pt-br
 status: true
 dependencies:
   config:
+    - field.field.node.pag_flexivel.field_3_cards_paragraph
     - field.field.node.pag_flexivel.field_paragraph
     - field.field.node.pag_flexivel.field_wysywig_paragraphs
     - node.type.pag_flexivel
@@ -20,6 +21,18 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_3_cards_paragraph:
+    type: entity_reference_paragraphs
+    weight: 26
+    settings:
+      title: Paragraph
+      title_plural: Parágrafos
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
   field_paragraph:
     type: entity_reference_paragraphs
     weight: 8

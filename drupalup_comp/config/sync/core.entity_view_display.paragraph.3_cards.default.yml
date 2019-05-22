@@ -1,0 +1,93 @@
+uuid: f634763a-6f0f-4e2e-9225-6a999928def0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.3_cards.field_icone_card_1
+    - field.field.paragraph.3_cards.field_icone_card_2
+    - field.field.paragraph.3_cards.field_icone_card_3
+    - field.field.paragraph.3_cards.field_texto_card_1
+    - field.field.paragraph.3_cards.field_texto_card_2
+    - field.field.paragraph.3_cards.field_texto_card_3
+    - field.field.paragraph.3_cards.field_titulo_card_1
+    - field.field.paragraph.3_cards.field_titulo_card_2
+    - field.field.paragraph.3_cards.field_titulo_card_3
+    - paragraphs.paragraphs_type.3_cards
+  module:
+    - image
+    - text
+id: paragraph.3_cards.default
+targetEntityType: paragraph
+bundle: 3_cards
+mode: default
+content:
+  field_icone_card_1:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_icone_card_2:
+    weight: 3
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_icone_card_3:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_texto_card_1:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_texto_card_2:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_texto_card_3:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_titulo_card_1:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_titulo_card_2:
+    weight: 8
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_titulo_card_3:
+    weight: 9
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

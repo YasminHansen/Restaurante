@@ -3,6 +3,7 @@ langcode: pt-br
 status: true
 dependencies:
   config:
+    - field.field.node.pag_flexivel.field_3_cards_paragraph
     - field.field.node.pag_flexivel.field_paragraph
     - field.field.node.pag_flexivel.field_wysywig_paragraphs
     - node.type.pag_flexivel
@@ -14,6 +15,15 @@ targetEntityType: node
 bundle: pag_flexivel
 mode: default
 content:
+  field_3_cards_paragraph:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
   field_paragraph:
     type: entity_reference_revisions_entity_view
     weight: 0

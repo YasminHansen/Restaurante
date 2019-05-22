@@ -1,0 +1,9 @@
+uuid: 33183858-478a-4c72-91c2-e19b056956e5
+langcode: pt-br
+status: true
+dependencies: {  }
+id: 3_cards
+label: '3 cards'
+icon_uuid: null
+description: 'Parágrafo com campos da área 3 cards. O padrão que segue é: imagem em cima, texto embaixo 3x'
+behavior_plugins: {  }
