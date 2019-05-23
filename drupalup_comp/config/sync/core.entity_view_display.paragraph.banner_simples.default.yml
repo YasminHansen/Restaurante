@@ -7,11 +7,22 @@ dependencies:
     - field.field.paragraph.banner_simples.field_imagem_paragraph
     - field.field.paragraph.banner_simples.field_titulo_banner
     - paragraphs.paragraphs_type.banner_simples
+  module:
+    - image
 id: paragraph.banner_simples.default
 targetEntityType: paragraph
 bundle: banner_simples
 mode: default
 content:
+  field_imagem_banner:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
   field_titulo_banner:
     type: string
     weight: 0
@@ -21,6 +32,5 @@ content:
       link_to_entity: false
     third_party_settings: {  }
 hidden:
-  field_imagem_banner: true
   field_imagem_do_banner: true
   field_imagem_paragraph: true
