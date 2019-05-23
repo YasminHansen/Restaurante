@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.banner_simples.field_imagem_banner
+    - field.field.paragraph.banner_simples.field_imagem_paragraph
     - field.field.paragraph.banner_simples.field_titulo_banner
     - paragraphs.paragraphs_type.banner_simples
   module:
@@ -14,21 +15,22 @@ bundle: banner_simples
 mode: default
 content:
   field_imagem_banner:
-    weight: 0
+    type: image
+    weight: 1
+    region: content
     label: hidden
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
-    type: image
-    region: content
   field_titulo_banner:
-    weight: 1
+    type: string
+    weight: 0
+    region: content
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
-    region: content
 hidden:
   field_imagem_do_banner: true
+  field_imagem_paragraph: true

@@ -1,0 +1,22 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+/*.imagem-banner{
+  background: url(/UpKids/drupalup_comp/web/sites/default/files/2019-05/bannersimples_10.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 314px;
+}*/
+.banner_simples{
+  background-color: red ;
+}
+.imagem_banner{
+  box-shadow: 2px 2px 2px black;
+}
+.title-highlight{
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px black;
+}

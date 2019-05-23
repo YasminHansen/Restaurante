@@ -17,3 +17,6 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'view paragraph content banner_simples'
+  - 'view paragraph content conteudo'
+  - 'view paragraph content wysywig'

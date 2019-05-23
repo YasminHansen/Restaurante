@@ -15,6 +15,7 @@ targetEntityType: node
 bundle: pag_flexivel
 mode: default
 content:
+<<<<<<< HEAD
   created:
     type: datetime_timestamp
     weight: 3
@@ -33,9 +34,11 @@ content:
       default_paragraph_type: ''
     third_party_settings: {  }
     region: content
+=======
+>>>>>>> 7d5864c07a9c6b6476e229a7cd63df2f199a9f7c
   field_paragraph:
     type: entity_reference_paragraphs
-    weight: 8
+    weight: 6
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -47,7 +50,7 @@ content:
     region: content
   field_wysywig_paragraphs:
     type: entity_reference_paragraphs
-    weight: 9
+    weight: 7
     settings:
       title: Paragraph
       title_plural: Parágrafos
@@ -66,7 +69,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 6
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -74,21 +77,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 4
+    weight: 2
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 7
+    weight: 5
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 5
+    weight: 3
     region: content
     third_party_settings: {  }
   title:
@@ -99,13 +102,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  uid:
-    type: entity_reference_autocomplete
-    weight: 2
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    region: content
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  created: true
+  uid: true

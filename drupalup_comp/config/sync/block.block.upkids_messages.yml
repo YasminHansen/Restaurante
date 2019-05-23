@@ -1,0 +1,22 @@
+uuid: 70d5fed8-a975-43f5-a17c-73d3a1af9ddd
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - upkids
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: upkids_messages
+theme: upkids
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensagens de status'
+  provider: system
+  label_display: '0'
+visibility: {  }

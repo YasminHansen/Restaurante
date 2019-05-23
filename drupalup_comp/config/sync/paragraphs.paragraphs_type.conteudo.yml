@@ -1,0 +1,9 @@
+uuid: 7ed05964-406b-4dc3-b54d-8b5398851236
+langcode: pt-br
+status: true
+dependencies: {  }
+id: conteudo
+label: Conteúdo
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

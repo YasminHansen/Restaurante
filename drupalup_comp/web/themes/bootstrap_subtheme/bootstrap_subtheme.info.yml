@@ -21,4 +21,4 @@ regions:
 
 libraries-extend:
   bootstrap/framework:
-    - bootstrap_subtheme/framework
+    - bootstrap_subtheme/upkidsstyle

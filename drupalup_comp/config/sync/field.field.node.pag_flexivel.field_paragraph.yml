@@ -28,4 +28,7 @@ settings:
       banner_simples:
         enabled: true
         weight: 2
+      conteudo:
+        weight: 6
+        enabled: false
 field_type: entity_reference_revisions

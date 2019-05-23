@@ -1,0 +1,22 @@
+uuid: e789029b-20c5-412d-b18f-21b9d1111d99
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.conteudo.field_conteudo
+    - paragraphs.paragraphs_type.conteudo
+  module:
+    - text
+id: paragraph.conteudo.default
+targetEntityType: paragraph
+bundle: conteudo
+mode: default
+content:
+  field_conteudo:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

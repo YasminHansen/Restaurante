@@ -1,4 +1,4 @@
-uuid: 03de7d8d-7503-4c4a-87eb-7250a4504829
+uuid: 7f6f274b-683d-4565-baa9-7060a178c524
 langcode: pt-br
 status: true
 dependencies:
@@ -13,7 +13,7 @@ entity_type: paragraph
 bundle: banner_simples
 label: 'Imagem banner'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

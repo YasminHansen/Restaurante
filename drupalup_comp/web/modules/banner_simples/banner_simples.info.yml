@@ -1,0 +1,4 @@
+name: Banner Simples Paragraphs
+type: module
+description: Modulo para o banner simples
+core: '8.x'

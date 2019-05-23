@@ -14,3 +14,6 @@ permissions:
   - 'access site-wide contact form'
   - 'search content'
   - 'use text format restricted_html'
+  - 'view paragraph content banner_simples'
+  - 'view paragraph content conteudo'
+  - 'view paragraph content wysywig'
