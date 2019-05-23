@@ -41,20 +41,16 @@
 {% block paragraph %}
   {{ kint(content) }}
     {% block content %}
-    {# <div class="imagem-banner">
-      {{ content.field_imagem_banner['0'] }} #}
-      {{ file_url(paragraph.field_custom_image.entity.uri.value) }}
+     {# {{ file_url(paragraph.field_custom_image.entity.uri.value) }}
       <br/>
       {{ file_url(element['#object'].field_imagem_banner.0.entity.uri.value) }}
       <br/>
-      {{ file_url(content.field_imagem_banner['#items'].entity.uri.value) }}
-      <div class="row">
-        <div class="col-12 title-highlight imagem-banner ">
-          {{ content.field_titulo_banner['0'] }}
-        </div>
+      {{ file_url(content.field_imagem_banner['#items'].entity.uri.value) }} {# Pegando a url do field_imagem_banner #}
+      <div class="banner_simples">
+        <div class="imagem_banner" style="background:url({{content.field_imagem_banner}}">
+          <div class="title-highlight">
+            {{ content.field_titulo_banner['0'] }}
+          </div>
       </div>
-    </div>
-       {# {{ content }} #}
     {% endblock %}
-
 {% endblock paragraph %}
