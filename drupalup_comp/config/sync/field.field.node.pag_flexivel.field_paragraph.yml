@@ -5,7 +5,9 @@ dependencies:
   config:
     - field.storage.node.field_paragraph
     - node.type.pag_flexivel
+    - paragraphs.paragraphs_type.3_cards
     - paragraphs.paragraphs_type.banner_simples
+    - paragraphs.paragraphs_type.wysywig
   module:
     - entity_reference_revisions
 id: node.pag_flexivel.field_paragraph
@@ -24,11 +26,19 @@ settings:
     negate: 0
     target_bundles:
       banner_simples: banner_simples
+      wysywig: wysywig
+      3_cards: 3_cards
     target_bundles_drag_drop:
       banner_simples:
         enabled: true
-        weight: 2
+        weight: -9
+      wysywig:
+        enabled: true
+        weight: -8
+      3_cards:
+        enabled: true
+        weight: -7
       conteudo:
-        weight: 6
+        weight: -6
         enabled: false
 field_type: entity_reference_revisions

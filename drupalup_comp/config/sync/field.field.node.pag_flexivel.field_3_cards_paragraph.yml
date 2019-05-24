@@ -1,0 +1,37 @@
+uuid: eadd83be-c231-4e6b-8931-7374d3a2413b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_3_cards_paragraph
+    - node.type.pag_flexivel
+    - paragraphs.paragraphs_type.3_cards
+  module:
+    - entity_reference_revisions
+id: node.pag_flexivel.field_3_cards_paragraph
+field_name: field_3_cards_paragraph
+entity_type: node
+bundle: pag_flexivel
+label: '3 cards paragraph'
+description: 'Área de destaques, onde são mostradas ícones e textos de sua escolha.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      3_cards: 3_cards
+    target_bundles_drag_drop:
+      3_cards:
+        enabled: true
+        weight: 4
+      banner_simples:
+        weight: 5
+        enabled: false
+      wysywig:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions
