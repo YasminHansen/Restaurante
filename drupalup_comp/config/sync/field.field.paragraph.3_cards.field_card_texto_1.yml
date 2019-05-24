@@ -1,14 +1,12 @@
-uuid: 49f4aa79-a204-400b-b59a-7b864baec96b
+uuid: 94846a3d-a10d-4037-8890-32ac34201436
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_texto_card_1
+    - field.storage.paragraph.field_card_texto_1
     - paragraphs.paragraphs_type.3_cards
-  module:
-    - text
-id: paragraph.3_cards.field_texto_card_1
-field_name: field_texto_card_1
+id: paragraph.3_cards.field_card_texto_1
+field_name: field_card_texto_1
 entity_type: paragraph
 bundle: 3_cards
 label: 'Texto do card 1'
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text_long
+field_type: string

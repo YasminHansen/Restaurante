@@ -34,5 +34,6 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_3_cards_paragraph: true
   langcode: true
   links: true

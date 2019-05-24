@@ -3,12 +3,12 @@ langcode: pt-br
 status: true
 dependencies:
   config:
+    - field.field.paragraph.3_cards.field_card_texto_1
+    - field.field.paragraph.3_cards.field_card_texto_2
+    - field.field.paragraph.3_cards.field_card_texto_3
     - field.field.paragraph.3_cards.field_icone_card_1
     - field.field.paragraph.3_cards.field_icone_card_2
     - field.field.paragraph.3_cards.field_icone_card_3
-    - field.field.paragraph.3_cards.field_texto_card_1
-    - field.field.paragraph.3_cards.field_texto_card_2
-    - field.field.paragraph.3_cards.field_texto_card_3
     - field.field.paragraph.3_cards.field_titulo_card_1
     - field.field.paragraph.3_cards.field_titulo_card_2
     - field.field.paragraph.3_cards.field_titulo_card_3
@@ -22,6 +22,30 @@ targetEntityType: paragraph
 bundle: 3_cards
 mode: default
 content:
+  field_card_texto_1:
+    weight: 2
+    settings:
+      size: 120
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_card_texto_2:
+    weight: 5
+    settings:
+      size: 120
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_card_texto_3:
+    weight: 8
+    settings:
+      size: 120
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_icone_card_1:
     weight: 0
     settings:
@@ -45,30 +69,6 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
-    region: content
-  field_texto_card_1:
-    weight: 2
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_texto_card_2:
-    weight: 5
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_texto_card_3:
-    weight: 8
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
     region: content
   field_titulo_card_1:
     weight: 1

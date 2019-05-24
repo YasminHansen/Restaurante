@@ -27,18 +27,6 @@ content:
       default_paragraph_type: ''
     third_party_settings: {  }
     region: content
-  field_wysywig_paragraphs:
-    type: entity_reference_paragraphs
-    weight: 7
-    settings:
-      title: Paragraph
-      title_plural: Parágrafos
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
-    third_party_settings: {  }
-    region: content
   langcode:
     type: language_select
     weight: 1
@@ -83,4 +71,6 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_3_cards_paragraph: true
+  field_wysywig_paragraphs: true
   uid: true

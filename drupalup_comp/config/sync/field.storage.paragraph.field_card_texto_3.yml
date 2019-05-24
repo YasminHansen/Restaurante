@@ -1,16 +1,18 @@
-uuid: a2bb46f6-b8d5-40be-b83c-756eef66a2c6
+uuid: 09bcf6a9-3dff-41ea-bfec-3554dc430eab
 langcode: pt-br
 status: true
 dependencies:
   module:
     - paragraphs
-    - text
-id: paragraph.field_texto_card_1
-field_name: field_texto_card_1
+id: paragraph.field_card_texto_3
+field_name: field_card_texto_3
 entity_type: paragraph
-type: text_long
-settings: {  }
-module: text
+type: string
+settings:
+  max_length: 200
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true
