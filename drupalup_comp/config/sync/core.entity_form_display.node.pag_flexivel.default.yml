@@ -15,27 +15,6 @@ targetEntityType: node
 bundle: pag_flexivel
 mode: default
 content:
-<<<<<<< HEAD
-  created:
-    type: datetime_timestamp
-    weight: 3
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_3_cards_paragraph:
-    type: entity_reference_paragraphs
-    weight: 26
-    settings:
-      title: Paragraph
-      title_plural: Parágrafos
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
-    third_party_settings: {  }
-    region: content
-=======
->>>>>>> 7d5864c07a9c6b6476e229a7cd63df2f199a9f7c
   field_paragraph:
     type: entity_reference_paragraphs
     weight: 6
