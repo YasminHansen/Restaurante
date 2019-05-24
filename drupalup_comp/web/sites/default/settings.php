@@ -6,8 +6,6 @@ $config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-
-
 if (file_exists(__DIR__ . '/settings.local.php')) {
  require_once(__DIR__ . '/settings.local.php');
 }
