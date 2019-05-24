@@ -15,16 +15,16 @@ body{
 
 .banner_simples{
   height: 238px;
-  position: relative;
-}
+  position: relative;}
+
 .imagem_banner{
   height: 100%;
   background-repeat: no-repeat !important;
-  background-size: cover !important;
-}
+  background-size: cover !important;}
 
 .title-highlight{
   color: #fff;
+  font-family: 'Pacifico'
   font-weight: bold;
   font-size: 60px;
   text-shadow: 2px 2px 3px black;
@@ -32,8 +32,7 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
-}
+  transform: translate(-50%, -50%)}
 
 .cards{
   background-color: #DC7D00;
@@ -50,9 +49,36 @@ body{
 margin-top: 10px;
 color: white;}
 
-
 .cards img{
   margin: 25px 0;
   height: 100px;
   width: 100px;}
 
+/*DEPOIMENTO PARAGRAPHS ~ APAGAR DPS*/
+.depoimentos{
+  text-align: center;
+}
+.depoimentos img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid orange;
+}
+/*DEPOIMENTO PARAGRAPHS ~ APAGAR DPS*/
+/*~~~~~~~~CSS TEMPLATE TIPO DE CONTEUDO DEPOIMENTOS~~~~~~~~~*/
+.depoimento{
+  text-align: center;
+}
+.depoimento img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid orange;
+  margin-top: 10px;
+}
+.icone{
+  margin: 45px;
+}
+.depoimento_texto{
+  font-style: italic;
+}
