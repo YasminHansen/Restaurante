@@ -11,13 +11,11 @@ id: paragraph.wysywig.field_campo_select
 field_name: field_campo_select
 entity_type: paragraph
 bundle: wysywig
-label: campo_select
-description: 'Escolha a cor de fundo'
+label: 'Escolha uma cor'
+description: 'Cor para o fundo desta seção.'
 required: false
 translatable: false
-default_value:
-  -
-    value: 'Fundo branco'
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: list_string

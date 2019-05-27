@@ -9,6 +9,7 @@ dependencies:
     - field.field.paragraph.3_cards.field_icone_card_1
     - field.field.paragraph.3_cards.field_icone_card_2
     - field.field.paragraph.3_cards.field_icone_card_3
+    - field.field.paragraph.3_cards.field_img_fundo
     - field.field.paragraph.3_cards.field_titulo_card_1
     - field.field.paragraph.3_cards.field_titulo_card_2
     - field.field.paragraph.3_cards.field_titulo_card_3
@@ -64,6 +65,14 @@ content:
     region: content
   field_icone_card_3:
     weight: 6
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_img_fundo:
+    weight: 9
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail

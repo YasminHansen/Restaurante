@@ -1,4 +1,4 @@
-uuid: 6336af31-b4c1-4a97-ae2e-cc6049e33dad
+uuid: fa8eaa1f-ed57-4ddf-875a-6083d052df63
 langcode: pt-br
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - file
     - image
     - paragraphs
-id: paragraph.field_img_wysiwyg
-field_name: field_img_wysiwyg
+id: paragraph.field_img_fundo
+field_name: field_img_fundo
 entity_type: paragraph
 type: image
 settings:
@@ -23,7 +23,7 @@ settings:
   display_default: false
 module: image
 locked: false
-cardinality: 2
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

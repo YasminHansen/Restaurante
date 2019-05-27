@@ -4,13 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.wysywig.field_campo_select
-    - field.field.paragraph.wysywig.field_img_wysiwyg
     - field.field.paragraph.wysywig.field_texto_wysiwyg
     - field.field.paragraph.wysywig.field_titulo_wysiwyg
-    - image.style.thumbnail
     - paragraphs.paragraphs_type.wysywig
   module:
-    - image
     - text
 id: paragraph.wysywig.default
 targetEntityType: paragraph
@@ -22,14 +19,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
-    region: content
-  field_img_wysiwyg:
-    weight: 2
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
     region: content
   field_texto_wysiwyg:
     weight: 1

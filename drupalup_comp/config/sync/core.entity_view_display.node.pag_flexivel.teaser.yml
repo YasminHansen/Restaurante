@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.pag_flexivel.field_3_cards_paragraph
     - field.field.node.pag_flexivel.field_paragraph
     - field.field.node.pag_flexivel.field_wysywig_paragraphs
     - node.type.pag_flexivel
