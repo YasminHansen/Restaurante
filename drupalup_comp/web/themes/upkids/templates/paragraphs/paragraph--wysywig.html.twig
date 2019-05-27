@@ -38,14 +38,17 @@
  * @ingroup themeable
  */
 #}
+
+{%
+  set styles = content.field_campo_select.0|render
+%}
+
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
+  <div{{ attributes.addClass(classes) }} style="background-color: {{ styles }}">
     {% block content %}
       <div class="container">
-        {{ content.field_campo_select }}
-        {{ kint(content.field_campo_select.0) }}
         <div class="row wysiwyg">
-          <h1 class="text-center">{{ content.field_titulo_wysiwyg }}</h1>
+          <h1 class="text-center pacifico">{{ content.field_titulo_wysiwyg }}</h1>
           <div>{{ content.field_texto_wysiwyg }}</div>
         </div>
       </div>

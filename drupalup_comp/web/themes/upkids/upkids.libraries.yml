@@ -2,12 +2,11 @@ upkids:
   css:
     theme:
       css/style.css: {}
-
-pacifico:
+fonts:
   css:
     theme:
-      //fonts.googleapis.com/css?family=Pacifico: { type: external }
-      css/style.css: {}
+      '//fonts.googleapis.com/css?family=Pacifico': { type: external }
+      '//fonts.googleapis.com/css?family=Poppins' : { type: external }
 
 # Uncomment for LESS source JavaScript files.
 #  js:

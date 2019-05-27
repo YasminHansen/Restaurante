@@ -8,34 +8,19 @@ dependencies:
     - field.field.paragraph.wysywig.field_titulo_wysiwyg
     - paragraphs.paragraphs_type.wysywig
   module:
-<<<<<<< HEAD
     - options
-=======
-    - image
->>>>>>> ee832731fc68daa37d25164e5733ca635e5c34a4
     - text
 id: paragraph.wysywig.default
 targetEntityType: paragraph
 bundle: wysywig
 mode: default
 content:
-<<<<<<< HEAD
   field_campo_select:
     weight: 3
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: list_default
-=======
-  field_img_wysiwyg:
-    weight: 2
-    label: hidden
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
->>>>>>> ee832731fc68daa37d25164e5733ca635e5c34a4
     region: content
   field_texto_wysiwyg:
     weight: 1
