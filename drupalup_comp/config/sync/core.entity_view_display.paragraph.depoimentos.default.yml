@@ -1,0 +1,21 @@
+uuid: 7bf6b840-02c2-486b-8bbb-e2f709bff830
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.depoimentos.field_depoimentos
+    - paragraphs.paragraphs_type.depoimentos
+id: paragraph.depoimentos.default
+targetEntityType: paragraph
+bundle: depoimentos
+mode: default
+content:
+  field_depoimentos:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

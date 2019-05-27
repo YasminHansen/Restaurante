@@ -1,0 +1,21 @@
+uuid: 79515d77-4ed5-40a4-84dc-619b7b19a131
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_depoimentos
+    - paragraphs.paragraphs_type.depoimentos
+id: paragraph.depoimentos.field_depoimentos
+field_name: field_depoimentos
+entity_type: paragraph
+bundle: depoimentos
+label: 'view depoimentos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings: {  }
+field_type: entity_reference

@@ -3,6 +3,12 @@ upkids:
     theme:
       css/style.css: {}
 
+pacifico:
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Pacifico: { type: external }
+      css/style.css: {}
+
 # Uncomment for LESS source JavaScript files.
 #  js:
 #    bootstrap/js/affix.js: {}

@@ -1,0 +1,11 @@
+uuid: fc493c3c-7c2a-4f3e-8ba9-6b1b9ea46a94
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.depoimentos
+id: node.depoimentos
+target_entity_type_id: node
+target_bundle: depoimentos
+default_langcode: site_default
+language_alterable: false

@@ -2,11 +2,6 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
-/*.imagem-banner{
-  background: url(/UpKids/drupalup_comp/web/sites/default/files/2019-05/bannersimples_10.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 314px;
-}*/
 
 body{
   margin: 0;
@@ -20,13 +15,12 @@ body{
 =================================================*/
 .banner_simples{
   height: 238px;
-  position: relative;
-}
+  position: relative;}
+
 .imagem_banner{
   height: 100%;
   background-repeat: no-repeat !important;
-  background-size: cover !important;
-}
+  background-size: cover !important;}
 
 .title-highlight{
   color: #fff;
@@ -40,9 +34,11 @@ body{
   left: 50%;
   transform: translate(-50%, -50%)
 }
+
 /*================================================
         Estilo dos cards
 =================================================*/
+
 .cards{
   margin:20px 0;
   background-color: #DC7D00;
@@ -58,7 +54,8 @@ body{
 .cards p{
   margin-bottom: 20px;
   color: white;
-  font-size: 13px;}
+  font-size: 13px;}}
+
 
 .cards img{
   margin: 20px 0;
@@ -89,5 +86,28 @@ body{
 
 .wysiwyg div > p:not(img){
   grid-template-columns: 2fr;
-  grid-auto-rows: minmax(300px, auto);
+  grid-auto-rows: minmax(300px, auto);}
+
+/*================================================
+        Estilo do depoimento
+=================================================*/
+.depoimento{
+  text-align: center;
 }
+.depoimento img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid orange;
+  margin-top: 10px;}
+
+.icone{
+  margin: 45px;
+  background: url("../images/canvas.png");}
+
+.depoimento_texto{
+  font-style: italic;}
+
+.depoimento_titulo{
+  color: orange;
+  font-size: 40px;}

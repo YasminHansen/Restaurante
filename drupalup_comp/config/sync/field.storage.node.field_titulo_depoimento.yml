@@ -1,0 +1,21 @@
+uuid: d624ec68-2199-4905-bbea-2c1dfb33cc62
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_titulo_depoimento
+field_name: field_titulo_depoimento
+entity_type: node
+type: string
+settings:
+  max_length: 100
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

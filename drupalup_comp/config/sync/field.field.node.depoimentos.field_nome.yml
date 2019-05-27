@@ -1,0 +1,19 @@
+uuid: 525573ad-fcf7-43ff-bcb3-cc1f283ab9d0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nome
+    - node.type.depoimentos
+id: node.depoimentos.field_nome
+field_name: field_nome
+entity_type: node
+bundle: depoimentos
+label: Nome
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
