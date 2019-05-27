@@ -1,0 +1,24 @@
+uuid: cb00aebc-0a9d-4e2d-9da9-4719e315af54
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.losangos.field_img_fundo
+    - paragraphs.paragraphs_type.losangos
+  module:
+    - image
+id: paragraph.losangos.default
+targetEntityType: paragraph
+bundle: losangos
+mode: default
+content:
+  field_img_fundo:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
