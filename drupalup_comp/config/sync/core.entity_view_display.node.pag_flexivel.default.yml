@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.pag_flexivel.field_3_cards_paragraph
+    - field.field.node.pag_flexivel.field_losangos
     - field.field.node.pag_flexivel.field_paragraph
     - field.field.node.pag_flexivel.field_wysywig_paragraphs
     - node.type.pag_flexivel
@@ -18,6 +19,15 @@ content:
   field_3_cards_paragraph:
     type: entity_reference_revisions_entity_view
     weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_losangos:
+    type: entity_reference_revisions_entity_view
+    weight: 3
     label: above
     settings:
       view_mode: default

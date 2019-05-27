@@ -1,26 +1,26 @@
-uuid: 77f56580-98ec-4b56-944b-49fb3a33c391
+uuid: b39a4c46-82a7-45d8-8e0c-300cc16733b1
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_img_wysiwyg
-    - paragraphs.paragraphs_type.wysywig
+    - field.storage.paragraph.field_img_fundo
+    - paragraphs.paragraphs_type.losangos
   module:
     - image
-id: paragraph.wysywig.field_img_wysiwyg
-field_name: field_img_wysiwyg
+id: paragraph.losangos.field_img_fundo
+field_name: field_img_fundo
 entity_type: paragraph
-bundle: wysywig
-label: 'img wysiwyg'
-description: 'Suba uma imagem de sua escolha'
+bundle: losangos
+label: 'Imagem de fundo'
+description: 'Adicione uma imagem de fundo que mais combina com sua escola para ficar em destaque junto dos losangos.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   file_directory: '[date:custom:Y]-[date:custom:m]'
-  file_extensions: 'png gif jpg jpeg'
-  max_filesize: ''
+  file_extensions: 'png jpg jpeg'
+  max_filesize: '5 MB'
   max_resolution: ''
   min_resolution: ''
   alt_field: true

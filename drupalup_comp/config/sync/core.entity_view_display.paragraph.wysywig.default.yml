@@ -4,18 +4,24 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.wysywig.field_campo_select
-    - field.field.paragraph.wysywig.field_img_wysiwyg
     - field.field.paragraph.wysywig.field_texto_wysiwyg
     - field.field.paragraph.wysywig.field_titulo_wysiwyg
     - paragraphs.paragraphs_type.wysywig
   module:
-    - image
+    - options
     - text
 id: paragraph.wysywig.default
 targetEntityType: paragraph
 bundle: wysywig
 mode: default
 content:
+  field_campo_select:
+    type: list_key
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
   field_img_wysiwyg:
     weight: 2
     label: hidden
@@ -40,5 +46,4 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-hidden:
-  field_campo_select: true
+hidden: {  }
