@@ -2,11 +2,6 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
-/*.imagem-banner{
-  background: url(/UpKids/drupalup_comp/web/sites/default/files/2019-05/bannersimples_10.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 314px;
-}*/
 
 body{
   margin: 0;
@@ -78,7 +73,13 @@ color: white;}
 }
 .icone{
   margin: 45px;
+  background: url("../images/canvas.png");
 }
 .depoimento_texto{
   font-style: italic;
+}
+
+.depoimento_titulo{
+  color: orange;
+  font-size: 40px;
 }

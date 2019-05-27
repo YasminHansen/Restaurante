@@ -77,11 +77,13 @@
   <div{{ content_attributes.addClass('content') }}>
     <div class="container depoimento">
       <div class="row">
-        <p class="pafico">{{content.field_titulo_depoimento}}</p>
-        <p class="icone">"</p>
-        <div class="depoimento_texto">{{ content.body['0'] }}</div>
-        <img src="{{ file_url(content.field_img_depoimento['#items'].entity.uri.value) }}">
-        <p>{{ content.field_nome }}</p>
+        <div class="col-md-10 col-md-offset-1">
+          <p class="pafico depoimento_titulo">{{content.field_titulo_depoimento.0}}</p>
+          <p class="icone">"</p>
+          <div class="depoimento_texto">{{ content.body['0'] }}</div>
+          <img src="{{ file_url(content.field_img_depoimento['#items'].entity.uri.value) }}">
+          <p>{{ content.field_nome }}</p>
+        </div>
       </div>
     </div>
   </div>
