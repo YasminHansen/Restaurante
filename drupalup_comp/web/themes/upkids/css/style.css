@@ -104,7 +104,7 @@ body{
   margin-top: 10px;}
 
 .icone{
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 45px;
   color: #C54CCB;
   font-size: 2em;}
@@ -116,6 +116,13 @@ body{
   color: #DC7D00;
   font-size: 40px;}
 
+.link_depoimento : hover{
+  text-decoration: none;
+}
+
 .depoimento_topo{
   color: #1C6F18;
   font-size: 20px;}
+/*================================================
+
+=================================================*/
