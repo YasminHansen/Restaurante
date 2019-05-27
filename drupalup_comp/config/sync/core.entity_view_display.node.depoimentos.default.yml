@@ -1,0 +1,54 @@
+uuid: 7652545c-ce64-49f2-9a59-9cf0157fbeb6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.depoimentos.body
+    - field.field.node.depoimentos.field_img_depoimento
+    - field.field.node.depoimentos.field_nome
+    - field.field.node.depoimentos.field_titulo_depoimento
+    - node.type.depoimentos
+  module:
+    - image
+    - text
+    - user
+id: node.depoimentos.default
+targetEntityType: node
+bundle: depoimentos
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_img_depoimento:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_nome:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_titulo_depoimento:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true
+  links: true

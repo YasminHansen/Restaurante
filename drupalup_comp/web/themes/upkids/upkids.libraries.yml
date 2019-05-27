@@ -3,11 +3,11 @@ upkids:
     theme:
       css/style.css: {}
 
-fonts:
+pacifico:
   css:
     theme:
-      '//fonts.googleapis.com/css?family=Pacifico&display=swap': {type: external}
-
+      //fonts.googleapis.com/css?family=Pacifico: { type: external }
+      css/style.css: {}
 
 # Uncomment for LESS source JavaScript files.
 #  js:

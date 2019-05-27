@@ -1,0 +1,18 @@
+uuid: 8c4d64b7-14fe-4dd8-87af-8ab1a453908e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Depoimentos
+type: depoimentos
+description: 'Página para o depoimento dos papais'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

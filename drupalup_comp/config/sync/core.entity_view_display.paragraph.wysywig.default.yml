@@ -10,23 +10,15 @@ dependencies:
     - paragraphs.paragraphs_type.wysywig
   module:
     - image
-    - options
     - text
 id: paragraph.wysywig.default
 targetEntityType: paragraph
 bundle: wysywig
 mode: default
 content:
-  field_campo_select:
-    weight: 3
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
   field_img_wysiwyg:
     weight: 2
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
@@ -35,17 +27,18 @@ content:
     region: content
   field_texto_wysiwyg:
     weight: 1
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_titulo_wysiwyg:
     weight: 0
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
-hidden: {  }
+hidden:
+  field_campo_select: true
