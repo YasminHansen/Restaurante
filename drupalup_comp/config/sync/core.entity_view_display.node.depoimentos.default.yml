@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.depoimentos.body
+    - field.field.node.depoimentos.field_depoimentos
     - field.field.node.depoimentos.field_img_depoimento
     - field.field.node.depoimentos.field_nome
     - field.field.node.depoimentos.field_titulo_depoimento
@@ -20,12 +21,12 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 1
+    weight: 0
     settings: {  }
     third_party_settings: {  }
     region: content
   field_img_depoimento:
-    weight: 2
+    weight: 1
     label: hidden
     settings:
       image_style: ''
@@ -34,15 +35,7 @@ content:
     type: image
     region: content
   field_nome:
-    weight: 3
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_titulo_depoimento:
-    weight: 4
+    weight: 2
     label: hidden
     settings:
       link_to_entity: false
@@ -50,5 +43,7 @@ content:
     type: string
     region: content
 hidden:
+  field_depoimentos: true
+  field_titulo_depoimento: true
   langcode: true
   links: true

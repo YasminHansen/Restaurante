@@ -68,18 +68,17 @@
 
 <article{{ attributes.addClass(classes) }}>
 
-  {{ title_prefix }}
+  {#{{ title_prefix }}
   {% if label and not page %}
   {% endif %}
-  {{ title_suffix }}
+  {{ title_suffix }}#}
   {% if display_submitted %}
   {% endif %}
   <div{{ content_attributes.addClass('content') }}>
     <div class="container depoimento">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-          <p class="pafico depoimento_titulo">{{content.field_titulo_depoimento.0}}</p>
-          <p class="icone">"</p>
+          <i class="fas fa-quote-right icone"></i>
           <div class="depoimento_texto">{{ content.body['0'] }}</div>
           <img src="{{ file_url(content.field_img_depoimento['#items'].entity.uri.value) }}">
           <p>{{ content.field_nome }}</p>

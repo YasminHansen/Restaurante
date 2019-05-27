@@ -22,4 +22,4 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - upkids/upkids
-    - 'upkids/fonts'
+    - upkids/fonts

@@ -1,0 +1,21 @@
+uuid: 3f8f9e4d-fe16-4c60-a13d-3e93ed0f48c4
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_depoimentos
+field_name: field_depoimentos
+entity_type: node
+type: string
+settings:
+  max_length: 20
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

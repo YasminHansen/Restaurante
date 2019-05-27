@@ -6,7 +6,11 @@
 body{
   margin: 0;
   padding:0;
-  width: 100%;}
+  width: 100%;
+  font-family: 'Poppins', sans-serif;}
+
+.pacifico{
+  font-family: 'Pacifico', cursive;}
 
 .banner_simples{
   height: 238px;
@@ -19,8 +23,7 @@ body{
 
 .title-highlight{
   color: #fff;
-  font-family: 'Pacifico'
-  font-weight: bold;
+ /*  font-weight: bold; */
   font-size: 60px;
   text-shadow: 2px 2px 3px black;
   margin: 0 -50% 0 0;
@@ -62,24 +65,28 @@ color: white;}
 /*DEPOIMENTO PARAGRAPHS ~ APAGAR DPS*/
 /*~~~~~~~~CSS TEMPLATE TIPO DE CONTEUDO DEPOIMENTOS~~~~~~~~~*/
 .depoimento{
-  text-align: center;
-}
+  text-align: center;}
+
 .depoimento img{
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  border: 3px solid orange;
-  margin-top: 10px;
-}
+  border: 3px solid #DC7D00;
+  margin-top: 10px;}
+
 .icone{
-  margin: 45px;
-  background: url("../images/canvas.png");
-}
+  margin-top: 50px;
+  margin-bottom: 45px;
+  color: #C54CCB;
+  font-size: 2em;}
+
 .depoimento_texto{
-  font-style: italic;
-}
+  font-style: italic;}
 
 .depoimento_titulo{
-  color: orange;
-  font-size: 40px;
-}
+  color: #DC7D00;
+  font-size: 40px;}
+
+.depoimento_topo{
+  color: #1C6F18;
+  font-size: 20px;}

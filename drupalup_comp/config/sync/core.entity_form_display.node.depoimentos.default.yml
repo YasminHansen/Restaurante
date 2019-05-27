@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.depoimentos.body
+    - field.field.node.depoimentos.field_depoimentos
     - field.field.node.depoimentos.field_img_depoimento
     - field.field.node.depoimentos.field_nome
     - field.field.node.depoimentos.field_titulo_depoimento
@@ -19,7 +20,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 3
+    weight: 2
     settings:
       rows: 9
       summary_rows: 3
@@ -27,7 +28,7 @@ content:
     third_party_settings: {  }
     region: content
   field_img_depoimento:
-    weight: 4
+    weight: 3
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -35,14 +36,6 @@ content:
     type: image_image
     region: content
   field_nome:
-    weight: 2
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_titulo_depoimento:
     weight: 1
     settings:
       size: 60
@@ -60,6 +53,8 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_depoimentos: true
+  field_titulo_depoimento: true
   langcode: true
   path: true
   promote: true
