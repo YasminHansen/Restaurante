@@ -7,6 +7,8 @@ dependencies:
     - node.type.pag_flexivel
     - paragraphs.paragraphs_type.3_cards
     - paragraphs.paragraphs_type.banner_simples
+    - paragraphs.paragraphs_type.depoimentos
+    - paragraphs.paragraphs_type.losangos
     - paragraphs.paragraphs_type.wysywig
   module:
     - entity_reference_revisions
@@ -28,20 +30,25 @@ settings:
       banner_simples: banner_simples
       wysywig: wysywig
       3_cards: 3_cards
+      depoimentos: depoimentos
+      losangos: losangos
     target_bundles_drag_drop:
       banner_simples:
         enabled: true
-        weight: -11
+        weight: -13
       wysywig:
         enabled: true
-        weight: -10
+        weight: -12
       3_cards:
         enabled: true
-        weight: -9
+        weight: -11
       depoimentos:
         enabled: true
-        weight: -8
+        weight: -10
+      losangos:
+        enabled: true
+        weight: -9
       conteudo:
-        weight: -7
+        weight: -8
         enabled: false
 field_type: entity_reference_revisions

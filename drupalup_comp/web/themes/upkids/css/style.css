@@ -4,113 +4,147 @@
  */
 
 body{
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding:0;
-  width: 100%;
-  font-family: 'Poppins', sans-serif;}
+  width: 100%;}
 
-  p:first-letter{
+p:first-letter{
   text-transform: capitalize;}
 
-  .pacifico{
+.pacifico{
   font-family: 'Pacifico', cursive;}
-/*================================================
-        Estilo do banner
-=================================================*/
+
+
+/*============================================================
+                      Estilo do banner
+=============================================================*/
 .banner_simples{
   height: 238px;
   position: relative;}
 
-.imagem_banner{
-  height: 100%;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;}
+  .imagem_banner{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100%;}
 
-.title-highlight{
-  color: #fff;
-  font-family: 'Pacifico'
-  font-weight: bold;
-  font-size: 60px;
-  text-shadow: 2px 2px 3px black;
-  margin: 0 -50% 0 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
-}
+    .title-highlight{
+      color: #fff;
+      font-size: 60px;
+      font-weight: bold;
+      left: 50%;
+      margin: 0 -50% 0 0;
+      position: absolute;
+      text-shadow: 2px 2px 3px black;
+      top: 50%;
+      transform: translate(-50%, -50%);}
 
-/*================================================
-        Estilo dos cards
-=================================================*/
+/*============================================================
+                      Estilo dos cards
+=============================================================*/
 .cards{
   background-color: #DC7D00;
-  overflow: auto;}
+  overflow: auto;
+  position: relative;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;}
 
-.cards h4,
-.cards p{
-  color: #fff;
-  width: 300px;
-  margin:auto;
-  font-weight: bold;}
+  .cards h4,
+  .cards p{
+    color: #fff;
+    font-weight: bold;
+    margin:auto;
+    width: 300px;}
 
-.cards p{
-  margin-bottom: 20px;
-  color: white;
-  font-size: 13px;}
+  .cards p{
+    font-size: 13px;
+    margin-bottom: 17px;}
 
+  .cards img{
+    height: 95px;
+    margin: 20px 0;
+    width: 100px;}
 
-.cards img{
-  margin: 20px 0;
-  height: 95px;
-  width: 100px;}
-
-/*================================================
-        Estilo do wysiwyg
-=================================================*/
+/*============================================================
+                      Estilo do wysiwyg
+=============================================================*/
 .field--name-field-texto-wysiwyg .align-left{
-  margin-right: 20px;
   margin-bottom: 10px;
-}
+  margin-right: 20px;}
 
 .field--name-field-texto-wysiwyg .align-right{
-  margin-left: 20px;
   margin-bottom: 10px;
-}
+  margin-left: 20px;}
 
 .wysiwyg {
   display: grid;
-  margin: 30px 0 60px;
-}
+  margin: 30px 0 60px;}
 
-.wysiwyg h1{
-  margin: 35px auto;
-  color:#DC7D00;
-}
+  .wysiwyg h1{
+    color:#DC7D00;
+    margin: 35px auto;}
 
-.wysiwyg div > p:not(img){
-  grid-template-columns: 2fr;
-  grid-auto-rows: minmax(300px, auto);}
-
-/*================================================
-        Estilo do depoimento
-=================================================*/
+/*============================================================
+                      Estilo do depoimento
+=============================================================*/
 .depoimento{
-  text-align: center;
-}
-.depoimento img{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  border: 3px solid orange;
-  margin-top: 10px;}
+  text-align: center;}
 
-.icone{
-  margin: 45px;
-  background: url("../images/canvas.png");}
+  .depoimento img{
+    border: 3px solid orange;
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 10px;
+    width: 100px;}
 
-.depoimento_texto{
-  font-style: italic;}
+  .icone{
+    background: url("../images/canvas.png");
+    margin: 45px;}
 
-.depoimento_titulo{
-  color: orange;
-  font-size: 40px;}
+  .depoimento_texto{
+    font-style: italic;}
+
+  .depoimento_titulo{
+    color: orange;
+    font-size: 40px;}
+
+/*============================================================
+                      Estilo dos losangos
+=============================================================*/
+  .imagem_losango{
+    height: 450px;
+    position: relative;
+    align-items: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    display: flex;
+    justify-content: center;}
+
+    .box{
+      margin:0 100px;
+      position: relative;
+      width:110px;}
+
+      .box h5{
+        color: white;
+        font-size: 1.1em;
+        font-weight: bold;
+        margin: 30px 0 0;
+        position: absolute;
+        left: 25%;} /*testando o alinhamento do titulo*/
+
+      .losango{
+        align-items: center;
+        border-radius: 10px;
+        display: grid;
+        height: 100px;
+        justify-content: center;
+        transform:rotate(-45deg);
+        width: 100px;}
+
+        .losango span{
+          color: white;
+          font-size: 1.1em;
+          font-weight: bold;
+          text-align: center;
+          transform:rotate(45deg);}

@@ -17,6 +17,9 @@ settings:
     -
       value: '#316F49'
       label: 'Fundo verde'
+    -
+      value: paragraph-green-gb
+      label: 'Fundo verde novo'
   allowed_values_function: ''
 module: options
 locked: false

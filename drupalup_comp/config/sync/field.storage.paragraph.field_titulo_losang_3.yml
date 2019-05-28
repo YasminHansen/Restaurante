@@ -1,0 +1,21 @@
+uuid: bf1dfcc9-062f-4512-bb61-8fc7d7a1de6c
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_titulo_losang_3
+field_name: field_titulo_losang_3
+entity_type: paragraph
+type: string
+settings:
+  max_length: 20
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
