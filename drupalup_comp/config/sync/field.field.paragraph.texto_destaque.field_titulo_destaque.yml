@@ -1,0 +1,19 @@
+uuid: 28791d92-d1cd-47c5-8575-3fe04fb04b78
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_destaque
+    - paragraphs.paragraphs_type.texto_destaque
+id: paragraph.texto_destaque.field_titulo_destaque
+field_name: field_titulo_destaque
+entity_type: paragraph
+bundle: texto_destaque
+label: 'Titulo destaque'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

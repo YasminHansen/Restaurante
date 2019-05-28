@@ -1,17 +1,18 @@
-uuid: be18e2a5-6c37-4ee0-b5c9-e3964c3c2c3a
+uuid: 5da869d2-8943-43a9-b7f5-aeecc8b0b54c
 langcode: pt-br
 status: true
 dependencies:
   module:
     - paragraphs
-    - text
-id: paragraph.field_conteudo
-field_name: field_conteudo
+id: paragraph.field_motivo_destaque
+field_name: field_motivo_destaque
 entity_type: paragraph
-type: text
+type: string
 settings:
-  max_length: 255
-module: text
+  max_length: 100
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

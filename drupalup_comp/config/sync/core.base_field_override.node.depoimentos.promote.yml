@@ -1,0 +1,22 @@
+uuid: a1661d3f-3a22-47fb-a91f-b39ac8f2cb29
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.depoimentos
+id: node.depoimentos.promote
+field_name: promote
+entity_type: node
+bundle: depoimentos
+label: 'Promovido para a página inicial'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

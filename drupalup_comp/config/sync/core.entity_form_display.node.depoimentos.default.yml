@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.depoimentos.body
-    - field.field.node.depoimentos.field_depoimentos
     - field.field.node.depoimentos.field_img_depoimento
     - field.field.node.depoimentos.field_nome
     - field.field.node.depoimentos.field_titulo_depoimento
@@ -53,7 +52,6 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  field_depoimentos: true
   field_titulo_depoimento: true
   langcode: true
   path: true

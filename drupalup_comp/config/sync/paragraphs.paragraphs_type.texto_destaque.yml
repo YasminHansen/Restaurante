@@ -1,0 +1,9 @@
+uuid: 59052d8b-377d-43a3-b572-f2a5239cb70b
+langcode: pt-br
+status: true
+dependencies: {  }
+id: texto_destaque
+label: 'Texto Destaque'
+icon_uuid: null
+description: 'Campo para adicionar o texto de destaque'
+behavior_plugins: {  }

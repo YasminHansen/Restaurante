@@ -1,0 +1,19 @@
+uuid: c3258a14-86de-4dd5-927a-2ddd879a9ff0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lista_destaques
+    - paragraphs.paragraphs_type.texto_destaque
+id: paragraph.texto_destaque.field_lista_destaques
+field_name: field_lista_destaques
+entity_type: paragraph
+bundle: texto_destaque
+label: 'Lista destaques'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

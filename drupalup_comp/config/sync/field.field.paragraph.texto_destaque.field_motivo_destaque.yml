@@ -1,0 +1,19 @@
+uuid: 9e3609f8-f61a-4b29-8f98-8d466c119c63
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_motivo_destaque
+    - paragraphs.paragraphs_type.texto_destaque
+id: paragraph.texto_destaque.field_motivo_destaque
+field_name: field_motivo_destaque
+entity_type: paragraph
+bundle: texto_destaque
+label: 'Motivo destaque'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

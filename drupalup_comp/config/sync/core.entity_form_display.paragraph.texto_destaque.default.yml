@@ -1,0 +1,72 @@
+uuid: e4431b73-1d39-47b4-ab23-d2cb41c177b6
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texto_destaque.field_imagem_fundo
+    - field.field.paragraph.texto_destaque.field_img_destaque
+    - field.field.paragraph.texto_destaque.field_lista_destaques
+    - field.field.paragraph.texto_destaque.field_motivo_destaque
+    - field.field.paragraph.texto_destaque.field_texto_destaque
+    - field.field.paragraph.texto_destaque.field_titulo_destaque
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.texto_destaque
+  module:
+    - image
+    - text
+id: paragraph.texto_destaque.default
+targetEntityType: paragraph
+bundle: texto_destaque
+mode: default
+content:
+  field_imagem_fundo:
+    weight: 5
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_img_destaque:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_lista_destaques:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_motivo_destaque:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_texto_destaque:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_titulo_destaque:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

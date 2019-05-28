@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.depoimentos.body
-    - field.field.node.depoimentos.field_depoimentos
     - field.field.node.depoimentos.field_img_depoimento
     - field.field.node.depoimentos.field_nome
     - field.field.node.depoimentos.field_titulo_depoimento
@@ -22,22 +21,14 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 2
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
-  field_depoimentos:
-    type: string
     weight: 0
-    region: content
-    label: above
     settings:
-      link_to_entity: false
+      trim_length: 200
     third_party_settings: {  }
+    region: content
   field_img_depoimento:
     type: image
-    weight: 3
+    weight: 1
     region: content
     label: hidden
     settings:
@@ -46,20 +37,13 @@ content:
     third_party_settings: {  }
   field_nome:
     type: string
-    weight: 4
-    region: content
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-  field_titulo_depoimento:
-    type: string
-    weight: 1
+    weight: 2
     region: content
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
 hidden:
+  field_titulo_depoimento: true
   langcode: true
   links: true

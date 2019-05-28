@@ -27,6 +27,7 @@ content:
     third_party_settings: {  }
 hidden:
   field_3_cards_paragraph: true
+  field_losangos: true
   field_wysywig_paragraphs: true
   langcode: true
   links: true

@@ -15,4 +15,4 @@ description: 'Página para o depoimento dos papais'
 help: ''
 new_revision: true
 preview_mode: 1
-display_submitted: true
+display_submitted: false

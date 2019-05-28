@@ -52,10 +52,13 @@ display:
       pager:
         type: mini
         options:
-          items_per_page: 10
+          items_per_page: 3
           offset: 0
           id: 0
           total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
           expose:
             items_per_page: false
             items_per_page_label: 'Itens por página'
@@ -64,39 +67,12 @@ display:
             items_per_page_options_all_label: '- Tudo -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
       style:
-        type: owl
+        type: default
         options:
           row_class: ''
           default_row_class: true
           uses_fields: false
-          items: '1'
-          itemsDesktop: '[1199,4]'
-          itemsDesktopSmall: '[979,3]'
-          itemsTablet: '[768,2]'
-          itemsMobile: '[479,1]'
-          singleItem: 0
-          itemsScaleUp: 0
-          slideSpeed: '200'
-          paginationSpeed: '800'
-          rewindSpeed: '1000'
-          autoPlay: 0
-          stopOnHover: 0
-          navigation: 0
-          prevText: prev
-          nextText: next
-          rewindNav: 1
-          scrollPerPage: 0
-          pagination: 1
-          paginationNumbers: 0
-          responsive: 1
-          responsiveRefreshRate: '200'
-          mouseDrag: 1
-          touchDrag: 1
-          transitionStyle: fade
       row:
         type: 'entity:node'
         options:
@@ -216,6 +192,74 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
+  block_1:
+    display_plugin: block
+    id: block_1
+    display_title: Bloco
+    position: 2
+    display_options:
+      display_extenders: {  }
+      style:
+        type: owl
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          items: '1'
+          itemsDesktop: '[1199,4]'
+          itemsDesktopSmall: '[979,3]'
+          itemsTablet: '[768,2]'
+          itemsMobile: '[479,1]'
+          singleItem: 1
+          itemsScaleUp: 0
+          slideSpeed: '200'
+          paginationSpeed: '800'
+          rewindSpeed: '1000'
+          autoPlay: 1
+          stopOnHover: 0
+          navigation: 0
+          prevText: prev
+          nextText: next
+          rewindNav: 1
+          scrollPerPage: 0
+          pagination: 1
+          paginationNumbers: 0
+          responsive: 1
+          responsiveRefreshRate: '200'
+          mouseDrag: 1
+          touchDrag: 1
+          transitionStyle: fade
+      defaults:
+        style: false
+        row: false
+        header: false
+      row:
+        type: 'entity:node'
+        options:
+          view_mode: teaser
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: ''
+            format: full_html
+          plugin_id: text
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
   page_1:
     display_plugin: page
     id: page_1
@@ -224,6 +268,54 @@ display:
     display_options:
       display_extenders: {  }
       path: depoimentos
+      style:
+        type: default
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+      defaults:
+        style: false
+        row: false
+        pager: false
+        header: false
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: default
+      pager:
+        type: mini
+        options:
+          items_per_page: 10
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Itens por página'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- Tudo -'
+            offset: false
+            offset_label: Offset
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: "<p class=\"depoimento depoimento_topo\">- Depoimentos -</p>\r\n<p class=\"pacifico depoimento_titulo depoimento\">O que os papais pensam</p>"
+            format: full_html
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:

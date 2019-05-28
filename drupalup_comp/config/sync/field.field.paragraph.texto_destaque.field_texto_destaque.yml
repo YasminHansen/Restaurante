@@ -1,0 +1,21 @@
+uuid: ffaef06d-bca8-4001-8157-b70140a709bd
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_destaque
+    - paragraphs.paragraphs_type.texto_destaque
+  module:
+    - text
+id: paragraph.texto_destaque.field_texto_destaque
+field_name: field_texto_destaque
+entity_type: paragraph
+bundle: texto_destaque
+label: 'Texto Destaque'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

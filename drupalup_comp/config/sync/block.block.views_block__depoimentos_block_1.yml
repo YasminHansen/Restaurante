@@ -1,0 +1,30 @@
+uuid: 6dabec22-ec69-4abf-9120-a2f98f756406
+langcode: pt-br
+status: false
+dependencies:
+  config:
+    - views.view.depoimentos
+  module:
+    - system
+    - views
+  theme:
+    - upkids
+id: views_block__depoimentos_block_1
+theme: upkids
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:depoimentos-block_1'
+settings:
+  id: 'views_block:depoimentos-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/depoimentos\r\n/user/"
+    negate: true
+    context_mapping: {  }

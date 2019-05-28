@@ -1,15 +1,15 @@
-uuid: 3f8f9e4d-fe16-4c60-a13d-3e93ed0f48c4
+uuid: 2697f0db-07e5-4274-86c1-d0b92b8a9e50
 langcode: pt-br
 status: true
 dependencies:
   module:
-    - node
-id: node.field_depoimentos
-field_name: field_depoimentos
-entity_type: node
+    - paragraphs
+id: paragraph.field_titulo_destaque
+field_name: field_titulo_destaque
+entity_type: paragraph
 type: string
 settings:
-  max_length: 20
+  max_length: 255
   is_ascii: false
   case_sensitive: false
 module: core

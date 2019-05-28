@@ -1,0 +1,21 @@
+uuid: c16c2c50-c746-46e7-a25f-7432c5d517e4
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_lista_destaques
+field_name: field_lista_destaques
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
