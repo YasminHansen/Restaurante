@@ -1,0 +1,19 @@
+uuid: 6ec6514b-335e-4fbe-ad30-bf1a4de3c1b4
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_losang_1
+    - paragraphs.paragraphs_type.losangos
+id: paragraph.losangos.field_text_losang_1
+field_name: field_text_losang_1
+entity_type: paragraph
+bundle: losangos
+label: 'Texto interno do losango 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

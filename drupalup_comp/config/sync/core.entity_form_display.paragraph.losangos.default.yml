@@ -3,7 +3,13 @@ langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.field.paragraph.losangos.field_img_fundo
+    - field.field.paragraph.losangos.field_img_fundo_losang
+    - field.field.paragraph.losangos.field_text_losang_1
+    - field.field.paragraph.losangos.field_text_losang_2
+    - field.field.paragraph.losangos.field_text_losang_3
+    - field.field.paragraph.losangos.field_titulo_losang_1
+    - field.field.paragraph.losangos.field_titulo_losang_2
+    - field.field.paragraph.losangos.field_titulo_losang_3
     - image.style.thumbnail
     - paragraphs.paragraphs_type.losangos
   module:
@@ -13,13 +19,61 @@ targetEntityType: paragraph
 bundle: losangos
 mode: default
 content:
-  field_img_fundo:
+  field_img_fundo_losang:
     weight: 0
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_text_losang_1:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_text_losang_2:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_text_losang_3:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titulo_losang_1:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titulo_losang_2:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titulo_losang_3:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
 hidden:
   created: true

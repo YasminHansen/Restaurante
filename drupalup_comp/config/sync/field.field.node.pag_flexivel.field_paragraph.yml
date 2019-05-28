@@ -9,6 +9,7 @@ dependencies:
     - paragraphs.paragraphs_type.banner_simples
     - paragraphs.paragraphs_type.depoimentos
     - paragraphs.paragraphs_type.texto_destaque
+    - paragraphs.paragraphs_type.losangos
     - paragraphs.paragraphs_type.wysywig
   module:
     - entity_reference_revisions
@@ -53,5 +54,24 @@ settings:
         enabled: false
       losangos:
         weight: -9
+      losangos: losangos
+    target_bundles_drag_drop:
+      banner_simples:
+        enabled: true
+        weight: -13
+      wysywig:
+        enabled: true
+        weight: -12
+      3_cards:
+        enabled: true
+        weight: -11
+      depoimentos:
+        enabled: true
+        weight: -10
+      losangos:
+        enabled: true
+        weight: -9
+      conteudo:
+        weight: -8
         enabled: false
 field_type: entity_reference_revisions
