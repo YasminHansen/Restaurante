@@ -3,7 +3,6 @@ module:
   admin_toolbar_links_access_filter: 0
   admin_toolbar_tools: 0
   automated_cron: 0
-  banner_simples: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -35,14 +34,13 @@ module:
   menu_ui: 0
   node: 0
   options: 0
-  owl: 0
   page_cache: 0
   paragraphs_type_permissions: 0
   path: 0
-  quickedit: 0
   rdf: 0
   search: 0
   shortcut: 0
+  superfish: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -51,6 +49,7 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  viewsreference: 0
   menu_link_content: 1
   views: 10
   paragraphs: 11

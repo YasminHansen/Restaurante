@@ -1,4 +1,6 @@
 upkids:
+  js:
+    js/upkids.js: {}
   css:
     theme:
       css/style.css: {}
@@ -8,6 +10,14 @@ fonts:
     theme:
       '//fonts.googleapis.com/css?family=Pacifico': { type: external }
       '//fonts.googleapis.com/css?family=Poppins' : { type: external }
+
+owlcarousel:
+  js:
+    libraries/owlcarousel/owl.carousel.min.js: {}
+  css:
+    theme:
+      libraries/owlcarousel/assets/owl.carousel.min.css: {}
+      libraries/owlcarousel/assets/owl.theme.default.min.css: {}
 
 # Uncomment for LESS source JavaScript files.
 #  js:
