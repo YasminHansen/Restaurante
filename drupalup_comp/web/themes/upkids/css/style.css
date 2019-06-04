@@ -124,6 +124,20 @@ p:first-letter{
   font-style: italic;}
 
 
+/*~~~~~~Teste do depoimento default~~~~~~~~~~~~~*/
+.img-depoimento{
+  width: 360px;
+  height: 100%;}
+
+.icone-depoimento{
+  color: #C54CCB;
+  font-size: 2em;
+  margin-bottom: 20px;}
+
+.texto-depoimento{
+  text-align: right;
+
+}
 /*================================================
                 Texto Destaque
 =================================================*/

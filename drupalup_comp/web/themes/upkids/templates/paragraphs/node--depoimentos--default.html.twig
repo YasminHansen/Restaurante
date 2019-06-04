@@ -65,25 +65,28 @@
  *   in different view modes.
  */
  #}
-
+ {%
+ set classes = [
+ node.bundle|clean_class,
+ node.isPromoted() ? 'is-promoted',
+ node.isSticky() ? 'is-sticky',
+ not node.isPublished() ? 'is-unpublished',
+ view_mode ? view_mode|clean_class,
+ 'clearfix',
+ ]
+ %}
  <article{{ attributes.addClass(classes) }}>
-
-  {#{{ title_prefix }}
-  {% if label and not page %}
-  {% endif %}
-  {{ title_suffix }}#}
-  {% if display_submitted %}
-  {% endif %}
-  <div{{ content_attributes.addClass('content') }}>
-  <div class="container depoimento">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <i class="fas fa-quote-right icone"></i>
-        <div class="depoimento_texto">{{ content.body['0'] }}</div>
-        <img src="{{ file_url(content.field_img_depoimento['#items'].entity.uri.value) }}">
-        <p>{{ content.field_nome }}</p>
-      </div>
+ <div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      <i class="fas fa-quote-right icone-depoimento"></i>
+      <p class="texto-depoimento">{{ content.body['0'] }}</p>
+      <p class="nome-depoimento">{{ content.field_nome }}</p>
     </div>
+    <div class="col-lg-2">
+      <img class="img-depoimento" src="{{ file_url(content.field_img_depoimento['#items'].entity.uri.value) }} ">
+    </div>
+    <hr/>
   </div>
 </div>
 </article>
