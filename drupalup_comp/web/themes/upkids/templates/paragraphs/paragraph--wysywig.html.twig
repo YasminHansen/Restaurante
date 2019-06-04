@@ -40,18 +40,21 @@
 #}
 
 {%
-  set styles = content.field_campo_select.0|render
+  set bg_color = content.field_campo_select_cor.0|render
 %}
 
+
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }} style="background-color: {{ styles }}">
+  <div{{ attributes.addClass(classes).addClass(bg_color) }} >
     {% block content %}
       <div class="container">
-        <div class="row wysiwyg">
-          <h1 class="text-center pacifico">{{ content.field_titulo_wysiwyg }}</h1>
+        <div class="row">
+          <div class="wysiwyg">
+          <h1 class="text-center pacifico col-sm-11">{{ content.field_titulo_wysiwyg }}</h1>
           <div>{{ content.field_texto_wysiwyg }}</div>
         </div>
       </div>
+    </div>
     {% endblock %}
   </div>
 {% endblock paragraph %}

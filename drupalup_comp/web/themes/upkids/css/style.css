@@ -15,7 +15,15 @@ p:first-letter{
 .pacifico{
   font-family: 'Pacifico', cursive;}
 
+.paragraph-green-gb{
+    background-color: #316F49;
+    color:#fff;
+  }
 
+.bg-standard{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
 /*============================================================
                       Estilo do banner
 =============================================================*/
@@ -42,28 +50,22 @@ p:first-letter{
 /*============================================================
                       Estilo dos cards
 =============================================================*/
-.cards{
-  background-color: #DC7D00;
-  overflow: auto;
-  position: relative;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;}
-
-  .cards h4,
-  .cards p{
+  .card h4,
+  .card p{
     color: #fff;
     font-weight: bold;
     margin:auto;
-    width: 300px;}
+    width: 228px;}
 
-  .cards p{
+  .card p{
     font-size: 13px;
-    margin-bottom: 17px;}
+    margin-bottom: 17px;
+    width: 80%;}
 
-  .cards img{
-    height: 95px;
-    margin: 20px 0;
-    width: 100px;}
+  .card img{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;}
 
 /*============================================================
                       Estilo do wysiwyg
@@ -78,7 +80,7 @@ p:first-letter{
 
 .wysiwyg {
   display: grid;
-  margin: 30px 0 60px;}
+  margin: 30px 0 60px; /*Versão final remover eu acho*/}
 
   .wysiwyg h1{
     color:#DC7D00;
@@ -90,7 +92,6 @@ p:first-letter{
 .depoimento{
   text-align: center;}
 
-<<<<<<< HEAD
 .icone{
   color: #C54CCB;
   font-size: 2em;
@@ -178,8 +179,6 @@ li > svg{
     height: 450px;
     position: relative;
     align-items: center;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
     display: flex;
     justify-content: center;}
 
@@ -211,3 +210,85 @@ li > svg{
           font-weight: bold;
           text-align: center;
           transform:rotate(45deg);}
+
+
+/*============================================================
+                      Estilo do Bannerzão
+=============================================================*/
+.banner-complex{
+  height: 120vh;}
+
+  .banner-complex h1{
+    color: #fff;
+    font-size: 8rem;
+    height: 200px;
+    position: absolute;
+    right: 40px;
+    top: 65px;}
+
+  .imagem_banner_complex{
+    align-items: center;
+    height: 70vh;
+    position: relative;}
+
+    .cards2{
+      height: 314px;
+      width: 1100px;}
+
+      .card-bannerzao{
+        display: grid;
+        justify-content: center;}
+
+        .card-bannerzao h3{
+          color: #fff;}
+
+        .card-bannerzao img{
+          color: #fff;
+          height: 50px;
+          width: 50px;}
+
+        .card-bannerzao .btn{
+          border-radius: 25px;
+          color: #fff;
+          margin: 10px 0 25px;}
+
+      .card1 {
+          background-color: #FD4D40;}
+
+        .card1 .btn{
+          background-color: #F1C22E;}
+
+      .card2 {
+          background-color: #F1C22E;}
+
+        .card2 .btn{
+          background-color: #16C3B0;}
+
+      .card3 {
+          background-color: #16C3B0;}
+
+        .card3 .btn{
+          background-color: #FD4D40;}
+
+.box{
+  height: 400px;
+  width: 500px;}
+
+  .box .img-body{
+    display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
