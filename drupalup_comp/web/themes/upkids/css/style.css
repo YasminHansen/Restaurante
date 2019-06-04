@@ -12,7 +12,7 @@ body{
 p:first-letter{
   text-transform: capitalize;}
 
-.pacifico{
+.font-pacifico{
   font-family: 'Pacifico', cursive;}
 
 .paragraph-green-gb{
@@ -146,11 +146,13 @@ p:first-letter{
 .imagem-fundo-destaque{
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  position: relative;}
+  position: relative;
+}
 
 .motivo-destaque{
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .titulo-destaque{
   font-size: 40px;
@@ -158,12 +160,15 @@ p:first-letter{
 
 .texto-destaque{
   color: #fff;
-  padding: 50px 0;}
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 .imagem-destaque{
   position: absolute;
   bottom: 0;
-  right:150px;}
+  right:150px;
+}
 
 .lista .itens {
   display: flex;
@@ -175,7 +180,8 @@ p:first-letter{
   border-radius: 50%;
   color: #fff;
   height: 30px !important;
-  width: 30px !important;}
+  width: 30px !important;
+}
 
 .itens p{
 width: 100%;
@@ -193,12 +199,14 @@ margin-top: 5px;
     position: relative;
     align-items: center;
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+  }
 
     .box{
       margin:0 100px;
       position: relative;
-      width:110px;}
+      width:110px;
+    }
 
       .box h5{
         color: white;
@@ -206,7 +214,8 @@ margin-top: 5px;
         font-weight: bold;
         margin: 30px 0 0;
         position: absolute;
-        left: 25%;} /*testando o alinhamento do titulo*/
+        left: 25%;
+        } /*testando o alinhamento do titulo*/
 
       .losango{
         align-items: center;
@@ -215,20 +224,23 @@ margin-top: 5px;
         height: 100px;
         justify-content: center;
         transform:rotate(-45deg);
-        width: 100px;}
+        width: 100px;
+      }
 
         .losango span{
           color: white;
           font-size: 1.1em;
           font-weight: bold;
           text-align: center;
-          transform:rotate(45deg);}
+          transform:rotate(45deg);
+        }
 
 /*============================================================
                       Estilo do Bannerzão
 =============================================================*/
 .banner-complex{
-  height: 120vh;}
+  height: 120vh;
+}
 
   .banner-complex h1{
     color: #fff;
@@ -236,58 +248,73 @@ margin-top: 5px;
     height: 200px;
     position: absolute;
     right: 40px;
-    top: 65px;}
+    top: 65px;
+  }
 
   .imagem_banner_complex{
     align-items: center;
     height: 70vh;
-    position: relative;}
+    position: relative;
+  }
 
     .cards2{
       height: 314px;
-      width: 1100px;}
+      width: 1100px;
+    }
 
       .card-bannerzao{
         display: grid;
-        justify-content: center;}
+        justify-content: center;
+      }
 
         .card-bannerzao h3{
-          color: #fff;}
+          color: #fff;
+        }
 
         .card-bannerzao img{
           color: #fff;
           height: 50px;
-          width: 50px;}
+          width: 50px;
+        }
 
         .card-bannerzao .btn{
           border-radius: 25px;
           color: #fff;
-          margin: 10px 0 25px;}
+          margin: 10px 0 25px;
+        }
 
       .card1 {
-          background-color: #FD4D40;}
+          background-color: #FD4D40;
+        }
 
         .card1 .btn{
-          background-color: #F1C22E;}
+          background-color: #F1C22E;
+        }
 
       .card2 {
-          background-color: #F1C22E;}
+          background-color: #F1C22E;
+        }
 
         .card2 .btn{
-          background-color: #16C3B0;}
+          background-color: #16C3B0;
+        }
 
       .card3 {
-          background-color: #16C3B0;}
+          background-color: #16C3B0;
+        }
 
         .card3 .btn{
-          background-color: #FD4D40;}
+          background-color: #FD4D40;
+        }
 
 .box{
   height: 400px;
-  width: 500px;}
+  width: 500px;
+}
 
   .box .img-body{
-    display: block;}
+    display: block;
+  }
 
 
 
