@@ -57,7 +57,9 @@ p:first-letter{
     color: #fff;
     font-weight: bold;
     margin:auto;
-    width: 228px;}
+    width: 228px;
+    text-shadow: 2px 2px 3px black;
+  }
 
   .card p{
     font-size: 13px;
