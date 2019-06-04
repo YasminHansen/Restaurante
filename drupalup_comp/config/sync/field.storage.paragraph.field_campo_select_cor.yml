@@ -1,12 +1,12 @@
-uuid: 4be40e46-0d5f-45c0-a817-fe9a936fcfb3
+uuid: da05cbc8-6f34-4042-a70a-cc3d449868a9
 langcode: pt-br
 status: true
 dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_campo_select
-field_name: field_campo_select
+id: paragraph.field_campo_select_cor
+field_name: field_campo_select_cor
 entity_type: paragraph
 type: list_string
 settings:
@@ -15,11 +15,8 @@ settings:
       value: '#fff'
       label: 'Fundo branco'
     -
-      value: '#316F49'
-      label: 'Fundo verde'
-    -
       value: paragraph-green-gb
-      label: 'Fundo verde novo'
+      label: 'Fundo verde'
   allowed_values_function: ''
 module: options
 locked: false

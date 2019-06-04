@@ -1,14 +1,14 @@
-uuid: c399b29e-55ea-4ada-8a09-0d96ee0e7c72
+uuid: ec45d860-2b4b-49bb-8eeb-5cac8ebf7191
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_campo_select
+    - field.storage.paragraph.field_campo_select_cor
     - paragraphs.paragraphs_type.wysywig
   module:
     - options
-id: paragraph.wysywig.field_campo_select
-field_name: field_campo_select
+id: paragraph.wysywig.field_campo_select_cor
+field_name: field_campo_select_cor
 entity_type: paragraph
 bundle: wysywig
 label: 'Escolha uma cor'

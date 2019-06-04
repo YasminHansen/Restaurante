@@ -1,0 +1,9 @@
+uuid: d0d72d31-fbcc-4e01-8373-cbf12802ebaa
+langcode: pt-br
+status: true
+dependencies: {  }
+id: banner_complexo
+label: 'Banner Complexo'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

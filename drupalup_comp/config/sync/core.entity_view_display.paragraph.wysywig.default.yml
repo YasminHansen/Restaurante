@@ -3,7 +3,7 @@ langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.field.paragraph.wysywig.field_campo_select
+    - field.field.paragraph.wysywig.field_campo_select_cor
     - field.field.paragraph.wysywig.field_texto_wysiwyg
     - field.field.paragraph.wysywig.field_titulo_wysiwyg
     - paragraphs.paragraphs_type.wysywig
@@ -15,13 +15,13 @@ targetEntityType: paragraph
 bundle: wysywig
 mode: default
 content:
-  field_campo_select:
-    type: list_key
-    weight: 2
-    region: content
-    label: hidden
+  field_campo_select_cor:
+    weight: 3
+    label: above
     settings: {  }
     third_party_settings: {  }
+    type: list_default
+    region: content
   field_img_wysiwyg:
     weight: 2
     label: hidden

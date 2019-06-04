@@ -1,0 +1,88 @@
+uuid: ed7f6550-b27a-4eca-a70c-febdebb8072e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner_complexo.field_icone_card_banner
+    - field.field.paragraph.banner_complexo.field_img_banner_complexo
+    - field.field.paragraph.banner_complexo.field_img_texto_banner
+    - field.field.paragraph.banner_complexo.field_texto_banner_destaque
+    - field.field.paragraph.banner_complexo.field_texto_card_banner
+    - field.field.paragraph.banner_complexo.field_titulo_bannerzao
+    - field.field.paragraph.banner_complexo.field_titulo_card_banner
+    - field.field.paragraph.banner_complexo.field_titulo_texto_banner
+    - paragraphs.paragraphs_type.banner_complexo
+  module:
+    - image
+    - text
+id: paragraph.banner_complexo.default
+targetEntityType: paragraph
+bundle: banner_complexo
+mode: default
+content:
+  field_icone_card_banner:
+    weight: 4
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_img_banner_complexo:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_img_texto_banner:
+    weight: 7
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_texto_banner_destaque:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_texto_card_banner:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_titulo_bannerzao:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_titulo_card_banner:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_titulo_texto_banner:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

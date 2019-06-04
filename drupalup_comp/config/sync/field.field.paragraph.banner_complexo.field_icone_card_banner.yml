@@ -1,28 +1,28 @@
-uuid: 051e8685-227c-4935-8331-a067b00693b7
+uuid: 6a15539d-c6a3-44ea-949f-ccb032556bfe
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_icone_card_1
-    - paragraphs.paragraphs_type.3_cards
+    - field.storage.paragraph.field_icone_card_banner
+    - paragraphs.paragraphs_type.banner_complexo
   module:
     - image
-id: paragraph.3_cards.field_icone_card_1
-field_name: field_icone_card_1
+id: paragraph.banner_complexo.field_icone_card_banner
+field_name: field_icone_card_banner
 entity_type: paragraph
-bundle: 3_cards
-label: 'Ícone/Imagem do card 1'
-description: 'Insira uma imagem (ícone) para ficar destacado no site junto de um texto.'
-required: false
+bundle: banner_complexo
+label: 'Icone para o card do banner'
+description: 'Insira um icone para o card'
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   file_directory: '[date:custom:Y]-[date:custom:m]'
-  file_extensions: 'png jpg jpeg'
-  max_filesize: '300 KB'
-  max_resolution: 500x500
-  min_resolution: 60x60
+  file_extensions: png
+  max_filesize: '1 MB'
+  max_resolution: ''
+  min_resolution: ''
   alt_field: true
   alt_field_required: true
   title_field: false

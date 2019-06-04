@@ -1,0 +1,15 @@
+uuid: a1cadc5d-1d5d-4b25-a5c7-b61907c9768b
+langcode: pt-br
+status: true
+dependencies: {  }
+name: img_card
+label: img_card
+effects:
+  76c23b86-b533-4632-b7f9-d98d0fa157ab:
+    uuid: 76c23b86-b533-4632-b7f9-d98d0fa157ab
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 95
+      anchor: center-center

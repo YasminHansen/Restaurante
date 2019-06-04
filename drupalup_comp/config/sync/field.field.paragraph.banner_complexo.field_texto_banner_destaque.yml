@@ -1,0 +1,21 @@
+uuid: 1b51ae15-42cf-4935-90e8-d2c051562080
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_banner_destaque
+    - paragraphs.paragraphs_type.banner_complexo
+  module:
+    - text
+id: paragraph.banner_complexo.field_texto_banner_destaque
+field_name: field_texto_banner_destaque
+entity_type: paragraph
+bundle: banner_complexo
+label: 'Texto para o destaque do banner'
+description: 'Adicione um texto.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

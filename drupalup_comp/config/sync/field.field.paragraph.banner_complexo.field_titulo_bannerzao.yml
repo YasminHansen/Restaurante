@@ -1,0 +1,19 @@
+uuid: 969c4204-f7be-438a-bd0f-2081ac69a7fc
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_bannerzao
+    - paragraphs.paragraphs_type.banner_complexo
+id: paragraph.banner_complexo.field_titulo_bannerzao
+field_name: field_titulo_bannerzao
+entity_type: paragraph
+bundle: banner_complexo
+label: 'Titulo do banner'
+description: 'Insira o título do banner grande'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

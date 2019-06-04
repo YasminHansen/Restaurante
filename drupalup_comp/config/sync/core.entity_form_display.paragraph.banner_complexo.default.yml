@@ -1,0 +1,90 @@
+uuid: 45023ae9-067b-4649-acca-68e85fbb2d18
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner_complexo.field_icone_card_banner
+    - field.field.paragraph.banner_complexo.field_img_banner_complexo
+    - field.field.paragraph.banner_complexo.field_img_texto_banner
+    - field.field.paragraph.banner_complexo.field_texto_banner_destaque
+    - field.field.paragraph.banner_complexo.field_texto_card_banner
+    - field.field.paragraph.banner_complexo.field_titulo_bannerzao
+    - field.field.paragraph.banner_complexo.field_titulo_card_banner
+    - field.field.paragraph.banner_complexo.field_titulo_texto_banner
+    - image.style.large
+    - paragraphs.paragraphs_type.banner_complexo
+  module:
+    - image
+    - text
+id: paragraph.banner_complexo.default
+targetEntityType: paragraph
+bundle: banner_complexo
+mode: default
+content:
+  field_icone_card_banner:
+    weight: 4
+    settings:
+      preview_image_style: img_card
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_img_banner_complexo:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_img_texto_banner:
+    weight: 7
+    settings:
+      preview_image_style: large
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_texto_banner_destaque:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_texto_card_banner:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_titulo_bannerzao:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titulo_card_banner:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titulo_texto_banner:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
