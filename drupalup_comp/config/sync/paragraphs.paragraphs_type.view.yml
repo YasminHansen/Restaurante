@@ -1,0 +1,9 @@
+uuid: a57470f9-b734-4dc5-aa23-1f3c8d97f0f4
+langcode: pt-br
+status: true
+dependencies: {  }
+id: view
+label: 'Paragrafo View'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

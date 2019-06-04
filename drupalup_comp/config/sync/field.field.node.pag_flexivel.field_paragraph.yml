@@ -11,6 +11,7 @@ dependencies:
     - paragraphs.paragraphs_type.depoimentos
     - paragraphs.paragraphs_type.losangos
     - paragraphs.paragraphs_type.texto_destaque
+    - paragraphs.paragraphs_type.view
     - paragraphs.paragraphs_type.wysywig
   module:
     - entity_reference_revisions
@@ -36,6 +37,7 @@ settings:
       texto_destaque: texto_destaque
       losangos: losangos
       banner_complexo: banner_complexo
+      view: view
     target_bundles_drag_drop:
       banner_simples:
         enabled: true
@@ -58,4 +60,9 @@ settings:
       banner_complexo:
         enabled: true
         weight: 9
+        weight: -9
+        enabled: false
+      view:
+        enabled: true
+        weight: 8
 field_type: entity_reference_revisions

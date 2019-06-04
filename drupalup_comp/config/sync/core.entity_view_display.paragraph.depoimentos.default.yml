@@ -1,21 +1,27 @@
-uuid: 7bf6b840-02c2-486b-8bbb-e2f709bff830
+uuid: 18cb4e7c-2e66-4961-8c07-384a4fc8cce3
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.field.paragraph.depoimentos.field_depoimentos
+    - field.field.paragraph.depoimentos.field_view_depoimentos
     - paragraphs.paragraphs_type.depoimentos
+  module:
+    - viewsreference
 id: paragraph.depoimentos.default
 targetEntityType: paragraph
 bundle: depoimentos
 mode: default
 content:
-  field_depoimentos:
+  field_view_depoimentos:
     weight: 0
     label: above
     settings:
-      link: true
+      plugin_types:
+        block: block
+        default: 0
+        page: 0
+        feed: 0
     third_party_settings: {  }
-    type: entity_reference_label
+    type: viewsreference_formatter
     region: content
 hidden: {  }

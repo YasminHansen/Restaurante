@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.depoimentos.field_img_depoimento
     - field.field.node.depoimentos.field_nome
     - field.field.node.depoimentos.field_titulo_depoimento
+    - image.style.large
     - node.type.depoimentos
   module:
     - image
@@ -28,7 +29,7 @@ content:
     weight: 2
     label: hidden
     settings:
-      image_style: ''
+      image_style: large
       image_link: ''
     third_party_settings: {  }
     type: image

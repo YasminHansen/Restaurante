@@ -20,6 +20,9 @@ p:first-letter{
     color:#fff;
   }
 
+.text-green{
+  color: #307436;}
+
 .bg-standard{
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -122,18 +125,28 @@ p:first-letter{
   font-style: italic;}
 
 
+/*~~~~~~Teste do depoimento default~~~~~~~~~~~~~*/
+.img-depoimento{
+  width: 360px;
+  height: 100%;}
+
+.icone-depoimento{
+  color: #C54CCB;
+  font-size: 2em;
+  margin-bottom: 20px;}
+
+.texto-depoimento{
+  text-align: right;
+
+}
 /*================================================
                 Texto Destaque
 =================================================*/
 
-.fundo-destaque{
-  /*height: 300px;
-  position: relative;*/
-}
-
-.text-green{
-  color: #307436;
-}
+.imagem-fundo-destaque{
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative;}
 
 .motivo-destaque{
   text-transform: uppercase;
@@ -147,29 +160,29 @@ p:first-letter{
   color: #fff;
   padding: 50px 0;}
 
-.texto-destaque img{
-  margin-bottom: 0;
+.imagem-destaque{
   position: absolute;
-  bottom: 0;}
+  bottom: 0;
+  right:150px;}
 
-li > svg{
-  background-color: #16C3B0;
+.lista .itens {
+  display: flex;
+  align-items: center;
+}
+
+.itens svg{
+  background-color: #307436;
   border-radius: 50%;
   color: #fff;
   height: 30px !important;
-  width: 30px !important;
-  margin-top: 10px;
-}
+  width: 30px !important;}
 
-.texto-destaque ul{
-  list-style: none;
-  font-size: 15px;
-  padding-left: initial;
-}
-
-.imagem-fundo-destaque{
- /* height: 400px;
-  position: relative;*/
+.itens p{
+width: 100%;
+margin-left: 10px;
+padding-top: 8px;
+font-size: 15px;
+margin-top: 5px;
 }
 
 /*============================================================
@@ -210,7 +223,6 @@ li > svg{
           font-weight: bold;
           text-align: center;
           transform:rotate(45deg);}
-
 
 /*============================================================
                       Estilo do Bannerzão
@@ -279,16 +291,13 @@ li > svg{
 
 
 
+/*============================================================
+                      Estilo Menu
+=============================================================*/
+.menu{
+  float: right;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar-toggle{
+  background-color: red;
+}

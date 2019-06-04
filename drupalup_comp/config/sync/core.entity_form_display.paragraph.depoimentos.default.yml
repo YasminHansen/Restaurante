@@ -1,23 +1,25 @@
-uuid: 3de69924-2d51-4f37-8616-a0acdce0b9ce
+uuid: ea055696-059a-49ec-b696-7f351eb7993a
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.field.paragraph.depoimentos.field_depoimentos
+    - field.field.paragraph.depoimentos.field_view_depoimentos
     - paragraphs.paragraphs_type.depoimentos
+  module:
+    - viewsreference
 id: paragraph.depoimentos.default
 targetEntityType: paragraph
 bundle: depoimentos
 mode: default
 content:
-  field_depoimentos:
+  field_view_depoimentos:
     weight: 0
     settings:
       match_operator: CONTAINS
-      size: 60
+      size: '60'
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: viewsreference_autocomplete
     region: content
 hidden:
   created: true

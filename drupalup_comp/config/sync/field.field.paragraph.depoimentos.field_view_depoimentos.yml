@@ -1,0 +1,45 @@
+uuid: d2be3a2c-19b1-44a6-b4a8-d92482bf6b6a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_depoimentos
+    - paragraphs.paragraphs_type.depoimentos
+  module:
+    - viewsreference
+id: paragraph.depoimentos.field_view_depoimentos
+field_name: field_view_depoimentos
+entity_type: paragraph
+bundle: depoimentos
+label: 'View depoimentos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+  preselect_views:
+    block_content: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    depoimentos: 0
+    files: 0
+    frontpage: 0
+    taxonomy_term: 0
+    teste: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

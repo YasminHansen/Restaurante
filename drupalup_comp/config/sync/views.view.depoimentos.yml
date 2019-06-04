@@ -3,11 +3,9 @@ langcode: pt-br
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
     - node.type.depoimentos
   module:
     - node
-    - owl
     - user
 id: depoimentos
 label: Depoimentos
@@ -70,61 +68,16 @@ display:
       style:
         type: default
         options:
+          grouping: {  }
           row_class: ''
           default_row_class: true
           uses_fields: false
       row:
         type: 'entity:node'
         options:
-          view_mode: teaser
-      fields:
-        title:
-          id: title
-          table: node_field_data
-          field: title
-          entity_type: node
-          entity_field: title
-          label: ''
-          alter:
-            alter_text: false
-            make_link: false
-            absolute: false
-            trim: false
-            word_boundary: false
-            ellipsis: false
-            strip_tags: false
-            html: false
-          hide_empty: false
-          empty_zero: false
-          settings:
-            link_to_entity: true
-          plugin_id: field
           relationship: none
-          group_type: group
-          admin_label: ''
-          exclude: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
+          view_mode: default
+      fields: {  }
       filters:
         status:
           value: '1'
@@ -141,8 +94,39 @@ display:
           id: type
           table: node_field_data
           field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
           value:
             depoimentos: depoimentos
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -186,7 +170,6 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
@@ -199,44 +182,10 @@ display:
     position: 2
     display_options:
       display_extenders: {  }
-      style:
-        type: owl
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-          items: '1'
-          itemsDesktop: '[1199,4]'
-          itemsDesktopSmall: '[979,3]'
-          itemsTablet: '[768,2]'
-          itemsMobile: '[479,1]'
-          singleItem: 1
-          itemsScaleUp: 0
-          slideSpeed: '200'
-          paginationSpeed: '800'
-          rewindSpeed: '1000'
-          autoPlay: 1
-          stopOnHover: 0
-          navigation: 0
-          prevText: prev
-          nextText: next
-          rewindNav: 1
-          scrollPerPage: 0
-          pagination: 1
-          paginationNumbers: 0
-          responsive: 1
-          responsiveRefreshRate: '200'
-          mouseDrag: 1
-          touchDrag: 1
-          transitionStyle: fade
       defaults:
-        style: false
-        row: false
+        style: true
+        row: true
         header: false
-      row:
-        type: 'entity:node'
-        options:
-          view_mode: teaser
       header:
         area:
           id: area
@@ -254,7 +203,6 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
@@ -319,7 +267,6 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'

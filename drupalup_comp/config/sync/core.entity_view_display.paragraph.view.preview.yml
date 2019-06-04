@@ -1,0 +1,22 @@
+uuid: f5821b43-76cf-4306-812a-032056680902
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.view.field_view
+    - paragraphs.paragraphs_type.view
+id: paragraph.view.preview
+targetEntityType: paragraph
+bundle: view
+mode: preview
+content:
+  field_view:
+    weight: 0
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }
