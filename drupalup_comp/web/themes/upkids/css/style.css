@@ -30,10 +30,6 @@ p:first-letter{
 /*============================================================
                       Estilo do banner
 =============================================================*/
-.banner_simples{
-
-}
-
   .imagem_banner{
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -198,79 +194,109 @@ margin-top: 5px;
 /*============================================================
                       Estilo dos losangos
 =============================================================*/
-  .imagem_losango{
-    height: 100%;
-    position: relative;}
+.imagem_losangos{
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100% !important;
+}
+.imagem_losangos h5{
+  position: absolute;
+  margin: 10px 0;
+}
+  .losango{
+    align-items: center;
+    border-radius: 10px;
+    display: grid;
+    height: 100px;
+    justify-content: center;
+    transform:rotate(-45deg);
+    width: 100px;}
 
-      h5{
-        color: white;
-        font-size: 1.1em;
-        font-weight: bold;
-        margin: 30px 0 0;
-        position: absolute;
-       } /*testando o alinhamento do titulo*/
+    .losango span{
+      color: white;
+      font-size: 1.1em;
+      font-weight: bold;
+      transform:rotate(45deg);}
+}
 
-      .losango{
-        align-items: center;
-        border-radius: 10px;
-        display: grid;
-        height: 100px;
-        justify-content: center;
-        transform:rotate(-45deg);
-        width: 100px;}
-
-        .losango span{
-          color: white;
-          font-size: 1.1em;
-          font-weight: bold;
-          text-align: center;
-          transform:rotate(45deg);}
 
 /*============================================================
                       Estilo do Bannerzão
 =============================================================*/
 .banner-complex{
-  height: 120vh;}
+  height: 120vh;
+}
 
   .banner-complex h1{
     color: #fff;
     font-size: 8rem;
-    height: 200px;
     position: absolute;
-    right: 40px;
     top: 65px;}
 
   .imagem_banner_complex{
     align-items: center;
     height: 70vh;
-    position: relative;}
+    position: relative;
+   }
+        .card-bannerzao{
+          height: 300px;
+          padding: 0px 60px;
+          margin-top: -130px;
+          position: relative;
+          z-index: 2;
+              }
 
-    .cards2{
-      height: 314px;
-      width: 1100px;}
+        .card-bannerzao i{
+          position: relative;
+          top: -30px;
+          text-align: center;
+          border-radius: 50%;
+          height: 80px !important;
+          width: 80px;
+          left: calc(50% - 35px);
+        }
 
-      .card-bannerzao{
-        display: grid;
-        justify-content: center;}
 
-        .card-bannerzao h3{
+        .card-bannerzao i img{
+          border-radius: 50%;
+          height: 80px;
+          width: 80px;
+        }
+
+        .card-bannerzao h2{
+          color: #fff;
+          margin: -20px 0 30px;
+        }
+
+        .card-bannerzao p{
+          color: #fff;
+        }
+
+        .card-bannerzao button{
+          border-radius: 25px;
+          position: relative;
+          padding: 7px 30px;
+          top: 25px;
+          left: 75px;
           color: #fff;}
 
-        .card-bannerzao img{
-          color: #fff;
-          height: 50px;
-          width: 50px;}
 
-        .card-bannerzao .btn{
-          border-radius: 25px;
-          color: #fff;
-          margin: 10px 0 25px;}
-
+      .card1:hover{
+        margin-top: -135px;
+      }
       .card1 {
           background-color: #FD4D40;}
 
         .card1 .btn{
           background-color: #F1C22E;}
+
+        .card1 img{
+          background-color: #FD4D40;
+        }
+
+      .card2:hover{
+        margin-top: -135px;
+      }
 
       .card2 {
           background-color: #F1C22E;}
@@ -278,21 +304,50 @@ margin-top: 5px;
         .card2 .btn{
           background-color: #16C3B0;}
 
+        .card2 img{
+          background-color: #F1C22E;
+        }
+
+      .card3:hover{
+        margin-top: -135px;
+      }
+
       .card3 {
           background-color: #16C3B0;}
 
         .card3 .btn{
           background-color: #FD4D40;}
 
-.box{
-  height: 400px;
-  width: 500px;}
+        .card3 img{
+          background-color: #16C3B0;
+        }
 
-  .box .img-body{
-    display: block;}
+  .box {
+    height: 50vh;
+    padding:80px 0 40px;}
 
+    .box .body p{
+      color: #fff;
+    }
 
+    .box .body h3{
+      color: #FF9B00;
+      margin: 0 0 20px;
+    }
 
+    .box .body button{
+      border-radius: 25px;
+      position: relative;
+      padding: 7px 30px;
+      top: 25px;
+      color: #fff;
+      background-color: #E800FD;
+    }
+
+    .box .img-body img{
+      min-width: 100%;
+      min-height: 300px;
+    }
 /*============================================================
                       Estilo Menu
 =============================================================*/

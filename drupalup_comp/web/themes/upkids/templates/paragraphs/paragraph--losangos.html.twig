@@ -41,37 +41,43 @@
  {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
   {% block content %}
-    <div class="bg-standard" style="background:url({{ file_url(content.field_img_fundo_losang['#items'].entity.uri.value) }});">
-      <div class="container">
-        <div class="row">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="imagem_losangos" style="background:url({{ file_url(content.field_img_fundo_losang['#items'].entity.uri.value) }});">
+          <div class="container">
 
-          <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+            <div class="col-lg-4">
               <div class="losango" style="background-color: rgba(65,169,209,.8);">
                 <span>{{ content.field_text_losang_1 }}</span>
               </div>
-              <h5 class="text-center">{{ content.field_titulo_losang_1 }}</h5>
-          </div>
+              <h5 class="">{{ content.field_titulo_losang_1 }}</h5>
+            </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+            <div class="col-lg-4">
 
               <div class="losango" style="background-color: rgba(231,204,0,.8);">
                 <span>{{ content.field_text_losang_2 }}</span>
               </div>
-              <h5 class="text-center">{{ content.field_titulo_losang_2 }}</h5>
+              <h5 class="">{{ content.field_titulo_losang_2 }}</h5>
 
-          </div>
+            </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+            <div class="col-lg-4">
 
               <div class="losango" style="background-color: rgba(255,72,69,.8);">
                 <span>{{ content.field_text_losang_3 }}</span>
               </div>
-              <h5 class="text-center">{{ content.field_titulo_losang_3 }}</h5>
+              <h5 class="">{{ content.field_titulo_losang_3 }}</h5>
+
+            </div>
+
+
+
 
           </div>
         </div>
       </div>
     </div>
-{% endblock %}
+  {% endblock %}
 </div>
 {% endblock paragraph %}
