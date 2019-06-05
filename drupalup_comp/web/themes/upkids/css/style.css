@@ -323,53 +323,63 @@ margin-top: 5px;
 =============================================================*/
 .menu{
   float: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .menu-botoes{
   border-radius: 25px;
-  padding: 15px 30px;
+  padding: 12px 0px;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.menu-botoes a{
+  padding: 12px 30px;
+  color: grey;
+  text-decoration: none;
 }
 
 .menu-botoes:hover{
   background-color: #E800FD;
 }
 
-.menu-botoes a{
-  color: grey;
-  text-decoration: none;
+.menu-botoes a:hover{
+  color: #fff;
 }
-
-
 .menu-botoes:hover a.dropdown-toggle{
   color: #fff;
 }
 
-.dropdown-menu:hover a{
-  color: grey;
-}
-
-.menu-botoes .open a{
-  background-color: #E800FD;
-  color: #fff;
-}
 
 .dropdown-menu{
   background-color: #fff;
+  width: max-content;
+  padding: 0;
 }
 
 .dropdown-menu li .menu-botoes{
   border-radius: 0;
-  color: #E800FD;
+  background-color: #fff;;
+  color: #d1e7e7;
+  padding: 10px;
 }
-
+.dropdown-menu li:hover .menu-botoes a{
+  color: #fff;
+}
 .dropdown-menu li:hover .menu-botoes{
-  background-color: aqua;
+  background-color: #E800FD
 }
 
 .menu-botoes.open a.dropdown-toggle{
-background-color: #E800FD ;
+  background-color: #0000;
 }
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #0000;
+}
+
 
 /* Descobrir porque o fundo do menu tá ficando rosa quando o link não tá mais sendo clicado.

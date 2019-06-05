@@ -12,7 +12,7 @@ features:
   favicon: 1
   node_user_picture: 1
 logo:
-  path: ''
+  path: 'public://up-kids-school-logo.png'
   url: ''
   use_default: 1
 fluid_container: 1
