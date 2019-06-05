@@ -30,25 +30,20 @@ p:first-letter{
 /*============================================================
                       Estilo do banner
 =============================================================*/
-.banner_simples{
-  height: 238px;
-  position: relative;}
-
   .imagem_banner{
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    height: 100%;}
+    height: 100%;
+  }
 
     .title-highlight{
       color: #fff;
       font-size: 60px;
       /*font-weight: bold;*/
-      left: 50%;
-      margin: 0 -50% 0 0;
-      position: absolute;
       text-shadow: 2px 2px 3px black;
-      top: 50%;
-      transform: translate(-50%, -50%);}
+      padding: 50px;
+      text-align: center;
+    }
 
 /*============================================================
                       Estilo dos cards
@@ -58,7 +53,9 @@ p:first-letter{
     color: #fff;
     font-weight: bold;
     margin:auto;
-    width: 228px;}
+    width: 228px;
+    text-shadow: 2px 2px 3px black;
+  }
 
   .card p{
     font-size: 13px;
@@ -75,19 +72,28 @@ p:first-letter{
 =============================================================*/
 .field--name-field-texto-wysiwyg .align-left{
   margin-bottom: 10px;
-  margin-right: 20px;}
+  margin-right: 20px;
+}
 
 .field--name-field-texto-wysiwyg .align-right{
   margin-bottom: 10px;
-  margin-left: 20px;}
+  margin-left: 20px;
+}
+
+.field--name-field-texto-wysiwyg img {
+  max-width: 100%;
+  height: auto;
+}
 
 .wysiwyg {
   display: grid;
-  margin: 30px 0 60px; /*Versão final remover eu acho*/}
+  margin: 30px 0 60px; /*Versão final remover eu acho*/
+}
 
   .wysiwyg h1{
     color:#DC7D00;
-    margin: 35px auto;}
+    margin: 35px auto;
+}
 
 /*============================================================
                       Estilo do depoimento
@@ -194,46 +200,30 @@ margin-top: 5px;
 /*============================================================
                       Estilo dos losangos
 =============================================================*/
-  .imagem_losango{
-    height: 450px;
-    position: relative;
+.imagem_losangos{
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100% !important;
+}
+.imagem_losangos h5{
+  position: absolute;
+  margin: 10px 0;
+}
+  .losango{
     align-items: center;
-    display: flex;
+    border-radius: 10px;
+    display: grid;
+    height: 100px;
     justify-content: center;
-  }
+    transform:rotate(-45deg);
+    width: 100px;}
 
-    .box{
-      margin:0 100px;
-      position: relative;
-      width:110px;
-    }
-
-      .box h5{
-        color: white;
-        font-size: 1.1em;
-        font-weight: bold;
-        margin: 30px 0 0;
-        position: absolute;
-        left: 25%;
-        } /*testando o alinhamento do titulo*/
-
-      .losango{
-        align-items: center;
-        border-radius: 10px;
-        display: grid;
-        height: 100px;
-        justify-content: center;
-        transform:rotate(-45deg);
-        width: 100px;
-      }
-
-        .losango span{
-          color: white;
-          font-size: 1.1em;
-          font-weight: bold;
-          text-align: center;
-          transform:rotate(45deg);
-        }
+    .losango span{
+      color: white;
+      font-size: 1.1em;
+      font-weight: bold;
+      transform:rotate(45deg);}
+}
 
 /*============================================================
                       Estilo do Bannerzão
@@ -245,44 +235,60 @@ margin-top: 5px;
   .banner-complex h1{
     color: #fff;
     font-size: 8rem;
-    height: 200px;
     position: absolute;
-    right: 40px;
-    top: 65px;
-  }
+    top: 65px;}
 
   .imagem_banner_complex{
     align-items: center;
     height: 70vh;
     position: relative;
-  }
+   }
 
-    .cards2{
-      height: 314px;
-      width: 1100px;
-    }
+        .card-bannerzao{
+          height: 300px;
+          padding: 0px 60px;
+          margin-top: -130px;
+          position: relative;
+          z-index: 2;
+              }
 
-      .card-bannerzao{
-        display: grid;
-        justify-content: center;
-      }
+        .card-bannerzao i{
+          position: relative;
+          top: -30px;
+          text-align: center;
+          border-radius: 50%;
+          height: 80px !important;
+          width: 80px;
+          left: calc(50% - 35px);
+        }
 
-        .card-bannerzao h3{
+
+        .card-bannerzao i img{
+          border-radius: 50%;
+          height: 80px;
+          width: 80px;
+        }
+
+        .card-bannerzao h2{
+          color: #fff;
+          margin: -20px 0 30px;
+        }
+
+        .card-bannerzao p{
           color: #fff;
         }
 
-        .card-bannerzao img{
-          color: #fff;
-          height: 50px;
-          width: 50px;
-        }
-
-        .card-bannerzao .btn{
+        .card-bannerzao button{
           border-radius: 25px;
-          color: #fff;
-          margin: 10px 0 25px;
-        }
+          position: relative;
+          padding: 7px 30px;
+          top: 25px;
+          left: 75px;
+          color: #fff;}
 
+      .card1:hover{
+        margin-top: -135px;
+      }
       .card1 {
           background-color: #FD4D40;
         }
@@ -290,6 +296,14 @@ margin-top: 5px;
         .card1 .btn{
           background-color: #F1C22E;
         }
+
+        .card1 img{
+          background-color: #FD4D40;
+        }
+
+      .card2:hover{
+        margin-top: -135px;
+      }
 
       .card2 {
           background-color: #F1C22E;
@@ -299,6 +313,14 @@ margin-top: 5px;
           background-color: #16C3B0;
         }
 
+        .card2 img{
+          background-color: #F1C22E;
+        }
+
+      .card3:hover{
+        margin-top: -135px;
+      }
+
       .card3 {
           background-color: #16C3B0;
         }
@@ -307,17 +329,36 @@ margin-top: 5px;
           background-color: #FD4D40;
         }
 
-.box{
-  height: 400px;
-  width: 500px;
-}
+        .card3 img{
+          background-color: #16C3B0;
+        }
 
-  .box .img-body{
-    display: block;
-  }
+  .box {
+    height: 50vh;
+    padding:80px 0 40px;}
 
+    .box .body p{
+      color: #fff;
+    }
 
+    .box .body h3{
+      color: #FF9B00;
+      margin: 0 0 20px;
+    }
 
+    .box .body button{
+      border-radius: 25px;
+      position: relative;
+      padding: 7px 30px;
+      top: 25px;
+      color: #fff;
+      background-color: #E800FD;
+    }
+
+    .box .img-body img{
+      min-width: 100%;
+      min-height: 300px;
+    }
 /*============================================================
                       Estilo Menu
 =============================================================*/

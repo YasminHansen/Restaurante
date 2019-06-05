@@ -41,14 +41,18 @@
  {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
   {% block content %}
-    <div class="row">
+    <div class="row paragraph-green-gb">
       <div class="col-lg-12">
         <div class="banner-complex">
           <!--Área do banner e título-->
           <div class="row">
             <div class="col-lg-12">
               <div class="bg-standard imagem_banner_complex" style="background:url({{ file_url(content.field_img_banner_complexo['#items'].entity.uri.value) }});">
-                <h1 class="font-pacifico">{{ content.field_titulo_bannerzao }}</h1>
+                <div class="container">
+                  <div class="col-lg-12">
+                    <h1 class="pacifico text-right">{{ content.field_titulo_bannerzao }}</h1>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -56,27 +60,25 @@
 
           <div class="container">
             <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <div class="cards2">
-                  <!--Área dos cards-->
-                  <div class="card-bannerzao card1">
-                    <i>{{ content.field_icone_card_banner[0] }}</i>
-                    <h3 class="text-center font-pacifico">{{ content.field_titulo_card_banner[0] }}</h3>
-                    <p>{{ content.field_texto_card_banner[0] }}</p>
-                    <button type="button" class="btn">Learn More</button>
-                  </div>
-                  <div class="card-bannerzao card2">
-                    <i>{{ content.field_icone_card_banner[1] }}</i>
-                    <h3 class="text-center font-pacifico">{{ content.field_titulo_card_banner[1] }}</h3>
-                    <p>{{ content.field_texto_card_banner[1] }}</p>
-                    <button type="button" class="btn">Learn More</button>
-                  </div>
-                  <div class="card-bannerzao card3">
-                    <i>{{ content.field_icone_card_banner[2] }}</i>
-                    <h3 class="text-center font-pacifico">{{ content.field_titulo_card_banner[2] }}</h3>
-                    <p>{{ content.field_texto_card_banner[2] }}</p>
-                    <button type="button" class="btn">Learn More</button>
-                  </div>
+              <div class="col-sm-12">
+                <!--Área dos cards-->
+                <div class="col-lg-4 card-bannerzao card1">
+                  <i>{{ content.field_icone_card_banner[0] }}</i>
+                  <h2 class="card-titulo text-center pacifico">{{ content.field_titulo_card_banner[0] }}</h2>
+                  <p>{{ content.field_texto_card_banner[0] }}</p>
+                  <button type="button" class="btn">Learn More</button>
+                </div>
+                <div class="col-lg-4 card-bannerzao card2">
+                  <i>{{ content.field_icone_card_banner[1] }}</i>
+                  <h2 class="card-titulo text-center pacifico">{{ content.field_titulo_card_banner[1] }}</h2>
+                  <p>{{ content.field_texto_card_banner[1] }}</p>
+                  <button type="button" class="btn">Learn More</button>
+                </div>
+                <div class="col-lg-4 card-bannerzao card3">
+                  <i>{{ content.field_icone_card_banner[2] }}</i>
+                  <h2 class="card-titulo text-center pacifico">{{ content.field_titulo_card_banner[2] }}</h2>
+                  <p>{{ content.field_texto_card_banner[2] }}</p>
+                  <button type="button" class="btn">Learn More</button>
                 </div>
               </div>
             </div>
@@ -85,25 +87,25 @@
         </div>
       </div>
     </div>
+    <div class="row paragraph-green-gb">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 box">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="box">
             <!--Área do destaque-->
-            <div class="img-body">
-              <img src="background:url({{ file_url(content.field_img_texto_banner['#items'].entity.uri.value) }});">
+            <div class="img-body col-lg-6">
+              {{ content.field_img_texto_banner.0 }}
             </div>
-            <div class="body">
-              <h3>{{ content.field_titulo_texto_banner}}</h3>
+            <div class="body col-lg-6">
+              <h3 class="pacifico">{{ content.field_titulo_texto_banner}}</h3>
               {{ content.field_texto_banner_destaque }}
               <button class="btn"> Descrubra Mais</button>
             </div>
+
           </div>
         </div>
       </div>
     </div>
-
   </div>
 {% endblock %}
 </div>

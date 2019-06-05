@@ -40,7 +40,7 @@
 #}
 
 {%
-  set bg_color = content.field_campo_select_cor.0|render
+  set bg_color = content.field_campo_select_cor.0 |render
 %}
 
 
@@ -49,9 +49,8 @@
     {% block content %}
       <div class="container">
         <div class="row">
-          <div class="wysiwyg">
-          <h1 class="text-center font-pacifico col-sm-11">{{ content.field_titulo_wysiwyg }}</h1>
-          {{kint (content.field_texto_wysiwyg.0 )}}
+          <div class="col-sm-12 wysiwyg">
+          <h1 class="text-center pacifico">{{ content.field_titulo_wysiwyg }}</h1>
           <div>{{ content.field_texto_wysiwyg }}</div>
         </div>
       </div>
