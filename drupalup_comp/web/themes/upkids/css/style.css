@@ -199,24 +199,16 @@ margin-top: 5px;
                       Estilo dos losangos
 =============================================================*/
   .imagem_losango{
-    height: 450px;
-    position: relative;
-    align-items: center;
-    display: flex;
-    justify-content: center;}
+    height: 100%;
+    position: relative;}
 
-    .box{
-      margin:0 100px;
-      position: relative;
-      width:110px;}
-
-      .box h5{
+      h5{
         color: white;
         font-size: 1.1em;
         font-weight: bold;
         margin: 30px 0 0;
         position: absolute;
-        left: 25%;} /*testando o alinhamento do titulo*/
+       } /*testando o alinhamento do titulo*/
 
       .losango{
         align-items: center;
