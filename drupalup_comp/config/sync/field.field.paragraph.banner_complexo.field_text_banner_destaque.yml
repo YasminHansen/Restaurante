@@ -1,14 +1,14 @@
-uuid: 1b51ae15-42cf-4935-90e8-d2c051562080
+uuid: 06c98e09-8483-4394-87a3-5894e316d827
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_texto_banner_destaque
+    - field.storage.paragraph.field_text_banner_destaque
     - paragraphs.paragraphs_type.banner_complexo
   module:
     - text
-id: paragraph.banner_complexo.field_texto_banner_destaque
-field_name: field_texto_banner_destaque
+id: paragraph.banner_complexo.field_text_banner_destaque
+field_name: field_text_banner_destaque
 entity_type: paragraph
 bundle: banner_complexo
 label: 'Texto para o destaque do banner'
@@ -18,4 +18,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: text_long

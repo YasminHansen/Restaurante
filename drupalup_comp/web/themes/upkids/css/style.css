@@ -359,6 +359,10 @@ margin-top: 5px;
       min-width: 100%;
       min-height: 300px;
     }
+    .box .body button:hover{
+      background-color: #FEF200;
+      color: #000;
+    }
 /*============================================================
                       Estilo Menu
 =============================================================*/
