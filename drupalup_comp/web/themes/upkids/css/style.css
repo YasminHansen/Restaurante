@@ -396,6 +396,10 @@ margin-top: 5px;
   color: #fff;
 }
 
+li:hover ul {
+    display: block;
+    transition:
+}
 
 .dropdown-menu{
   background-color: #fff;
