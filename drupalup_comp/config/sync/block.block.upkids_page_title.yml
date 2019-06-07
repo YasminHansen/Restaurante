@@ -9,7 +9,7 @@ _core:
 id: upkids_page_title
 theme: upkids
 region: content
-weight: -50
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

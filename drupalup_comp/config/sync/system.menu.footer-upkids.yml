@@ -1,0 +1,8 @@
+uuid: 0243f848-3841-4a85-a798-2b9fd7639251
+langcode: pt-br
+status: true
+dependencies: {  }
+id: footer-upkids
+label: 'Menu Footer'
+description: ''
+locked: false

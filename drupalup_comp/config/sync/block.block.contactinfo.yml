@@ -1,0 +1,25 @@
+uuid: 59f77c15-951a-4785-9da0-61328774b903
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4002a3f1-c912-45d9-a742-ae5dab7c7942'
+  module:
+    - block_content
+  theme:
+    - upkids
+id: contactinfo
+theme: upkids
+region: footer
+weight: -8
+provider: null
+plugin: 'block_content:4002a3f1-c912-45d9-a742-ae5dab7c7942'
+settings:
+  id: 'block_content:4002a3f1-c912-45d9-a742-ae5dab7c7942'
+  label: 'Contact Info'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

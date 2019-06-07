@@ -9,7 +9,7 @@ _core:
 id: upkids_local_actions
 theme: upkids
 region: content
-weight: -20
+weight: -3
 provider: null
 plugin: local_actions_block
 settings:

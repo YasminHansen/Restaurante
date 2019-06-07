@@ -173,7 +173,7 @@ p:first-letter{
 .imagem-destaque{
   position: absolute;
   bottom: 0;
-  right:150px;
+  right: 0px;
 }
 
 .lista .itens {
@@ -425,5 +425,108 @@ li:hover ul {
   background-color: #0000;
 }
 
+/*============================================================
+                      Estilo Menu Footer
+=============================================================*/
 
-/* Descobrir porque o fundo do menu tá ficando rosa quando o link não tá mais sendo clicado.
+.menu-footer .font-pacifico{
+  font-size: 25px;
+  color: #F1C22E;
+}
+
+.menu-footer a{
+  text-decoration: none;
+  font-size: 14px;
+  color:gray;  /*Trocar cor*/
+  padding-left: 15px;
+}
+
+.menu-footer a:hover{
+  color: #FD4D40;  /*Trocar cor*/
+  text-decoration: none;
+}
+
+.menu-footer svg{
+  color: #F1C22E;
+}
+
+.menu-footer-links{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*============================================================
+                      Estilo Contato Footer
+=============================================================*/
+.contactinfo-menu .font-pacifico{
+  font-size: 25px;
+  color: #F1C22E;
+}
+
+.contactinfo-menu ul{
+  padding-left: 0;
+}
+
+.contactinfo-menu svg{
+  color: #F1C22E;
+  margin-right: 15px;
+}
+
+.contactinfo-menu li{
+  color: gray; /*Trocar cor*/
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/*.icon-local:before{
+  content:'\f3c5';
+  color: #F1C22E;
+  margin-right: 15px;
+}
+.icon-phone:before{
+  content:'\f095';
+  color: #F1C22E;
+  margin-right: 15px;
+}
+.icon-wpp:before{
+  content: '\f232';
+  color: #F1C22E;
+  margin-right: 15px;
+}
+.icon-email:before{
+  content:'\f0e0';
+  color: #F1C22E;
+  margin-right: 15px;
+}*/
+
+/*============================================================
+                      Estilo Logo Footer
+=============================================================*/
+.bloco-logo{
+  float: right;
+}
+.logo-texto{
+  color: gray; /*alterar a cor depois*/
+}
+/*============================================================
+                      Estilo Redes Sociais Footer
+=============================================================*/
+.paginas-titulo .font-pacifico{
+  font-size: 25px;
+  color: #F1C22E;
+}
+.paginas-text{
+  color: gray;
+}
+.paginas-titulo svg{
+  width: 30px;
+  height: 30px;
+}
+.paginas-titulo .paginas-fb svg{
+  color: #fff;
+  background-color: red;
+}
+.paginas-titulo .paginas-insta svg{
+  color: #fff;
+  background-color: orange;
+}
