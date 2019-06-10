@@ -246,6 +246,14 @@ margin-top: 5px;
 /*============================================================
                       Estilo do Bannerzão
 =============================================================*/
+.imagem_banner_complex .item img{
+  position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+
+
 .imagem_banner_complex{
   cursor: pointer;
 }
@@ -269,7 +277,7 @@ margin-top: 5px;
         Área dos cards do banner
   ====================================*/
         .margin-cards{
-          /*Margem base para móveis - não remover*/
+          /*Margem base para mobile - não remover*/
           margin: 80px 0;
         }
 
@@ -385,26 +393,6 @@ margin-top: 5px;
   }
 }
 
-
-
-
-/*@media only screen and(min-width:1200px) {
-  .imagem_banner_complex h1{
-    left: 500px;
-  }
-  .card-bannerzao{
-    padding: 0 20px 25px 20px;
-    margin: -210px 0 80px !important;
-    position: relative;
-    text-align: center;
-  }
-}
-
-/*bannerzao{
-    padding: 0 20px 25px 20px;
-    margin: 0px 0 80px !important;
-    position: relative;
-    text-align: center;
 /*============================================================
                       Estilo Menu
 =============================================================*/
@@ -427,17 +415,17 @@ margin-top: 5px;
   text-decoration: none;
 }
 
-.menu-botoes:hover{
+.menu-botoes:hover,
+.dropdown-menu li:hover .menu-botoes{
   background-color: #E800FD;
+  /*isso fica*/
 }
 
-.menu-botoes a:hover{
+.menu-botoes a:hover,
+.menu-botoes:hover a.dropdown-toggle,
+.dropdown-menu li:hover .menu-botoes a{
   color: #fff;
 }
-.menu-botoes:hover a.dropdown-toggle{
-  color: #fff;
-}
-
 
 .dropdown-menu{
   background-color: #fff;
@@ -451,22 +439,12 @@ margin-top: 5px;
   color: #d1e7e7;
   padding: 10px;
 }
-.dropdown-menu li:hover .menu-botoes a{
-  color: #fff;
-}
-.dropdown-menu li:hover .menu-botoes{
-  background-color: #E800FD
-}
-
-.menu-botoes.open a.dropdown-toggle{
-  background-color: #0000;
-}
 
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #0000;
+  background-color: #f8f8f8;
+  color: grey;
+  /*isso fica*/
 }
 
-
-/* Descobrir porque o fundo do menu tá ficando rosa quando o link não tá mais sendo clicado.
