@@ -6,14 +6,16 @@ dependencies:
     - field.field.paragraph.banner_complexo.field_icone_card_banner
     - field.field.paragraph.banner_complexo.field_img_banner_complexo
     - field.field.paragraph.banner_complexo.field_img_texto_banner
-    - field.field.paragraph.banner_complexo.field_texto_banner_destaque
-    - field.field.paragraph.banner_complexo.field_texto_card_banner
+    - field.field.paragraph.banner_complexo.field_select_cor
+    - field.field.paragraph.banner_complexo.field_text_banner_destaque
+    - field.field.paragraph.banner_complexo.field_text_card_banner
     - field.field.paragraph.banner_complexo.field_titulo_bannerzao
     - field.field.paragraph.banner_complexo.field_titulo_card_banner
     - field.field.paragraph.banner_complexo.field_titulo_texto_banner
     - paragraphs.paragraphs_type.banner_complexo
   module:
     - image
+    - options
     - text
 id: paragraph.banner_complexo.default
 targetEntityType: paragraph
@@ -47,15 +49,22 @@ content:
     third_party_settings: {  }
     type: image
     region: content
-  field_texto_banner_destaque:
-    weight: 6
+  field_select_cor:
+    weight: 11
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_text_banner_destaque:
+    weight: 10
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_texto_card_banner:
-    weight: 3
+  field_text_card_banner:
+    weight: 9
     label: hidden
     settings: {  }
     third_party_settings: {  }

@@ -1,16 +1,15 @@
-uuid: 4be0e087-74e3-44bd-9b58-c311e80c3a6f
+uuid: 44d188a0-38bc-4969-a652-20cd51389eb2
 langcode: pt-br
 status: true
 dependencies:
   module:
     - paragraphs
     - text
-id: paragraph.field_texto_card_banner
-field_name: field_texto_card_banner
+id: paragraph.field_text_card_banner
+field_name: field_text_card_banner
 entity_type: paragraph
-type: text
-settings:
-  max_length: 90
+type: text_long
+settings: {  }
 module: text
 locked: false
 cardinality: 3
