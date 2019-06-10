@@ -100,8 +100,11 @@ p:first-letter{
                       Estilo do depoimento
 =============================================================*/
 .depoimento{
-  text-align: center;}
-
+  text-align: center;
+}
+.campo-depoimento{
+  position: relative;
+}
 .icone{
   color: #C54CCB;
   font-size: 2em;
@@ -121,7 +124,8 @@ p:first-letter{
 
 .depoimento_titulo{
   color: #DC7D00;
-  font-size: 40px;}
+  font-size: 40px;
+  padding-bottom: 30px;}
 
 .depoimento a:hover{
   text-decoration: none;
@@ -133,18 +137,36 @@ p:first-letter{
 
 
 /*~~~~~~Teste do depoimento default~~~~~~~~~~~~~*/
+.campo-depoimento{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.campo-depoimento p{
+  font-style: italic;
+}
 .img-depoimento{
-  width: 360px;
-  height: 100%;}
-
+  width: auto;
+  height: 150px;
+  position: absolute;
+}
 .icone-depoimento{
   color: #C54CCB;
   font-size: 2em;
-  margin-bottom: 20px;}
+  margin-bottom: 20px;
+}
+.depoimento-info {
+    text-align: right;
+}
 
-.texto-depoimento{
-  text-align: right;
-
+.views-row:nth-child(odd) {
+  background-color: orange;
+}
+.views-row:nth-child(odd) img:nth-child(odd) {
+  float: left;
+}
+.views-row:nth-child(odd) .depoimento-info:nth-child(odd) {
+  text-align: left;
+  float: right;
 }
 /*================================================
                 Texto Destaque
@@ -360,6 +382,7 @@ margin-top: 5px;
       min-width: 100%;
       min-height: 300px;
     }
+
 /*============================================================
                       Estilo Menu Topo
 =============================================================*/
@@ -367,42 +390,34 @@ margin-top: 5px;
   float: right;
   padding-top: 28px;
 }
-
 .menu-botoes{
   border-radius: 25px;
   padding: 12px 0px;
   text-transform: uppercase;
   font-weight: bold;
 }
-
 .menu-botoes a{
   padding: 12px 30px;
   color: grey;
   text-decoration: none;
 }
-
 .menu-botoes:hover{
   background-color: #E800FD;
 }
-
 .menu-botoes a:hover{
   color: #fff;
 }
 .menu-botoes:hover a.dropdown-toggle{
   color: #fff;
 }
-
 li:hover ul {
     display: block;
-    transition:
 }
-
 .dropdown-menu{
   background-color: #fff;
   width: max-content;
   padding: 0;
 }
-
 .dropdown-menu li .menu-botoes{
   border-radius: 0;
   background-color: #fff;;
@@ -415,15 +430,14 @@ li:hover ul {
 .dropdown-menu li:hover .menu-botoes{
   background-color: #E800FD
 }
-
 .menu-botoes.open a.dropdown-toggle{
   background-color: #0000;
 }
-
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #0000;
+  background-color: #f8f8f8;
+  color: gray;
 }
 
 /*============================================================
@@ -453,7 +467,7 @@ li:hover ul {
 }
 @media (min-width: 768px) and (max-width: 991px){
   .grid-teste{
-    grid-template-columns: repeat( auto-fit, minmax(350px, 2fr) );
+    grid-template-columns: repeat( auto-fit, minmax(360px, 2fr) );
   }
 }
 @media (min-width: 991px){
@@ -548,6 +562,7 @@ li:hover ul {
   color: #F1C22E;
   margin-right: 15px;
 }
+
 /*============================================================
                       Estilo Logo Footer
 =============================================================*/
