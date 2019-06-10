@@ -361,7 +361,7 @@ margin-top: 5px;
       min-height: 300px;
     }
 /*============================================================
-                      Estilo Menu
+                      Estilo Menu Topo
 =============================================================*/
 .menu{
   float: right;
@@ -424,6 +424,42 @@ li:hover ul {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #0000;
+}
+
+/*============================================================
+                      Estilo Footer
+=============================================================*/
+.footer-region{
+  background: url("../images/bg.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-position: center;
+}
+.footer.container-fluid{
+  padding-right: 0;
+  padding-left: 0;
+}
+.footer-blocos{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.grid-teste{
+  display: grid;
+ }
+@media (max-width: 768px){
+  .grid-teste{
+    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .grid-teste{
+    grid-template-columns: repeat( auto-fit, minmax(350px, 2fr) );
+  }
+}
+@media (min-width: 991px){
+  .grid-teste{
+    grid-template-columns: repeat( auto-fit, minmax(200px, 4fr) );
+  }
 }
 
 /*============================================================
@@ -490,7 +526,9 @@ li:hover ul {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-/*.icon-local:before{
+.icon-local:before{
+  font-family:"FontAwesome";
+  font-style: normal;
   content:'\f3c5';
   color: #F1C22E;
   margin-right: 15px;
@@ -509,8 +547,7 @@ li:hover ul {
   content:'\f0e0';
   color: #F1C22E;
   margin-right: 15px;
-}*/
-
+}
 /*============================================================
                       Estilo Logo Footer
 =============================================================*/
@@ -521,6 +558,7 @@ li:hover ul {
   color: #fff; /*alterar a cor depois*/
   text-shadow: 0.3px 1px 1px black;
 }
+
 /*============================================================
                       Estilo Redes Sociais Footer
 =============================================================*/
@@ -553,40 +591,15 @@ li:hover ul {
   align-items: center;
   margin: 0 2px;
 }
-
 .paginas-icones a.paginas-fb {
   background-color: red;
 }
-
-.paginas-titulo .paginas-fb svg {
+.paginas-titulo .paginas-fb svg{
     color: #fff;
-    text-shadow: 0.3px 1px 1px black;
 }
-
 .paginas-icones a.paginas-insta{
   background-color:orange;
 }
 .paginas-titulo .paginas-insta svg{
   color: #fff;
-}
-/*============================================================
-                      Estilo Footer
-=============================================================*/
-.footer-region{
-  background: url("../images/bg.jpg");
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-position: center;
-}
-.footer.container-fluid{
-  padding-right: 0;
-  padding-left: 0;
-}
-.grid-teste{
-  display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(200px, 4fr) );
- }
-.footer-blocos{
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
