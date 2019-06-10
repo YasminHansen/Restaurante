@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.banner_complexo.field_icone_card_banner
     - field.field.paragraph.banner_complexo.field_img_banner_complexo
     - field.field.paragraph.banner_complexo.field_img_texto_banner
+    - field.field.paragraph.banner_complexo.field_select_cor
     - field.field.paragraph.banner_complexo.field_text_banner_destaque
     - field.field.paragraph.banner_complexo.field_text_card_banner
     - field.field.paragraph.banner_complexo.field_titulo_bannerzao
@@ -44,6 +45,12 @@ content:
       progress_indicator: throbber
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_select_cor:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   field_text_banner_destaque:
     weight: 10

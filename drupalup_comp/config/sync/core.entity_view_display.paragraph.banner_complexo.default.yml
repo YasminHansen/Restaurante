@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.banner_complexo.field_icone_card_banner
     - field.field.paragraph.banner_complexo.field_img_banner_complexo
     - field.field.paragraph.banner_complexo.field_img_texto_banner
+    - field.field.paragraph.banner_complexo.field_select_cor
     - field.field.paragraph.banner_complexo.field_text_banner_destaque
     - field.field.paragraph.banner_complexo.field_text_card_banner
     - field.field.paragraph.banner_complexo.field_titulo_bannerzao
@@ -14,6 +15,7 @@ dependencies:
     - paragraphs.paragraphs_type.banner_complexo
   module:
     - image
+    - options
     - text
 id: paragraph.banner_complexo.default
 targetEntityType: paragraph
@@ -46,6 +48,13 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_select_cor:
+    weight: 11
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
     region: content
   field_text_banner_destaque:
     weight: 10
