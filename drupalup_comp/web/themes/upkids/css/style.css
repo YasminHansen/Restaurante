@@ -5,6 +5,7 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+  font-size: 16px;
   margin: 0;
   padding:0;
   width: 100%;}
@@ -432,22 +433,31 @@ li:hover ul {
 .menu-footer .font-pacifico{
   font-size: 25px;
   color: #F1C22E;
+  text-shadow: 0.3px 1px 1px black;
 }
 
 .menu-footer a{
   text-decoration: none;
-  font-size: 14px;
-  color:gray;  /*Trocar cor*/
-  padding-left: 15px;
+  color: #fff;
+  text-shadow: 0.3px 1px 1px black;
+  /*padding-left: 15px;*/
 }
-
+.menu-footer ul{
+  padding-left: 0;
+}
+.menu-footer li{
+  list-style: none;
+  padding-top: 15px; /**/
+  padding-bottom: 15px; /**/
+}
 .menu-footer a:hover{
-  color: #FD4D40;  /*Trocar cor*/
+  color: #FD4D40;
   text-decoration: none;
 }
 
 .menu-footer svg{
   color: #F1C22E;
+  margin-right: 10px; /**/
 }
 
 .menu-footer-links{
@@ -461,6 +471,7 @@ li:hover ul {
 .contactinfo-menu .font-pacifico{
   font-size: 25px;
   color: #F1C22E;
+  text-shadow: 0.3px 1px 1px black;
 }
 
 .contactinfo-menu ul{
@@ -473,7 +484,8 @@ li:hover ul {
 }
 
 .contactinfo-menu li{
-  color: gray; /*Trocar cor*/
+  color: #fff;
+  text-shadow: 0.3px 1px 1px black;
   list-style: none;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -503,10 +515,11 @@ li:hover ul {
                       Estilo Logo Footer
 =============================================================*/
 .bloco-logo{
-  float: right;
+
 }
 .logo-texto{
-  color: gray; /*alterar a cor depois*/
+  color: #fff; /*alterar a cor depois*/
+  text-shadow: 0.3px 1px 1px black;
 }
 /*============================================================
                       Estilo Redes Sociais Footer
@@ -514,19 +527,66 @@ li:hover ul {
 .paginas-titulo .font-pacifico{
   font-size: 25px;
   color: #F1C22E;
+  text-shadow: 0.3px 1px 1px black;
 }
 .paginas-text{
-  color: gray;
+  color: #fff;
+  text-shadow: 0.3px 1px 1px black;
 }
 .paginas-titulo svg{
   width: 30px;
   height: 30px;
 }
-.paginas-titulo .paginas-fb svg{
-  color: #fff;
+.paginas-icones{
+  display: inline-flex;
+}
+.paginas-icones a{
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2px;
+}
+
+.paginas-icones a.paginas-fb {
   background-color: red;
+}
+
+.paginas-titulo .paginas-fb svg {
+    color: #fff;
+    text-shadow: 0.3px 1px 1px black;
+}
+
+.paginas-icones a.paginas-insta{
+  background-color:orange;
 }
 .paginas-titulo .paginas-insta svg{
   color: #fff;
-  background-color: orange;
+}
+/*============================================================
+                      Estilo Footer
+=============================================================*/
+.footer-region{
+  background: url("../images/bg.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-position: center;
+}
+.footer.container-fluid{
+  padding-right: 0;
+  padding-left: 0;
+}
+.grid-teste{
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(200px, 4fr) );
+ }
+.footer-blocos{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
