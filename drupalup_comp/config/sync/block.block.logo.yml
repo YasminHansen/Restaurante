@@ -1,9 +1,9 @@
-uuid: adeb565d-6446-43b4-b7bf-e7e64309c367
+uuid: e532c46a-9563-4a4b-a3e4-2ae85445548b
 langcode: pt-br
 status: true
 dependencies:
   content:
-    - 'block_content:basic:f5d04152-a333-4e27-81f4-b65ec51f5fec'
+    - 'block_content:basic:11829f31-c226-4383-a550-449071161bb1'
   module:
     - block_content
   theme:
@@ -11,14 +11,14 @@ dependencies:
 id: logo
 theme: upkids
 region: footer
-weight: 0
+weight: -9
 provider: null
-plugin: 'block_content:f5d04152-a333-4e27-81f4-b65ec51f5fec'
+plugin: 'block_content:11829f31-c226-4383-a550-449071161bb1'
 settings:
-  id: 'block_content:f5d04152-a333-4e27-81f4-b65ec51f5fec'
+  id: 'block_content:11829f31-c226-4383-a550-449071161bb1'
   label: Logo
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full
