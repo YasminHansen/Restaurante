@@ -11,7 +11,7 @@ _core:
 id: upkids_help
 theme: upkids
 region: content
-weight: -30
+weight: -4
 provider: null
 plugin: help_block
 settings:

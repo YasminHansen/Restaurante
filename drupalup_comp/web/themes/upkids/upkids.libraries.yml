@@ -1,6 +1,7 @@
 upkids:
   js:
     js/upkids.js: {}
+    js/dropdown.js: {}
   css:
     theme:
       css/style.css: {}
@@ -10,6 +11,17 @@ fonts:
     theme:
       '//fonts.googleapis.com/css?family=Pacifico': { type: external }
       '//fonts.googleapis.com/css?family=Poppins' : { type: external }
+
+font-awesome:
+  remote: https://fortawesome.github.io/Font-Awesome/
+  version: 4.5.0
+  license:
+    name: MIT
+    url: https://fortawesome.github.io/Font-Awesome/license/
+    gpl-compatible: true
+  css:
+    theme:
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css: { type: external, minified: true }
 
 owlcarousel:
   js:

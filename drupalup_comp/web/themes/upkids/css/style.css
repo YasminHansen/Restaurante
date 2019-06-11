@@ -5,6 +5,7 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+  font-size: 16px;
   margin: 0;
   padding:0;
   width: 100%;}
@@ -12,7 +13,7 @@ body{
 p:first-letter{
   text-transform: capitalize;}
 
-.pacifico{
+.font-pacifico{
   font-family: 'Pacifico', cursive;}
 
 .paragraph-green-gb{
@@ -27,13 +28,27 @@ p:first-letter{
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
+
+.margin-x-0{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.margin-y-0{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.padding-x-0{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.padding-y-0{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 /*============================================================
                       Estilo do banner
 =============================================================*/
-.banner_simples{
-
-}
-
   .imagem_banner{
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -103,8 +118,11 @@ p:first-letter{
                       Estilo do depoimento
 =============================================================*/
 .depoimento{
-  text-align: center;}
-
+  text-align: center;
+}
+.campo-depoimento{
+  position: relative;
+}
 .icone{
   color: #C54CCB;
   font-size: 2em;
@@ -124,7 +142,8 @@ p:first-letter{
 
 .depoimento_titulo{
   color: #DC7D00;
-  font-size: 40px;}
+  font-size: 40px;
+  padding-bottom: 30px;}
 
 .depoimento a:hover{
   text-decoration: none;
@@ -136,19 +155,46 @@ p:first-letter{
 
 
 /*~~~~~~Teste do depoimento default~~~~~~~~~~~~~*/
-.img-depoimento{
-  width: 360px;
-  height: 100%;}
-
-.icone-depoimento{
-  color: #C54CCB;
-  font-size: 2em;
-  margin-bottom: 20px;}
-
-.texto-depoimento{
-  text-align: right;
-
+.campo-depoimento{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+.img-depoimento{
+  width: auto;
+  height: 150px;
+  position: absolute;
+}
+.icone-depoimento{
+  color: #f7b816;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.depoimento-info {
+  text-align: right;
+  color: #fff;
+  text-shadow: 0.3px 1px 1px black;
+}
+
+
+.views-row:nth-child(odd) .campo-depoimento {
+  background-color: #DC7D00;
+}
+.views-row:nth-child(even) .campo-depoimento {
+  background: url("../images/fundo-verde.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.views-row:nth-child(even) .field--name-field-nome{
+  color: #DC7D00;
+}
+.views-row:nth-child(odd) .campo-depoimento img:nth-child(odd) {
+  float: left;
+}
+.views-row:nth-child(odd) .depoimento-info:nth-child(odd) {
+  text-align: left;
+  float: right;
+}
+
 /*================================================
                 Texto Destaque
 =================================================*/
@@ -156,11 +202,13 @@ p:first-letter{
 .imagem-fundo-destaque{
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  position: relative;}
+  position: relative;
+}
 
 .motivo-destaque{
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .titulo-destaque{
   font-size: 40px;
@@ -168,12 +216,15 @@ p:first-letter{
 
 .texto-destaque{
   color: #fff;
-  padding: 50px 0;}
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 .imagem-destaque{
   position: absolute;
   bottom: 0;
-  right:150px;}
+  right: 0px;
+}
 
 .lista .itens {
   display: flex;
@@ -185,7 +236,8 @@ p:first-letter{
   border-radius: 50%;
   color: #fff;
   height: 30px !important;
-  width: 30px !important;}
+  width: 30px !important;
+}
 
 .itens p{
 width: 100%;
@@ -198,116 +250,428 @@ margin-top: 5px;
 /*============================================================
                       Estilo dos losangos
 =============================================================*/
-  .imagem_losango{
-    height: 450px;
-    position: relative;
+.imagem_losangos{
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100% !important;
+}
+.imagem_losangos h5{
+  position: absolute;
+  margin: 10px 0;
+}
+  .losango{
     align-items: center;
-    display: flex;
-    justify-content: center;}
+    border-radius: 10px;
+    display: grid;
+    height: 100px;
+    justify-content: center;
+    transform:rotate(-45deg);
+    width: 100px;}
 
-    .box{
-      margin:0 100px;
-      position: relative;
-      width:110px;}
+    .losango span{
+      color: white;
+      font-size: 1.1em;
+      font-weight: bold;
+      transform:rotate(45deg);}
 
-      .box h5{
-        color: white;
-        font-size: 1.1em;
-        font-weight: bold;
-        margin: 30px 0 0;
-        position: absolute;
-        left: 25%;} /*testando o alinhamento do titulo*/
-
-      .losango{
-        align-items: center;
-        border-radius: 10px;
-        display: grid;
-        height: 100px;
-        justify-content: center;
-        transform:rotate(-45deg);
-        width: 100px;}
-
-        .losango span{
-          color: white;
-          font-size: 1.1em;
-          font-weight: bold;
-          text-align: center;
-          transform:rotate(45deg);}
 
 /*============================================================
                       Estilo do Bannerzão
 =============================================================*/
-.banner-complex{
-  height: 120vh;}
-
-  .banner-complex h1{
-    color: #fff;
-    font-size: 8rem;
-    height: 200px;
-    position: absolute;
-    right: 40px;
-    top: 65px;}
-
-  .imagem_banner_complex{
-    align-items: center;
-    height: 70vh;
-    position: relative;}
-
-    .cards2{
-      height: 314px;
-      width: 1100px;}
-
-      .card-bannerzao{
-        display: grid;
-        justify-content: center;}
-
-        .card-bannerzao h3{
-          color: #fff;}
-
-        .card-bannerzao img{
-          color: #fff;
-          height: 50px;
-          width: 50px;}
-
-        .card-bannerzao .btn{
-          border-radius: 25px;
-          color: #fff;
-          margin: 10px 0 25px;}
-
-      .card1 {
-          background-color: #FD4D40;}
-
-        .card1 .btn{
-          background-color: #F1C22E;}
-
-      .card2 {
-          background-color: #F1C22E;}
-
-        .card2 .btn{
-          background-color: #16C3B0;}
-
-      .card3 {
-          background-color: #16C3B0;}
-
-        .card3 .btn{
-          background-color: #FD4D40;}
-
-.box{
-  height: 400px;
-  width: 500px;}
-
-  .box .img-body{
-    display: block;}
-
-
-
-/*============================================================
-                      Estilo Menu
-=============================================================*/
-.menu{
-  float: right;
+.imagem_banner_complex .item img{
+  position: relative;
+    width: 100%;
+    height: 80vh;
 }
 
-.navbar-toggle{
+
+
+.imagem_banner_complex{
+  cursor: pointer;
+}
+  .imagem_banner_complex h1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    font-size: 45px;
+    color: #fff;
+    line-height: 1;
+    }
+
+  .imagem_banner_complex img{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+  }
+
+  /*==================================
+        Área dos cards do banner
+  ====================================*/
+        .margin-cards{
+          /*Margem base para mobile - não remover*/
+          margin: 80px 0;
+        }
+
+        .card-bannerzao{
+          padding: 0 20px 25px 20px;
+          margin: 0;
+          position: relative;
+          text-align: center;
+          }
+
+        .card-bannerzao i{
+          position: relative;
+          top: -30px;
+          border-radius: 50%;
+          height: 80px;
+          width: 80px;
+          left: calc(50% - 40px);
+          }
+
+          .card-bannerzao i img{
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+          }
+
+        .card-bannerzao h2{
+          color: #fff;
+          margin: -20px 0 30px;
+        }
+
+        .card-bannerzao p{
+          color: #fff;
+          text-align: center;
+        }
+
+        .card-bannerzao a{
+          margin-bottom: 15px;
+          border-radius: 25px;
+          padding: 7px 30px;
+          color: #fff;}
+
+        .card-bannerzao:hover{
+          transform: translateY(-8px);
+        }
+
+      .card1,
+      .card1 img{
+          background-color: #FD4D40;
+        }
+        .card1 .btn{
+          background-color: #F1C22E;
+        }
+
+      .card2,
+      .card2 img {
+          background-color: #F1C22E;
+        }
+        .card2 .btn{
+          background-color: #16C3B0;
+        }
+
+      .card3,
+      .card3 img{
+          background-color: #16C3B0;
+        }
+        .card3 .btn{
+          background-color: #FD4D40;
+        }
+  /*==================================
+        Área de destaque do banner
+  ====================================*/
+  .box {
+    margin-bottom: 140px;
+  }
+
+    .box .img-body img{
+      min-width: 100%;
+      min-height: 290px;
+      margin-top: 11px;
+    }
+
+    .box .body h3{
+      color: #FF9B00;
+      margin: 10px 0 20px;
+    }
+
+    .box .body button{
+      border-radius: 25px;
+      position: relative;
+      padding: 13px 40px;
+      top: 25px;
+      color: #fff;
+      background-color: #E800FD;
+    }
+
+    .box .body button:hover{
+      background-color: #FEF200;
+      color: #000;
+    }
+
+/*==================================
+        Área dos breakpoints
+  ====================================*/
+@media only screen and (min-width: 992px) {
+  .imagem_banner_complex h1{
+    width: auto;
+    text-align: right;
+    left: 375px;
+    top: 100px;
+}
+  .margin-cards{
+    margin: -130px 0 80px !important;
+  }
+}
+/*============================================================
+                      Estilo Menu Topo
+=============================================================*/
+.logo.navbar-btn img{
+  max-height: 90px;
+}
+
+.navbar{
+  background-color: #fff;
+}
+.menu{
+  float: right;
+  padding-top: 16px;
+  font-size: 14px;
+}
+.menu-botoes{
+  border-radius: 25px;
+  padding: 12px 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.menu-botoes a{
+  padding: 12px 30px;
+  color: grey;
+  text-decoration: none;
+}
+
+.menu-botoes:hover,
+.dropdown-menu li:hover .menu-botoes{
+  background-color: #E800FD;
+}
+.menu-botoes a:hover{
+  color: #fff;
+}
+.menu-botoes:hover a.dropdown-toggle{
+  color: #fff;
+}
+li:hover ul {
+    display: block;
+}
+
+.menu-botoes a:hover,
+.menu-botoes:hover a.dropdown-toggle,
+.dropdown-menu li:hover .menu-botoes a{
+  color: #fff;
+}
+.dropdown-menu{
+  background-color: #fff;
+  width: max-content;
+  padding: 0;
+}
+.dropdown-menu li .menu-botoes{
+  border-radius: 0;
+  background-color: #fff;;
+  color: #d1e7e7;
+  padding: 10px;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #fff;
+  color: gray;
+}
+
+/*============================================================
+                      Estilo Footer
+=============================================================*/
+.footer{
+  padding: 0 !important;
+  margin-top: 0 !important;
+}
+.footer-region{
+  background: url("../images/bg.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-position: center;
+}
+.footer.container-fluid{
+  padding-right: 0;
+  padding-left: 0;
+}
+.footer-blocos{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.grid-teste{
+  display: grid;
+ }
+@media (max-width: 768px){
+  .grid-teste{
+    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .grid-teste{
+    grid-template-columns: repeat( auto-fit, minmax(360px, 2fr) );
+    margin-left: 15px;
+  }
+}
+@media (min-width: 991px){
+  .grid-teste{
+    grid-template-columns: repeat( auto-fit, minmax(200px, 4fr) );
+  }
+  .footer-blocos{
+    margin-right: 15px;
+  }
+}
+
+/*============================================================
+                      Estilo Menu Footer
+=============================================================*/
+/*.menu-footer{
+  padding-top: 20px;  ~ cuidar o alinhamento do menu do footer
+}*/
+.menu-footer .font-pacifico{
+  font-size: 25px;
+  color: #F1C22E;
+  text-shadow: 0.3px 1px 1px black;
+}
+
+.menu-footer a{
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0.3px 1px 1px black;
+}
+.menu-footer ul{
+  padding-left: 0;
+}
+.menu-footer li{
+  list-style: none;
+  padding-top: 15px; /**/
+  padding-bottom: 15px; /**/
+}
+.menu-footer a:hover{
+  color: #FD4D40;
+  text-decoration: none;
+}
+
+.menu-footer svg{
+  color: #F1C22E;
+  margin-right: 10px; /**/
+}
+/*
+.menu-footer-links{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}*/
+
+/*============================================================
+                      Estilo Contato Footer
+=============================================================*/
+.contactinfo-menu .font-pacifico{
+  font-size: 25px;
+  color: #F1C22E;
+  text-shadow: 0.3px 1px 1px black;
+}
+
+.contactinfo-menu ul{
+  padding-left: 0;
+}
+
+.contactinfo-menu svg{
+  color: #F1C22E;
+  margin-right: 15px;
+}
+
+.contactinfo-menu li{
+  color: #fff;
+  text-shadow: 0.3px 1px 1px black;
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.icon-local:before{
+  font-family:"FontAwesome";
+  font-style: normal;
+  content:'\f3c5';
+  color: #F1C22E;
+  margin-right: 15px;
+}
+.icon-phone:before{
+  content:'\f095';
+  color: #F1C22E;
+  margin-right: 15px;
+}
+.icon-wpp:before{
+  content: '\f232';
+  color: #F1C22E;
+  margin-right: 15px;
+}
+.icon-email:before{
+  content:'\f0e0';
+  color: #F1C22E;
+  margin-right: 15px;
+}
+
+/*============================================================
+                      Estilo Logo Footer
+=============================================================*/
+.bloco-logo{
+
+}
+.logo-texto{
+  color: #fff; /*alterar a cor depois*/
+  text-shadow: 0.3px 1px 1px black;
+}
+
+/*============================================================
+                      Estilo Redes Sociais Footer
+=============================================================*/
+.paginas-titulo .font-pacifico{
+  font-size: 25px;
+  color: #F1C22E;
+  text-shadow: 0.3px 1px 1px black;
+}
+.paginas-text{
+  color: #fff;
+  text-shadow: 0.3px 1px 1px black;
+}
+.paginas-titulo svg{
+  width: 30px;
+  height: 30px;
+}
+.paginas-icones{
+  display: inline-flex;
+}
+.paginas-icones a{
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2px;
+}
+.paginas-icones a.paginas-fb {
   background-color: red;
+}
+.paginas-titulo .paginas-fb svg{
+    color: #fff;
+}
+.paginas-icones a.paginas-insta{
+  background-color:orange;
+}
+.paginas-titulo .paginas-insta svg{
+  color: #fff;
 }

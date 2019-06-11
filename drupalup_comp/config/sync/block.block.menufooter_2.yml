@@ -1,0 +1,25 @@
+uuid: 3c95beaf-a730-4e0b-ae58-ceb77f0faefa
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2d54f0cc-cc0b-46dd-adcf-0661df4226d1'
+  module:
+    - block_content
+  theme:
+    - upkids
+id: menufooter_2
+theme: upkids
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:2d54f0cc-cc0b-46dd-adcf-0661df4226d1'
+settings:
+  id: 'block_content:2d54f0cc-cc0b-46dd-adcf-0661df4226d1'
+  label: 'Menu Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -3,7 +3,7 @@ langcode: pt-br
 status: true
 dependencies: {  }
 id: wysywig
-label: Wysywig
+label: Wysiwyg
 icon_uuid: null
 description: 'Tipo de parágrafo para criar uma área wysiwyg com campos que mudam de disposição.'
 behavior_plugins: {  }

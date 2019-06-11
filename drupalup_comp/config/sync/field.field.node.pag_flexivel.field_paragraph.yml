@@ -60,8 +60,6 @@ settings:
       banner_complexo:
         enabled: true
         weight: 9
-        weight: -9
-        enabled: false
       view:
         enabled: true
         weight: 8

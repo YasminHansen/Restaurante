@@ -12,7 +12,7 @@ dependencies:
 id: views_block__depoimentos_block_1
 theme: upkids
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: 'views_block:depoimentos-block_1'
 settings:

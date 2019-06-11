@@ -45,9 +45,9 @@
     <div class="imagem-fundo-destaque" style="background:url({{ file_url(content.field_imagem_fundo['#items'].entity.uri.value) }});">
       <div class="container texto-destaque">
         <div class="row">
-          <div class="col-lg-8 col-md-12 col-sm-10">
+          <div class="col-lg-8 col-md-12 col-sm-12">
             <p class="motivo-destaque text-green">{{ content.field_motivo_destaque[0] }}</p>
-            <p class="pacifico titulo-destaque text-green">{{ content.field_titulo_destaque['0'] }}</p>
+            <p class="font-pacifico titulo-destaque text-green">{{ content.field_titulo_destaque['0'] }}</p>
             <p>{{ content.field_texto_destaque['0'] }}</p>
 
             <div class="lista">
@@ -67,7 +67,10 @@
               </div>
             </div>
           </div>
-          <img src="{{ file_url(content.field_img_destaque['#items'].entity.uri.value) }}" class="imagem-destaque visible-lg">
+
+          <div class="imagem-destaque visible-lg col-lg-4">
+            {{ content.field_img_destaque }}
+          </div>
         </div>
       </div>
     </div>

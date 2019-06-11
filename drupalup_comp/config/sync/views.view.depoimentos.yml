@@ -261,7 +261,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: "<p class=\"depoimento depoimento_topo\">- Depoimentos -</p>\r\n<p class=\"pacifico depoimento_titulo depoimento\">O que os papais pensam</p>"
+            value: "<p class=\"depoimento depoimento_topo\">- Depoimentos -</p>\r\n<p class=\"font-pacifico depoimento_titulo depoimento\">O que os papais pensam</p>"
             format: full_html
           plugin_id: text
     cache_metadata:

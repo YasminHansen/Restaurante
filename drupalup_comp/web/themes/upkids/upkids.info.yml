@@ -24,4 +24,5 @@ libraries-extend:
     - upkids/owlcarousel
     - upkids/upkids
     - upkids/fonts
+    - upkids/font-awesome
 

@@ -1,6 +1,6 @@
 uuid: ccc87d88-a740-4ed6-851c-d1010182508a
 langcode: pt-br
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -12,8 +12,8 @@ _core:
   default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
 id: upkids_footer
 theme: upkids
-region: footer
-weight: -5
+region: content
+weight: -8
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
