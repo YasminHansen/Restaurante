@@ -3,7 +3,7 @@
  * Attaches behaviors for Drupal's active link marking.
  */
 
-(function(Drupal, drupalSettings) {
+(function(Drupal, $) {
   /**
    * Append is-active class.
    *
@@ -20,15 +20,29 @@
    */
   Drupal.behaviors.upkids = {
     attach(context) {
-       $(".view-id-depoimentos.view-display-id-page_1 .view-content").owlCarousel();
+       $(".paragraph--type--depoimentos .view-content").owlCarousel({
+          center: true,
+          items:1,
+       });
     },
     detach(context, settings, trigger) {
 
     },
   };
-})(Drupal, drupalSettings);
+})(Drupal, jQuery);
 
-/*
-*
-*
-*/
+/* owl carousel banner home*/
+(function(Drupal, $) {
+
+  Drupal.behaviors.home_carousel = {
+    attach(context) {
+      $('.owl-carousell').owlCarousel({
+
+      })
+
+    },
+    detach(context, settings, trigger) {
+
+    },
+  };
+})(Drupal, jQuery);

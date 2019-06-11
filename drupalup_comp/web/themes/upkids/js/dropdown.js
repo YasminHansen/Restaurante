@@ -1,4 +1,4 @@
-/*$(".dropdown-toggle"),*/
+/*$(".dropdown-toggle"),
 (function(Drupal, drupalSettings){
 
   var id;
@@ -13,3 +13,4 @@
     $(id).hide();
   });
 })(Drupal, drupalSettings);
+*/
