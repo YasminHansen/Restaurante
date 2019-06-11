@@ -11,14 +11,14 @@ dependencies:
 id: contactinfo
 theme: upkids
 region: footer
-weight: 0
+weight: -8
 provider: null
 plugin: 'block_content:f5e5446a-b8c4-46d9-a2f6-3509a195dfce'
 settings:
   id: 'block_content:f5e5446a-b8c4-46d9-a2f6-3509a195dfce'
   label: 'Contact Info'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

@@ -11,14 +11,14 @@ dependencies:
 id: menufooter
 theme: upkids
 region: footer
-weight: 0
+weight: -6
 provider: null
 plugin: 'block_content:40820cba-ec31-4e50-b719-3c5174461694'
 settings:
   id: 'block_content:40820cba-ec31-4e50-b719-3c5174461694'
   label: 'Menu Footer'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

@@ -11,14 +11,14 @@ dependencies:
 id: logo
 theme: upkids
 region: footer
-weight: 0
+weight: -9
 provider: null
 plugin: 'block_content:f5d04152-a333-4e27-81f4-b65ec51f5fec'
 settings:
   id: 'block_content:f5d04152-a333-4e27-81f4-b65ec51f5fec'
   label: Logo
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

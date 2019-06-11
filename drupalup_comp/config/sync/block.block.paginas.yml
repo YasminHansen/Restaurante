@@ -11,14 +11,14 @@ dependencies:
 id: paginas
 theme: upkids
 region: footer
-weight: 0
+weight: -7
 provider: null
 plugin: 'block_content:18c62e3d-20db-4d2d-9b05-0121246ec909'
 settings:
   id: 'block_content:18c62e3d-20db-4d2d-9b05-0121246ec909'
   label: Páginas
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full
