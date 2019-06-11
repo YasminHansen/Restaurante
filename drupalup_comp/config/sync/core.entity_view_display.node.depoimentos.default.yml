@@ -7,10 +7,12 @@ dependencies:
     - field.field.node.depoimentos.field_img_depoimento
     - field.field.node.depoimentos.field_nome
     - field.field.node.depoimentos.field_titulo_depoimento
+    - field.field.node.depoimentos.field_videos
     - image.style.large
     - node.type.depoimentos
   module:
     - image
+    - link
     - text
     - user
 id: node.depoimentos.default
@@ -21,12 +23,12 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 1
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     region: content
   field_img_depoimento:
-    weight: 2
+    weight: 3
     label: hidden
     settings:
       image_style: large
@@ -35,7 +37,7 @@ content:
     type: image
     region: content
   field_nome:
-    weight: 3
+    weight: 4
     label: hidden
     settings:
       link_to_entity: false
@@ -44,12 +46,24 @@ content:
     region: content
   field_titulo_depoimento:
     type: string
-    weight: 0
+    weight: 1
     region: content
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+  field_videos:
+    weight: 0
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
 hidden:
   langcode: true
   links: true
