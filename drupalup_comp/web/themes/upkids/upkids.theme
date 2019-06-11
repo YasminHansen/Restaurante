@@ -6,4 +6,20 @@
  *
  * Place your custom PHP code in this file.
  */
+use Drupal\node\Entity\Node;
 
+
+/**
+ * implements hook_preprocess_page().
+ */
+function upkids_preprocess_page(&$variables) {
+  drupal_set_message("aqui");
+  if (isset($node) && $node instanceof Node) {
+     // Create variable out of the current node type
+    $node_type = $node->getType();
+    // Remove page title block.
+    if (($node_type == 'article') || ($node_type == 'magazine_volume')) {
+      unset($variables['page']['content']['upkids_page_title']);
+    }
+  }
+}

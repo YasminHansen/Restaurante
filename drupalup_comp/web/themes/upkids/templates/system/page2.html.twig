@@ -110,6 +110,20 @@
         {% endblock %}
       {% endif %}
 
+      {# Highlighted #}
+      {% if page.highlighted %}
+        {% block highlighted %}
+          <div class="highlighted">{{ page.highlighted }}</div>
+        {% endblock %}
+      {% endif %}
+
+      {# Help #}
+      {% if page.help %}
+        {% block help %}
+          {{ page.help }}
+        {% endblock %}
+      {% endif %}
+
       {# Content #}
       <section{{ content_attributes.addClass(content_classes) }}>
       {# Content #}

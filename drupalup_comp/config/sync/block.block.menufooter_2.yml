@@ -11,7 +11,7 @@ dependencies:
 id: menufooter_2
 theme: upkids
 region: footer
-weight: 0
+weight: -6
 provider: null
 plugin: 'block_content:2d54f0cc-cc0b-46dd-adcf-0661df4226d1'
 settings:
