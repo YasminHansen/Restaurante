@@ -160,8 +160,7 @@ p:first-letter{
   padding-bottom: 30px;
 }
 .img-depoimento{
-  width: auto;
-  height: 150px;
+  max-width: 400px;
   position: absolute;
 }
 .icone-depoimento{
@@ -566,11 +565,6 @@ li:hover ul {
   color: #F1C22E;
   margin-right: 10px; /**/
 }
-/*
-.menu-footer-links{
-  padding-top: 15px;
-  padding-bottom: 15px;
-}*/
 
 /*============================================================
                       Estilo Contato Footer
@@ -587,7 +581,7 @@ li:hover ul {
 
 .contactinfo-menu svg{
   color: #F1C22E;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .contactinfo-menu li{
@@ -597,29 +591,6 @@ li:hover ul {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.icon-local:before{
-  font-family:"FontAwesome";
-  font-style: normal;
-  content:'\f3c5';
-  color: #F1C22E;
-  margin-right: 15px;
-}
-.icon-phone:before{
-  content:'\f095';
-  color: #F1C22E;
-  margin-right: 15px;
-}
-.icon-wpp:before{
-  content: '\f232';
-  color: #F1C22E;
-  margin-right: 15px;
-}
-.icon-email:before{
-  content:'\f0e0';
-  color: #F1C22E;
-  margin-right: 15px;
-}
-
 /*============================================================
                       Estilo Logo Footer
 =============================================================*/
@@ -640,6 +611,7 @@ li:hover ul {
   text-shadow: 0.3px 1px 1px black;
 }
 .paginas-text{
+  padding-top: 15px;
   color: #fff;
   text-shadow: 0.3px 1px 1px black;
 }

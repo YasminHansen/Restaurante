@@ -16,7 +16,7 @@ provider: null
 plugin: 'block_content:4002a3f1-c912-45d9-a742-ae5dab7c7942'
 settings:
   id: 'block_content:4002a3f1-c912-45d9-a742-ae5dab7c7942'
-  label: 'Contact Info'
+  label: Contato
   provider: block_content
   label_display: '0'
   status: true
