@@ -1,9 +1,9 @@
-uuid: ccf8d841-339a-4038-a7a1-c4bd2263feda
+uuid: 59f77c15-951a-4785-9da0-61328774b903
 langcode: pt-br
 status: true
 dependencies:
   content:
-    - 'block_content:basic:f5e5446a-b8c4-46d9-a2f6-3509a195dfce'
+    - 'block_content:basic:4002a3f1-c912-45d9-a742-ae5dab7c7942'
   module:
     - block_content
   theme:
@@ -13,9 +13,9 @@ theme: upkids
 region: footer
 weight: -8
 provider: null
-plugin: 'block_content:f5e5446a-b8c4-46d9-a2f6-3509a195dfce'
+plugin: 'block_content:4002a3f1-c912-45d9-a742-ae5dab7c7942'
 settings:
-  id: 'block_content:f5e5446a-b8c4-46d9-a2f6-3509a195dfce'
+  id: 'block_content:4002a3f1-c912-45d9-a742-ae5dab7c7942'
   label: 'Contact Info'
   provider: block_content
   label_display: '0'

@@ -429,9 +429,17 @@ margin-top: 5px;
 /*============================================================
                       Estilo Menu Topo
 =============================================================*/
+.logo.navbar-btn img{
+  max-height: 90px;
+}
+
+.navbar{
+  background-color: #fff;
+}
 .menu{
   float: right;
-  padding-top: 28px;
+  padding-top: 16px;
+  font-size: 14px;
 }
 .menu-botoes{
   border-radius: 25px;
@@ -456,7 +464,7 @@ margin-top: 5px;
   color: #fff;
 }
 li:hover ul {
-    display: block;
+  display: block;
 }
 
 .menu-botoes a:hover,
@@ -478,7 +486,7 @@ li:hover ul {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #f8f8f8;
+  background-color: #fff;
   color: gray;
 }
 
@@ -486,8 +494,8 @@ li:hover ul {
                       Estilo Footer
 =============================================================*/
 .footer{
-  margin-top: 0;
   padding: 0 !important;
+  margin-top: 0 !important;
 }
 
 .footer-region{
@@ -516,21 +524,24 @@ li:hover ul {
 @media (min-width: 768px) and (max-width: 991px){
   .grid-teste{
     grid-template-columns: repeat( auto-fit, minmax(360px, 2fr) );
+    margin-left: 15px;
   }
 }
 @media (min-width: 991px){
   .grid-teste{
     grid-template-columns: repeat( auto-fit, minmax(200px, 4fr) );
   }
+  .footer-blocos{
+    margin-right: 15px;
+  }
 }
 
 /*============================================================
                       Estilo Menu Footer
 =============================================================*/
-.menu-footer{
-  padding-top: 20px;
-}
-
+/*.menu-footer{
+  padding-top: 20px;  ~ cuidar o alinhamento do menu do footer
+}*/
 .menu-footer .font-pacifico{
   font-size: 25px;
   color: #F1C22E;
@@ -541,7 +552,6 @@ li:hover ul {
   text-decoration: none;
   color: #fff;
   text-shadow: 0.3px 1px 1px black;
-  /*padding-left: 15px;*/
 }
 .menu-footer ul{
   padding-left: 0;
@@ -560,9 +570,11 @@ li:hover ul {
   color: #F1C22E;
   margin-right: 10px; /**/
 }
-
-
-
+/*
+.menu-footer-links{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}*/
 
 /*============================================================
                       Estilo Contato Footer
