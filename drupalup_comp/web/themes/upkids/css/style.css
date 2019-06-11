@@ -154,6 +154,9 @@ p:first-letter{
 .depoimento_texto{
   font-style: italic;}
 
+.paragraph--type--depoimentos .view-content .owl-item {
+  float: left;
+}
 
 /*~~~~~~Teste do depoimento default~~~~~~~~~~~~~*/
 .campo-depoimento{

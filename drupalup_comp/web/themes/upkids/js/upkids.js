@@ -3,7 +3,7 @@
  * Attaches behaviors for Drupal's active link marking.
  */
 
-(function(Drupal, $) {
+ (function(Drupal, $) {
   /**
    * Append is-active class.
    *
@@ -18,17 +18,28 @@
    *
    * @type {Drupal~behavior}
    */
-  Drupal.behaviors.upkids = {
+   Drupal.behaviors.upkids = {
     attach(context) {
-       $(".paragraph--type--depoimentos .view-content").owlCarousel({
-          center: true,
-          items:1,
-       });
-    },
-    detach(context, settings, trigger) {
+     $(".paragraph--type--depoimentos .view-content").owlCarousel({
+      center: true,
+      items:1,
+      loop:true,
+      autoplay:true,
+      autoplayTimeout:5000,
+      autoplayHoverPause:true
+    });
+     $('.play').on('click',function(){
+      owl.trigger('play.owl.autoplay',[1000])
+    })
+     $('.stop').on('click',function(){
+      owl.trigger('stop.owl.autoplay')
+    })
+   },
 
-    },
-  };
+   detach(context, settings, trigger) {
+
+   },
+ };
 })(Drupal, jQuery);
 
 /* owl carousel banner home*/
