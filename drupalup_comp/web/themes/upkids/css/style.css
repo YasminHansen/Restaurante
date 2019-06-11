@@ -159,33 +159,42 @@ p:first-letter{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.campo-depoimento p{
-  font-style: italic;
-}
 .img-depoimento{
   width: auto;
   height: 150px;
   position: absolute;
 }
 .icone-depoimento{
-  color: #C54CCB;
+  color: #f7b816;
   font-size: 2em;
   margin-bottom: 20px;
 }
 .depoimento-info {
-    text-align: right;
+  text-align: right;
+  color: #fff;
+  text-shadow: 0.3px 1px 1px black;
 }
-/*
-.views-row:nth-child(odd) {
-  background-color: orange;
+
+
+.views-row:nth-child(odd) .campo-depoimento {
+  background-color: #DC7D00;
 }
-.views-row:nth-child(odd) img:nth-child(odd) {
+.views-row:nth-child(even) .campo-depoimento {
+  background: url("../images/fundo-verde.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.views-row:nth-child(even) .field--name-field-nome{
+  color: #DC7D00;
+}
+.views-row:nth-child(odd) .campo-depoimento img:nth-child(odd) {
   float: left;
 }
 .views-row:nth-child(odd) .depoimento-info:nth-child(odd) {
   text-align: left;
   float: right;
-}*/
+}
+
 /*================================================
                 Texto Destaque
 =================================================*/
