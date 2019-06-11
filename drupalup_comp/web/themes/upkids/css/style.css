@@ -175,7 +175,7 @@ p:first-letter{
 .depoimento-info {
     text-align: right;
 }
-
+/*
 .views-row:nth-child(odd) {
   background-color: orange;
 }
@@ -185,7 +185,7 @@ p:first-letter{
 .views-row:nth-child(odd) .depoimento-info:nth-child(odd) {
   text-align: left;
   float: right;
-}
+}*/
 /*================================================
                 Texto Destaque
 =================================================*/
