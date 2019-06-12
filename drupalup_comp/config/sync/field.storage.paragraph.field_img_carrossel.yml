@@ -1,4 +1,4 @@
-uuid: bd84ef24-03df-4c44-a1af-385e9a94db08
+uuid: 658caf98-d590-4b5d-bad4-3e2f7ebdb96b
 langcode: pt-br
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - file
     - image
     - paragraphs
-id: paragraph.field_img_banner_complexo
-field_name: field_img_banner_complexo
+id: paragraph.field_img_carrossel
+field_name: field_img_carrossel
 entity_type: paragraph
 type: image
 settings:
@@ -23,7 +23,7 @@ settings:
   display_default: false
 module: image
 locked: false
-cardinality: 5
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

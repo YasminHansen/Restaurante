@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.pag_flexivel.field_3_cards_paragraph
-    - field.field.node.pag_flexivel.field_hide_title
     - field.field.node.pag_flexivel.field_losangos
     - field.field.node.pag_flexivel.field_paragraph
     - field.field.node.pag_flexivel.field_wysywig_paragraphs
@@ -25,16 +24,6 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    region: content
-  field_hide_title:
-    weight: 4
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    type: boolean
     region: content
   field_losangos:
     type: entity_reference_revisions_entity_view

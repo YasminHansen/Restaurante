@@ -10,7 +10,8 @@ body{
   padding:0;
   width: 100%;}
 
-p:first-letter{
+p:first-letter,
+h1:first-letter{
   text-transform: capitalize;}
 
 .font-pacifico{
@@ -282,30 +283,25 @@ margin-top: 5px;
 /*============================================================
                       Estilo do Bannerzão
 =============================================================*/
-.imagem_banner_complex .item img{
-  position: relative;
-    width: 100%;
-    height: 80vh;
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  /*Os controles de prox e ant itens do carrocel estao abaixo dos cards*/
+    margin-top: 10px;
+    display: none;}
+
+.imagem_banner_complex .owl-item img{
+  cursor: pointer;
+  height: 100% !important;
 }
 
-.imagem_banner_complex{
-  cursor: pointer;
-}
+
   .imagem_banner_complex h1{
     position: absolute;
     top: 50%;
-    width: 100%;
-    height: auto;
     font-size: 45px;
     color: #fff;
     line-height: 1;
     }
-
-  .imagem_banner_complex img{
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
 
   /*==================================
         Área dos cards do banner
@@ -320,6 +316,7 @@ margin-top: 5px;
           margin: 0;
           position: relative;
           text-align: center;
+          z-index: 2;
           }
 
         .card-bannerzao i{
@@ -416,12 +413,12 @@ margin-top: 5px;
         Área dos breakpoints
   ====================================*/
 @media only screen and (min-width: 992px) {
-  .imagem_banner_complex h1{
+  /*.imagem_banner_complex h1{
     width: auto;
     text-align: right;
     left: 375px;
     top: 100px;
-}
+}*/
   .margin-cards{
     margin: -130px 0 80px !important;
   }

@@ -8,6 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.3_cards
     - paragraphs.paragraphs_type.banner_complexo
     - paragraphs.paragraphs_type.banner_simples
+    - paragraphs.paragraphs_type.carrossel
     - paragraphs.paragraphs_type.depoimentos
     - paragraphs.paragraphs_type.losangos
     - paragraphs.paragraphs_type.texto_destaque
@@ -36,8 +37,9 @@ settings:
       depoimentos: depoimentos
       texto_destaque: texto_destaque
       losangos: losangos
-      banner_complexo: banner_complexo
       view: view
+      banner_complexo: banner_complexo
+      carrossel: carrossel
     target_bundles_drag_drop:
       banner_simples:
         enabled: true
@@ -57,10 +59,13 @@ settings:
       losangos:
         enabled: true
         weight: -9
-      banner_complexo:
-        enabled: true
-        weight: 9
       view:
         enabled: true
         weight: 8
+      banner_complexo:
+        enabled: true
+        weight: 9
+      carrossel:
+        enabled: true
+        weight: 13
 field_type: entity_reference_revisions
