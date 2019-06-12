@@ -1,4 +1,4 @@
-uuid: 29fa0f39-9f6b-487a-bbc1-41fb925aaade
+uuid: 78250f32-7f9f-4cc6-8237-bab6f2b69b65
 langcode: pt-br
 status: true
 dependencies:
@@ -9,12 +9,12 @@ _core:
 id: upkids_local_tasks
 theme: upkids
 region: content
-weight: -7
+weight: -40
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: Abas
+  label: Tabs
   provider: core
   label_display: '0'
   primary: true

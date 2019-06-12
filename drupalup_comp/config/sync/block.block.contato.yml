@@ -1,4 +1,4 @@
-uuid: 59f77c15-951a-4785-9da0-61328774b903
+uuid: 6e2e7497-2b13-498c-9162-e8f1907522e3
 langcode: pt-br
 status: true
 dependencies:
@@ -8,15 +8,15 @@ dependencies:
     - block_content
   theme:
     - upkids
-id: contactinfo
+id: contato
 theme: upkids
 region: footer
-weight: -8
+weight: -7
 provider: null
 plugin: 'block_content:4002a3f1-c912-45d9-a742-ae5dab7c7942'
 settings:
   id: 'block_content:4002a3f1-c912-45d9-a742-ae5dab7c7942'
-  label: 'Contact Info'
+  label: Contato
   provider: block_content
   label_display: '0'
   status: true

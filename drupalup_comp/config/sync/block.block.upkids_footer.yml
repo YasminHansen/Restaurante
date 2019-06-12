@@ -1,4 +1,4 @@
-uuid: ccc87d88-a740-4ed6-851c-d1010182508a
+uuid: 7b06f16d-b43e-4490-b4fb-1df9473d22e8
 langcode: pt-br
 status: false
 dependencies:
@@ -12,13 +12,13 @@ _core:
   default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
 id: upkids_footer
 theme: upkids
-region: content
-weight: -8
+region: navigation
+weight: -5
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Menu do rodapé'
+  label: 'Footer menu'
   provider: system
   label_display: '0'
   level: 1

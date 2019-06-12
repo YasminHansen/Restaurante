@@ -1,4 +1,4 @@
-uuid: 6e256ea1-5120-459c-bb46-6b4ccbd75fc6
+uuid: be679085-83f5-4f2a-a29e-21644b0d220b
 langcode: pt-br
 status: true
 dependencies:
@@ -10,8 +10,8 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: upkids_breadcrumbs
 theme: upkids
-region: navigation_collapsible
-weight: -7
+region: navigation
+weight: -8
 provider: null
 plugin: system_breadcrumb_block
 settings:

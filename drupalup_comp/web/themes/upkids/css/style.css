@@ -120,52 +120,70 @@ p:first-letter{
 =============================================================*/
 .depoimento{
   text-align: center;
+/*  color: #f94c45;*/
 }
-.campo-depoimento{
-  position: relative;
-}
-.icone{
-  color: #C54CCB;
-  font-size: 2em;
-  margin-top: 60px;
-  margin-bottom: 45px;}
-
-.depoimento img{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  border: 3px solid #DC7D00;
-  margin-top: 10px;}
-
 .depoimento_topo{
+  padding-top: 100px;
   color: #1C6F18;
-  font-size: 20px;}
-
+  font-size: 20px;
+}
 .depoimento_titulo{
   color: #DC7D00;
-  font-size: 40px;
-  padding-bottom: 30px;}
-
+  font-size: 37px;
+/*  padding-bottom: 30px;*/
+}
 .depoimento a:hover{
   text-decoration: none;
   font-weight: bold;
 }
-
+.icone{
+  color: #d272f8;
+  font-size: 2em;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.depoimento img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #f0c63c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 .depoimento_texto{
-  font-style: italic;}
-
+  font-style: italic;
+  padding-right: 200px;
+  padding-left: 200px;
+  color: #666960;
+}
+.field--name-field-nome{
+/*  position: absolute;
+  left: 50%;*/
+  color: #fd4d3e;
+}
 .paragraph--type--depoimentos .view-content .owl-item {
   float: left;
 }
+.owl-item:nth-child(odd) .depoimento img{
+  border-color: #d272f8;
+}
+@media (max-width: 768px){
+  .depoimento_texto{
+    font-style: italic;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
 
-/*~~~~~~Teste do depoimento default~~~~~~~~~~~~~*/
+/*================================================
+               Depoimento Default
+=================================================*/
 .campo-depoimento{
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .img-depoimento{
-  width: auto;
-  height: 150px;
+  max-width: 350px;
   position: absolute;
 }
 .icone-depoimento{
@@ -178,8 +196,6 @@ p:first-letter{
   color: #fff;
   text-shadow: 0.3px 1px 1px black;
 }
-
-
 .views-row:nth-child(odd) .campo-depoimento {
   background-color: #DC7D00;
 }
@@ -542,9 +558,9 @@ li:hover ul {
 /*============================================================
                       Estilo Menu Footer
 =============================================================*/
-/*.menu-footer{
+.menu-footer{
   padding-top: 20px;  ~ cuidar o alinhamento do menu do footer
-}*/
+}
 .menu-footer .font-pacifico{
   font-size: 25px;
   color: #F1C22E;
@@ -594,7 +610,7 @@ li:hover ul {
 
 .contactinfo-menu svg{
   color: #F1C22E;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .contactinfo-menu li{
@@ -604,29 +620,6 @@ li:hover ul {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.icon-local:before{
-  font-family:"FontAwesome";
-  font-style: normal;
-  content:'\f3c5';
-  color: #F1C22E;
-  margin-right: 15px;
-}
-.icon-phone:before{
-  content:'\f095';
-  color: #F1C22E;
-  margin-right: 15px;
-}
-.icon-wpp:before{
-  content: '\f232';
-  color: #F1C22E;
-  margin-right: 15px;
-}
-.icon-email:before{
-  content:'\f0e0';
-  color: #F1C22E;
-  margin-right: 15px;
-}
-
 /*============================================================
                       Estilo Logo Footer
 =============================================================*/

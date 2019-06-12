@@ -20,7 +20,7 @@
    */
    Drupal.behaviors.upkids = {
     attach(context) {
-     $(".paragraph--type--depoimentos .view-content").owlCarousel({
+    $(".paragraph--type--depoimentos .view-content").owlCarousel({
       center: true,
       items:1,
       loop:true,

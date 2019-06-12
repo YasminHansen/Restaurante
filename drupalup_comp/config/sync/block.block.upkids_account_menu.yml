@@ -1,4 +1,4 @@
-uuid: 78afecae-0eb6-4813-a08b-6e458a24bc9e
+uuid: c2281630-7962-483b-be27-58d406017a32
 langcode: pt-br
 status: false
 dependencies:
@@ -12,7 +12,7 @@ _core:
   default_config_hash: 8a31Ywc1t2zlddGd3bmDrFMefWqgSK2E02ceFdr-bfc
 id: upkids_account_menu
 theme: upkids
-region: footer
+region: navigation
 weight: -4
 provider: null
 plugin: 'system_menu_block:account'

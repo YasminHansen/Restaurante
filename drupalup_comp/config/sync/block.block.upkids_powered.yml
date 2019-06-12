@@ -1,4 +1,4 @@
-uuid: 79a0e97a-7521-41fe-8670-986c66e28f3c
+uuid: 99da53b7-3fa9-492a-b00a-3dd749aa7b24
 langcode: pt-br
 status: false
 dependencies:
@@ -10,13 +10,13 @@ _core:
   default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
 id: upkids_powered
 theme: upkids
-region: footer
+region: navigation
 weight: -3
 provider: null
 plugin: system_powered_by_block
 settings:
   id: system_powered_by_block
-  label: 'Desenvolvido com Drupal'
+  label: 'Powered by Drupal'
   provider: system
   label_display: '0'
 visibility: {  }

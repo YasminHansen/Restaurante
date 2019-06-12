@@ -1,4 +1,4 @@
-uuid: 06c74780-1d0f-4ab9-ae82-b5dd50b9ef5f
+uuid: f52797c4-2ab4-40ba-bd21-ec74280fa2e5
 langcode: pt-br
 status: true
 dependencies:
@@ -11,12 +11,12 @@ _core:
 id: upkids_content
 theme: upkids
 region: content
-weight: -6
+weight: 0
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Conteúdo da página principal'
+  label: 'Main page content'
   provider: system
   label_display: '0'
 visibility: {  }

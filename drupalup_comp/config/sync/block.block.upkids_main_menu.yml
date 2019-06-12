@@ -1,4 +1,4 @@
-uuid: fb038a74-704d-46f7-9dfb-94a92e9a8d54
+uuid: 1426819b-18a8-4017-98a3-7d2e94e5b425
 langcode: pt-br
 status: true
 dependencies:
@@ -13,15 +13,15 @@ _core:
 id: upkids_main_menu
 theme: upkids
 region: navigation
-weight: -5
+weight: -6
 provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Navegação principal'
+  label: 'Main navigation'
   provider: system
   label_display: '0'
   level: 1
-  depth: 0
+  depth: 1
   expand_all_items: false
 visibility: {  }

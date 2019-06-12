@@ -1,4 +1,4 @@
-uuid: 3c95beaf-a730-4e0b-ae58-ceb77f0faefa
+uuid: c2272730-060d-4c69-b7c4-b2e0d2071c7d
 langcode: pt-br
 status: true
 dependencies:
@@ -8,10 +8,10 @@ dependencies:
     - block_content
   theme:
     - upkids
-id: menufooter_2
+id: menufooter
 theme: upkids
 region: footer
-weight: -6
+weight: -5
 provider: null
 plugin: 'block_content:2d54f0cc-cc0b-46dd-adcf-0661df4226d1'
 settings:

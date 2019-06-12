@@ -3,6 +3,7 @@ langcode: pt-br
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.teaser
     - node.type.depoimentos
   module:
     - node
@@ -50,13 +51,13 @@ display:
       pager:
         type: mini
         options:
-          items_per_page: 3
+          items_per_page: 5
           offset: 0
           id: 0
           total_pages: null
           tags:
-            previous: ‹‹
-            next: ››
+            previous: ''
+            next: ''
           expose:
             items_per_page: false
             items_per_page_label: 'Itens por página'
@@ -68,7 +69,6 @@ display:
       style:
         type: default
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           uses_fields: false
@@ -76,7 +76,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: default
+          view_mode: teaser
       fields: {  }
       filters:
         status:
@@ -197,7 +197,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: ''
+            value: "<p class=\"depoimento depoimento_topo\">- Depoimentos -</p>\r\n<p class=\"depoimento depoimento_titulo font-pacifico\">O que os papais pensam</p>"
             format: full_html
           plugin_id: text
     cache_metadata:

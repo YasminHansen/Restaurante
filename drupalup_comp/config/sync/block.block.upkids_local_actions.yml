@@ -1,6 +1,6 @@
-uuid: 3b5f379e-898e-4770-bd32-ddfc32aafa32
+uuid: d648e6d2-dbe9-4672-842d-6389081a32bc
 langcode: pt-br
-status: false
+status: true
 dependencies:
   theme:
     - upkids
@@ -9,7 +9,7 @@ _core:
 id: upkids_local_actions
 theme: upkids
 region: content
-weight: -3
+weight: -20
 provider: null
 plugin: local_actions_block
 settings:

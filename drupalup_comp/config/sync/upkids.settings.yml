@@ -1,6 +1,12 @@
 schemas:
   bootstrap: 8000
   upkids: 8000
+logo:
+  path: themes/upkids/logo.png
+  url: ''
+  use_default: 0
+_core:
+  default_config_hash: xRboblP3vrw8Qa33zZNi631_CnwWNlTqLec6Eq5B4sQ
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
@@ -11,10 +17,6 @@ features:
   comment_user_verification: 1
   favicon: 1
   node_user_picture: 1
-logo:
-  path: 'public://up-kids-school-logo_0.png'
-  url: ''
-  use_default: 0
 fluid_container: 1
 table_responsive: '-1'
 cdn_theme: bootstrap
@@ -24,4 +26,3 @@ cdn_cache_ttl_assets: '0'
 cdn_cache_ttl_library: '0'
 reset_http_request_cache: ''
 table: ''
-langcode: pt-br

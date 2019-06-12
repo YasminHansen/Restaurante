@@ -1,4 +1,4 @@
-uuid: bd7fe03b-0788-49b9-95bb-87714d3393d9
+uuid: c8480757-358d-4873-bfb8-6de9ab7e35ce
 langcode: pt-br
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
 id: paginas
 theme: upkids
 region: footer
-weight: -7
+weight: -6
 provider: null
 plugin: 'block_content:be1df392-8ef7-4ec4-b6f6-f44087c47b82'
 settings:

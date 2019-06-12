@@ -1,6 +1,6 @@
-uuid: 80deeac1-891c-4bf0-9002-658bc5371751
+uuid: 04bd19ed-4df8-4f7a-a6df-9ac3a7c503ec
 langcode: pt-br
-status: false
+status: true
 dependencies:
   theme:
     - upkids
@@ -9,12 +9,12 @@ _core:
 id: upkids_page_title
 theme: upkids
 region: content
-weight: -5
+weight: -50
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Título da página'
+  label: 'Page title'
   provider: core
   label_display: '0'
 visibility: {  }

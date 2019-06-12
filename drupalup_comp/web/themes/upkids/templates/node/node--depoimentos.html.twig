@@ -75,13 +75,13 @@
   {% if display_submitted %}
   {% endif %}
   <div{{ content_attributes.addClass('content') }}>
-  <div class=" depoimento">
+  <div class=" depoimento col-12">
     <div class="">
       <div class="">
         <i class="fas fa-quote-right icone"></i>
         <div class="depoimento_texto">{{ content.body['0'] }}</div>
         <img src="{{ file_url(content.field_img_depoimento['#items'].entity.uri.value) }}">
-        <p>{{ content.field_nome }}</p>
+        <p class="font-pacifico">{{ content.field_nome }}</p>
       </div>
     </div>
   </div>

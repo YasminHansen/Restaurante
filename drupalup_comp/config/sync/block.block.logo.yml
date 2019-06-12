@@ -1,4 +1,4 @@
-uuid: e532c46a-9563-4a4b-a3e4-2ae85445548b
+uuid: f2284eea-c5dc-4db2-86cd-d388edd771ce
 langcode: pt-br
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
 id: logo
 theme: upkids
 region: footer
-weight: -9
+weight: -8
 provider: null
 plugin: 'block_content:11829f31-c226-4383-a550-449071161bb1'
 settings:

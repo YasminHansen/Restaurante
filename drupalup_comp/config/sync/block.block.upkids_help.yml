@@ -1,6 +1,6 @@
-uuid: a8ee346b-ec34-4c06-87b8-a1cb2723af3a
+uuid: 2620314f-b1e5-412b-8e87-7fca4d582e11
 langcode: pt-br
-status: false
+status: true
 dependencies:
   module:
     - help
@@ -11,12 +11,12 @@ _core:
 id: upkids_help
 theme: upkids
 region: content
-weight: -4
+weight: -30
 provider: null
 plugin: help_block
 settings:
   id: help_block
-  label: Ajuda
+  label: Help
   provider: help
   label_display: '0'
 visibility: {  }
