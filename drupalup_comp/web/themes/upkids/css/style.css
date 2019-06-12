@@ -10,8 +10,7 @@ body{
   padding:0;
   width: 100%;}
 
-p:first-letter,
-h1:first-letter{
+p:first-letter{
   text-transform: capitalize;}
 
 .font-pacifico{
@@ -187,9 +186,11 @@ h1:first-letter{
 .campo-depoimento{
   padding-top: 30px;
   padding-bottom: 30px;
+  text-align: center;
 }
 .img-depoimento{
-  max-width: 350px;
+  max-width: 315px;
+  padding-bottom: 25px;
 }
 .icone-depoimento{
   color: #f7b816;
@@ -197,12 +198,57 @@ h1:first-letter{
   margin-bottom: 20px;
 }
 .depoimento-info {
-  text-align: right;
+  text-align: center;
   color: #fff;
   text-shadow: 0.3px 1px 1px black;
 }
-
 .views-row:nth-child(odd) .campo-depoimento {
+  background-color: #DC7D00;
+}
+.views-row:nth-child(even) .campo-depoimento {
+  background: url("../images/fundo-verde.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.views-row:nth-child(even) .field--name-field-nome{
+  color: #DC7D00;
+}
+@media(min-width: 768px){
+  .img-depoimento{
+    max-width: 250px;
+    float: left;
+  }
+  .depoimento-info{
+    max-width: 500px;
+    text-align: left;
+    float: right;
+  }
+  .views-row:nth-child(odd) .campo-depoimento img:nth-child(odd){
+    float: right;
+  }
+  .views-row:nth-child(odd) .depoimento-info{
+    float: left;
+    text-align: right;
+  }
+}
+@media(min-width: 991px){
+  .img-depoimento{
+    max-width: 350px;
+  }
+  .depoimento-info{
+    text-align: left;
+    float: right;
+    max-width: none;
+  }
+  .views-row:nth-child(odd) .campo-depoimento img:nth-child(odd){
+    float: right;
+  }
+  .views-row:nth-child(odd) .depoimento-info{
+    float: left;
+    text-align: right;
+  }
+}
+/*.views-row:nth-child(odd) .campo-depoimento {
   background-color: #DC7D00;
 }
 .views-row:nth-child(even) .campo-depoimento {
@@ -221,17 +267,27 @@ h1:first-letter{
   float: right;
 }
 @media (max-width: 768px){
-  .campo-depoimento img,
   .campo-depoimento .depoimento-info{
     text-align: center;
+  }
+  .campo-depoimento img{
+    max-width: 315px;
   }
   .views-row:nth-child(odd) .depoimento-info:nth-child(odd) {
     text-align: center;
   }
   .views-row:nth-child(odd) .campo-depoimento img:nth-child(odd){
-    display: block;
+    max-width: 315px;
   }
 }
+@media (max-width: 991px){
+  .campo-depoimento img{
+    max-width: 100px;
+  }
+  .views-row:nth-child(odd) .campo-depoimento img:nth-child(odd){
+    max-width: 100px;
+  }
+}*/
 
 /*================================================
                 Texto Destaque
@@ -319,25 +375,30 @@ margin-top: 5px;
 /*============================================================
                       Estilo do Bannerzão
 =============================================================*/
-
-.owl-theme .owl-nav.disabled + .owl-dots {
-  /*Os controles de prox e ant itens do carrocel estao abaixo dos cards*/
-    margin-top: 10px;
-    display: none;}
-
-.imagem_banner_complex .owl-item img{
-  cursor: pointer;
-  height: 100% !important;
+.imagem_banner_complex .item img{
+  position: relative;
+    width: 100%;
+    height: 80vh;
 }
 
-
+.imagem_banner_complex{
+  cursor: pointer;
+}
   .imagem_banner_complex h1{
     position: absolute;
     top: 50%;
+    width: 100%;
+    height: auto;
     font-size: 45px;
     color: #fff;
     line-height: 1;
     }
+
+  .imagem_banner_complex img{
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
 
   /*==================================
         Área dos cards do banner
@@ -352,7 +413,6 @@ margin-top: 5px;
           margin: 0;
           position: relative;
           text-align: center;
-          z-index: 2;
           }
 
         .card-bannerzao i{
@@ -449,12 +509,12 @@ margin-top: 5px;
         Área dos breakpoints
   ====================================*/
 @media only screen and (min-width: 992px) {
-  /*.imagem_banner_complex h1{
+  .imagem_banner_complex h1{
     width: auto;
     text-align: right;
     left: 375px;
     top: 100px;
-}*/
+}
   .margin-cards{
     margin: -130px 0 80px !important;
   }
@@ -528,7 +588,7 @@ li:hover ul {
 =============================================================*/
 .footer{
   padding: 0 !important;
-  margin-top: 0 !important;
+  margin-top: -1px !important;
 }
 
 .footer-region{
@@ -552,6 +612,7 @@ li:hover ul {
 @media (max-width: 768px){
   .grid-teste{
     grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+    margin-left: 15px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px){
