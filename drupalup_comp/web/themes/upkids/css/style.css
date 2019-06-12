@@ -156,11 +156,11 @@ p:first-letter{
   padding-left: 200px;
   color: #666960;
 }
-.field--name-field-nome{
-/*  position: absolute;
-  left: 50%;*/
+/*.field--name-field-nome{
+  position: absolute;
+  left: 50%;
   color: #fd4d3e;
-}
+}*/
 .paragraph--type--depoimentos .view-content .owl-item {
   float: left;
 }
@@ -171,20 +171,24 @@ p:first-letter{
   .depoimento_texto{
     font-style: italic;
     padding-right: 10px;
-    padding-left: 10px;
-  }
+    padding-left: 10px;}
 }
 
 /*================================================
                Depoimento Default
 =================================================*/
+.depoimento-topo-d{
+  padding-top: 10px;
+}
+.depoimento-titulo-d{
+  padding-bottom: 20px;
+}
 .campo-depoimento{
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .img-depoimento{
   max-width: 350px;
-  position: absolute;
 }
 .icone-depoimento{
   color: #f7b816;
@@ -196,6 +200,7 @@ p:first-letter{
   color: #fff;
   text-shadow: 0.3px 1px 1px black;
 }
+
 .views-row:nth-child(odd) .campo-depoimento {
   background-color: #DC7D00;
 }
@@ -213,6 +218,18 @@ p:first-letter{
 .views-row:nth-child(odd) .depoimento-info:nth-child(odd) {
   text-align: left;
   float: right;
+}
+@media (max-width: 768px){
+  .campo-depoimento img,
+  .campo-depoimento .depoimento-info{
+    text-align: center;
+  }
+  .views-row:nth-child(odd) .depoimento-info:nth-child(odd) {
+    text-align: center;
+  }
+  .views-row:nth-child(odd) .campo-depoimento img:nth-child(odd){
+    display: block;
+  }
 }
 
 /*================================================

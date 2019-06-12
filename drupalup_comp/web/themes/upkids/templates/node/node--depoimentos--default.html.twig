@@ -79,12 +79,12 @@
  <div class="campo-depoimento container-fluid">
    <div class="container">
     <div class="row ">
-      <div class="col-lg-8 depoimento-info">
+      <div class="col-sm-12 col-md-8 col-lg-8 depoimento-info">
         <i class="fas fa-quote-right icone-depoimento"></i>
         <p class="texto-depoimento">{{ content.body['0'] }}</p>
         <p class="nome-depoimento">{{ content.field_nome }}</p>
       </div>
-      <div class="col-lg-4">
+      <div class="col-sm-12 col-md-4 col-lg-4">
         <img class="img-depoimento" src="{{ file_url(content.field_img_depoimento['#items'].entity.uri.value) }} ">
       </div>
     </div>
