@@ -51,7 +51,6 @@ settings:
           items:
             - ShowBlocks
             - Source
-            - DrupalFontAwesome
   plugins:
     language:
       language_list: un

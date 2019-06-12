@@ -47,8 +47,9 @@
 
   Drupal.behaviors.home_carousel = {
     attach(context) {
-      $('.owl-carousell').owlCarousel({
-
+      $('.owl-carousel').owlCarousel({
+        center: true,
+        items:1,
       })
 
     },

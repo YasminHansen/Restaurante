@@ -1,18 +1,18 @@
-uuid: d863dc9e-3751-428a-a663-5e211e52d4b6
+uuid: fc6dbf7e-1813-46e2-a509-25f128dc7ec7
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_img_texto_banner
-    - paragraphs.paragraphs_type.banner_complexo
+    - field.storage.paragraph.field_img_carrossel
+    - paragraphs.paragraphs_type.carrossel
   module:
     - image
-id: paragraph.banner_complexo.field_img_texto_banner
-field_name: field_img_texto_banner
+id: paragraph.carrossel.field_img_carrossel
+field_name: field_img_carrossel
 entity_type: paragraph
-bundle: banner_complexo
-label: 'Imagem para detaque do banner grande'
-description: 'Adicione uma imagem para a área de destaque onde pode ser adicionado uma notícia ou informação.'
+bundle: carrossel
+label: img_carrossel
+description: ''
 required: true
 translatable: false
 default_value: {  }

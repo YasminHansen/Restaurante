@@ -1,0 +1,19 @@
+uuid: 1e0d8f40-131a-441a-8d2f-52f7a13cdb45
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_carrossel
+    - paragraphs.paragraphs_type.carrossel
+id: paragraph.carrossel.field_titulo_carrossel
+field_name: field_titulo_carrossel
+entity_type: paragraph
+bundle: carrossel
+label: 'Título do carrossel'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
