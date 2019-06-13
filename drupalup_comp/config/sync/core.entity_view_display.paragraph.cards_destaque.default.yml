@@ -1,0 +1,148 @@
+uuid: 3e131660-2539-4646-8807-92bba382a69b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cards_destaque.field_atividades_card_destaque_1
+    - field.field.paragraph.cards_destaque.field_atividades_card_destaque_2
+    - field.field.paragraph.cards_destaque.field_atividades_card_destaque_3
+    - field.field.paragraph.cards_destaque.field_horarios_card_destaque_1
+    - field.field.paragraph.cards_destaque.field_horarios_card_destaque_2
+    - field.field.paragraph.cards_destaque.field_horarios_card_destaque_3
+    - field.field.paragraph.cards_destaque.field_img_card_destaque_1
+    - field.field.paragraph.cards_destaque.field_img_card_destaque_2
+    - field.field.paragraph.cards_destaque.field_img_card_destaque_3
+    - field.field.paragraph.cards_destaque.field_titulo_card_destaque
+    - field.field.paragraph.cards_destaque.field_turno_card_destaque_1
+    - field.field.paragraph.cards_destaque.field_turno_card_destaque_2
+    - field.field.paragraph.cards_destaque.field_turno_card_destaque_3
+    - image.style.img_card_destaque
+    - paragraphs.paragraphs_type.cards_destaque
+  module:
+    - image
+    - link
+id: paragraph.cards_destaque.default
+targetEntityType: paragraph
+bundle: cards_destaque
+mode: default
+content:
+  field_atividades_card_destaque_1:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_atividades_card_destaque_2:
+    weight: 8
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_atividades_card_destaque_3:
+    weight: 12
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_horarios_card_destaque_1:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_horarios_card_destaque_2:
+    weight: 7
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_horarios_card_destaque_3:
+    weight: 11
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_img_card_destaque_1:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: img_card_destaque
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_img_card_destaque_2:
+    weight: 5
+    label: hidden
+    settings:
+      image_style: img_card_destaque
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_img_card_destaque_3:
+    weight: 9
+    label: hidden
+    settings:
+      image_style: img_card_destaque
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_titulo_card_destaque:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_turno_card_destaque_1:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_turno_card_destaque_2:
+    weight: 6
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_turno_card_destaque_3:
+    weight: 10
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

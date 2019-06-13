@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.paragraph.field_view_depoimentos
     - paragraphs.paragraphs_type.depoimentos
-    - views.view.depoimentos
   module:
     - viewsreference
 id: paragraph.depoimentos.field_view_depoimentos
@@ -16,16 +15,7 @@ label: 'View depoimentos'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    options:
-      title: 0
-      argument: ''
-    display_id: block_1
-    argument: null
-    title: 0
-    data: null
-    target_uuid: cac7c6c0-c5c4-46b4-b7f6-56499e9d5156
+default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:view'
@@ -34,18 +24,16 @@ settings:
     auto_create: 0
   plugin_types:
     block: block
-    embed: embed
     default: 0
     page: 0
     feed: 0
   preselect_views:
-    depoimentos: depoimentos
     block_content: 0
-    carrocel_banner_complexo: 0
     comment: 0
     comments_recent: 0
     content: 0
     content_recent: 0
+    depoimentos: 0
     files: 0
     frontpage: 0
     taxonomy_term: 0

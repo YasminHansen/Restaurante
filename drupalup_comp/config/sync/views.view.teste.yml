@@ -1,6 +1,6 @@
 uuid: 54d73ccb-2438-4f58-b589-643f8216770c
 langcode: pt-br
-status: true
+status: false
 dependencies:
   config:
     - paragraphs.paragraphs_type.texto_destaque
@@ -160,6 +160,7 @@ display:
       empty: {  }
       relationships: {  }
       arguments: {  }
+      display_extenders: {  }
     cache_metadata:
       max-age: -1
       contexts:

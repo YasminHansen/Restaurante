@@ -187,6 +187,7 @@ p:first-letter{
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+    background-color: #dc7b29;
 }
 .img-depoimento{
   max-width: 315px;
@@ -203,7 +204,7 @@ p:first-letter{
   text-shadow: 0.3px 1px 1px black;
 }
 .views-row:nth-child(odd) .campo-depoimento {
-  background-color: #DC7D00;
+  background-color: #dc7b29;
 }
 .views-row:nth-child(even) .campo-depoimento {
   background: url("../images/fundo-verde.jpg");
@@ -211,7 +212,7 @@ p:first-letter{
   background-size: cover;
 }
 .views-row:nth-child(even) .field--name-field-nome{
-  color: #DC7D00;
+  color: #dc7b29;
 }
 @media(min-width: 768px){
   .img-depoimento{
@@ -248,47 +249,6 @@ p:first-letter{
     text-align: right;
   }
 }
-/*.views-row:nth-child(odd) .campo-depoimento {
-  background-color: #DC7D00;
-}
-.views-row:nth-child(even) .campo-depoimento {
-  background: url("../images/fundo-verde.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.views-row:nth-child(even) .field--name-field-nome{
-  color: #DC7D00;
-}
-.views-row:nth-child(odd) .campo-depoimento img:nth-child(odd) {
-  float: left;
-}
-.views-row:nth-child(odd) .depoimento-info:nth-child(odd) {
-  text-align: left;
-  float: right;
-}
-@media (max-width: 768px){
-  .campo-depoimento .depoimento-info{
-    text-align: center;
-  }
-  .campo-depoimento img{
-    max-width: 315px;
-  }
-  .views-row:nth-child(odd) .depoimento-info:nth-child(odd) {
-    text-align: center;
-  }
-  .views-row:nth-child(odd) .campo-depoimento img:nth-child(odd){
-    max-width: 315px;
-  }
-}
-@media (max-width: 991px){
-  .campo-depoimento img{
-    max-width: 100px;
-  }
-  .views-row:nth-child(odd) .campo-depoimento img:nth-child(odd){
-    max-width: 100px;
-  }
-}*/
-
 /*================================================
                 Texto Destaque
 =================================================*/
@@ -548,7 +508,7 @@ margin-top: 5px;
 
 .menu-botoes:hover,
 .dropdown-menu li:hover .menu-botoes{
-  background-color: #E800FD;
+  background-color: #d272f8;
 }
 .menu-botoes a:hover{
   color: #fff;
@@ -629,19 +589,17 @@ li:hover ul {
     margin-right: 15px;
   }
 }
-
-/*============================================================
-                      Estilo Menu Footer
-=============================================================*/
+/*===================================
+       Estilo Menu Footer
+=====================================*/
 .menu-footer{
-  padding-top: 20px;  ~ cuidar o alinhamento do menu do footer
+  padding-top: 20px;
 }
 .menu-footer .font-pacifico{
   font-size: 25px;
   color: #F1C22E;
   text-shadow: 0.3px 1px 1px black;
 }
-
 .menu-footer a{
   text-decoration: none;
   color: #fff;
@@ -664,21 +622,15 @@ li:hover ul {
   color: #F1C22E;
   margin-right: 10px; /**/
 }
-/*
-.menu-footer-links{
-  padding-top: 15px;
-  padding-bottom: 15px;
-}*/
 
-/*============================================================
-                      Estilo Contato Footer
-=============================================================*/
+/*===================================
+       Estilo Contato Footer
+=====================================*/
 .contactinfo-menu .font-pacifico{
   font-size: 25px;
   color: #F1C22E;
   text-shadow: 0.3px 1px 1px black;
 }
-
 .contactinfo-menu ul{
   padding-left: 0;
 }
@@ -687,7 +639,6 @@ li:hover ul {
   color: #F1C22E;
   margin-right: 10px;
 }
-
 .contactinfo-menu li{
   color: #fff;
   text-shadow: 0.3px 1px 1px black;
@@ -695,20 +646,16 @@ li:hover ul {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-/*============================================================
-                      Estilo Logo Footer
-=============================================================*/
-.bloco-logo{
-
-}
+/*===================================
+       Estilo Logo Footer
+=====================================*/
 .logo-texto{
   color: #fff; /*alterar a cor depois*/
   text-shadow: 0.3px 1px 1px black;
 }
-
-/*============================================================
-                      Estilo Redes Sociais Footer
-=============================================================*/
+/*===================================
+       Estilo Redes Sociais Footer
+=====================================*/
 .paginas-titulo .font-pacifico{
   font-size: 25px;
   color: #F1C22E;
@@ -738,15 +685,82 @@ li:hover ul {
   align-items: center;
   margin: 0 2px;
 }
+/*.paginas-icones a:hover{
+  width: 41px;
+  height: 41px;
+}*/
 .paginas-icones a.paginas-fb {
-  background-color: red;
+  background-color: #f83636;
 }
 .paginas-titulo .paginas-fb svg{
     color: #fff;
 }
+.paginas-icones a:hover.paginas-fb {
+  background-color: #fb1c1c;
+}
 .paginas-icones a.paginas-insta{
-  background-color:orange;
+  background-color:#fbb535;
+}
+.paginas-icones a:hover.paginas-insta{
+  background-color:#ffa90b;
 }
 .paginas-titulo .paginas-insta svg{
   color: #fff;
+}
+
+/*============================================================
+                  3 Cards de Destaque
+=============================================================*/
+.cards-destaque{
+  padding-bottom: 100px;
+}
+.cards-destaque p{
+  max-width: 360px;
+  text-align: center;
+}
+.cards-destaque img{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  max-width: 360px;
+  min-height: auto;
+  transition-duration: 250ms;
+}
+.titulo-cards-destaque{
+  max-width: none !important;
+  font-size: 32px;
+  color: #3e6749;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.card-destaque:hover img{
+  opacity: 0.8;
+  transform: scale(1.05, 1.05);
+  transition-duration: 250ms;
+}
+
+.turno-destaque{
+  font-size: 35px;
+  background-color: #ff9934;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.atividades-destaque{
+  background-color: #3c6749;
+  padding: 13px 0;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.horario-destaque{
+  color: #ff9934;
+}
+.atividades-destaque a{
+  text-decoration: none;
+  color: #fff;
+  transition-duration: 70ms;
+}
+.atividades-destaque a:hover{
+  font-size: 17px;
+  transition-duration: 70ms;
 }

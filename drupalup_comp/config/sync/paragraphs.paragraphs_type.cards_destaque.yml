@@ -1,0 +1,9 @@
+uuid: b28aeaf2-af20-4682-8984-6f111b4d82d5
+langcode: pt-br
+status: true
+dependencies: {  }
+id: cards_destaque
+label: 'Cards Destaque'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

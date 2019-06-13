@@ -1,26 +1,26 @@
-uuid: d863dc9e-3751-428a-a663-5e211e52d4b6
+uuid: a938f50d-5827-4c64-b450-cef40a927b58
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_img_texto_banner
-    - paragraphs.paragraphs_type.banner_complexo
+    - field.storage.paragraph.field_img_card_destaque_3
+    - paragraphs.paragraphs_type.cards_destaque
   module:
     - image
-id: paragraph.banner_complexo.field_img_texto_banner
-field_name: field_img_texto_banner
+id: paragraph.cards_destaque.field_img_card_destaque_3
+field_name: field_img_card_destaque_3
 entity_type: paragraph
-bundle: banner_complexo
-label: 'Imagem para detaque do banner grande'
-description: 'Adicione uma imagem para a área de destaque onde pode ser adicionado uma notícia ou informação.'
+bundle: cards_destaque
+label: img_card_destaque_3
+description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   file_directory: '[date:custom:Y]-[date:custom:m]'
-  file_extensions: 'png jpg jpeg'
-  max_filesize: '5 MB'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
   max_resolution: ''
   min_resolution: ''
   alt_field: true

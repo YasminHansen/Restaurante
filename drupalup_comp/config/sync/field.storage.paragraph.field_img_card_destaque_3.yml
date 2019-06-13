@@ -1,4 +1,4 @@
-uuid: bd84ef24-03df-4c44-a1af-385e9a94db08
+uuid: de943cf5-58fe-4369-bde9-d225fa17dba6
 langcode: pt-br
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - file
     - image
     - paragraphs
-id: paragraph.field_img_banner_complexo
-field_name: field_img_banner_complexo
+id: paragraph.field_img_card_destaque_3
+field_name: field_img_card_destaque_3
 entity_type: paragraph
 type: image
 settings:

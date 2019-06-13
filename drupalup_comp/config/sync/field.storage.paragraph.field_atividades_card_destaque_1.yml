@@ -1,0 +1,19 @@
+uuid: 354b4507-94ab-48df-ac09-748d0a82d36f
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_atividades_card_destaque_1
+field_name: field_atividades_card_destaque_1
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

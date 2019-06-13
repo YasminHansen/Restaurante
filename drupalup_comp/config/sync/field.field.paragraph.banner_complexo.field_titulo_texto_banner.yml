@@ -11,7 +11,7 @@ entity_type: paragraph
 bundle: banner_complexo
 label: 'Titulo do texto do banner'
 description: 'Título referente a área inferior do banner grande, onde se encontra um destaque para uma notícia ou informação.'
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''

@@ -1,0 +1,23 @@
+uuid: dfa4f00d-a483-46a8-8590-7cfe5bc71c26
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_atividades_card_destaque_1
+    - paragraphs.paragraphs_type.cards_destaque
+  module:
+    - link
+id: paragraph.cards_destaque.field_atividades_card_destaque_1
+field_name: field_atividades_card_destaque_1
+entity_type: paragraph
+bundle: cards_destaque
+label: atividades_card_destaque_1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

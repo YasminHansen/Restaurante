@@ -1,0 +1,19 @@
+uuid: aac5a9d4-87f5-45d1-9e17-403c26dc0552
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_turno_card_destaque_2
+    - paragraphs.paragraphs_type.cards_destaque
+id: paragraph.cards_destaque.field_turno_card_destaque_2
+field_name: field_turno_card_destaque_2
+entity_type: paragraph
+bundle: cards_destaque
+label: turno_card_destaque_2
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

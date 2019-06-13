@@ -1,15 +1,15 @@
-uuid: 2c451af4-abff-424b-85a4-eafe7a516cfe
+uuid: ab4ebe91-7579-417a-91a5-0adcba723ce9
 langcode: pt-br
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_titulo_carrossel
-field_name: field_titulo_carrossel
+id: paragraph.field_titulo_card_destaque
+field_name: field_titulo_card_destaque
 entity_type: paragraph
 type: string
 settings:
-  max_length: 35
+  max_length: 20
   is_ascii: false
   case_sensitive: false
 module: core

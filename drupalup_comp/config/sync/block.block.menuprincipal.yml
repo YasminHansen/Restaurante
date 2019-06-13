@@ -1,24 +1,22 @@
-uuid: 7b06f16d-b43e-4490-b4fb-1df9473d22e8
+uuid: 478e2a51-0da1-49a8-bcd4-3cba02926d05
 langcode: pt-br
 status: false
 dependencies:
   config:
-    - system.menu.footer
+    - system.menu.menu-principal
   module:
     - system
   theme:
     - upkids
-_core:
-  default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
-id: upkids_footer
+id: menuprincipal
 theme: upkids
 region: navigation
-weight: -7
+weight: -4
 provider: null
-plugin: 'system_menu_block:footer'
+plugin: 'system_menu_block:menu-principal'
 settings:
-  id: 'system_menu_block:footer'
-  label: 'Footer menu'
+  id: 'system_menu_block:menu-principal'
+  label: 'Menu Principal'
   provider: system
   label_display: '0'
   level: 1

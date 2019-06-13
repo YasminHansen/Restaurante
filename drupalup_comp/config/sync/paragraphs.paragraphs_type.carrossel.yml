@@ -1,9 +1,0 @@
-uuid: 3574f92f-e33f-415f-9b57-a24ece7eeba8
-langcode: pt-br
-status: true
-dependencies: {  }
-id: carrossel
-label: Carrossel
-icon_uuid: null
-description: 'Parágrafo interno do banner complexo.'
-behavior_plugins: {  }

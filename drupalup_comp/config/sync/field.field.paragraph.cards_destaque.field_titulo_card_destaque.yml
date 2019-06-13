@@ -1,0 +1,21 @@
+uuid: 6b58f7b2-0421-4513-8bab-e9358b1e8cb2
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_card_destaque
+    - paragraphs.paragraphs_type.cards_destaque
+id: paragraph.cards_destaque.field_titulo_card_destaque
+field_name: field_titulo_card_destaque
+entity_type: paragraph
+bundle: cards_destaque
+label: 'titulo card destaque'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Nossos Horários'
+default_value_callback: ''
+settings: {  }
+field_type: string

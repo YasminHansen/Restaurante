@@ -1,0 +1,19 @@
+uuid: e23c7f2e-7860-4672-948d-4dcbc526d6a2
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_horarios_card_destaque_2
+    - paragraphs.paragraphs_type.cards_destaque
+id: paragraph.cards_destaque.field_horarios_card_destaque_2
+field_name: field_horarios_card_destaque_2
+entity_type: paragraph
+bundle: cards_destaque
+label: horarios_card_destaque_2
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

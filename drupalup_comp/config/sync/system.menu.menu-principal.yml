@@ -1,0 +1,8 @@
+uuid: d6d1e037-2105-4128-841e-1907a50884e2
+langcode: pt-br
+status: true
+dependencies: {  }
+id: menu-principal
+label: 'Menu Principal'
+description: ''
+locked: false

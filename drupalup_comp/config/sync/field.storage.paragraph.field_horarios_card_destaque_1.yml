@@ -1,0 +1,21 @@
+uuid: 81ceb9d4-a1e5-4997-b63f-a574d5c3c8cd
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_horarios_card_destaque_1
+field_name: field_horarios_card_destaque_1
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

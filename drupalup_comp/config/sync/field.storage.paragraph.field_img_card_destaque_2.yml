@@ -1,4 +1,4 @@
-uuid: 658caf98-d590-4b5d-bad4-3e2f7ebdb96b
+uuid: fd9190eb-30e4-4045-a0f1-b2a95549f6e4
 langcode: pt-br
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - file
     - image
     - paragraphs
-id: paragraph.field_img_carrossel
-field_name: field_img_carrossel
+id: paragraph.field_img_card_destaque_2
+field_name: field_img_card_destaque_2
 entity_type: paragraph
 type: image
 settings:

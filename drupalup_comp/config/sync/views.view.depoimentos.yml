@@ -208,21 +208,6 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  embed_1:
-    display_plugin: embed
-    id: embed_1
-    display_title: Embed
-    position: 3
-    display_options:
-      display_extenders: {  }
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
   page_1:
     display_plugin: page
     id: page_1
@@ -276,7 +261,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: "<p class=\"depoimento depoimento_topo\">- Depoimentos -</p>\r\n<p class=\"font-pacifico depoimento_titulo depoimento\">O que os papais pensam</p>"
+            value: "<p class=\"depoimento depoimento_topo depoimento-topo-d\">- Depoimentos -</p>\r\n<p class=\"depoimento depoimento_titulo font-pacifico depoimento-titulo-d\">O que os papais pensam</p>"
             format: full_html
           plugin_id: text
     cache_metadata:

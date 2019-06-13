@@ -1,26 +1,26 @@
-uuid: fc6dbf7e-1813-46e2-a509-25f128dc7ec7
+uuid: 61708820-5c82-443e-9120-b96e52708cb8
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_img_carrossel
-    - paragraphs.paragraphs_type.carrossel
+    - field.storage.paragraph.field_img_card_destaque_1
+    - paragraphs.paragraphs_type.cards_destaque
   module:
     - image
-id: paragraph.carrossel.field_img_carrossel
-field_name: field_img_carrossel
+id: paragraph.cards_destaque.field_img_card_destaque_1
+field_name: field_img_card_destaque_1
 entity_type: paragraph
-bundle: carrossel
-label: img_carrossel
+bundle: cards_destaque
+label: img_card_destaque_1
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   file_directory: '[date:custom:Y]-[date:custom:m]'
-  file_extensions: 'png jpg jpeg'
-  max_filesize: '5 MB'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
   max_resolution: ''
   min_resolution: ''
   alt_field: true

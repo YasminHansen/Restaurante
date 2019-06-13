@@ -1,0 +1,15 @@
+uuid: 3c5cbb79-a2de-405d-9fae-68500a3be5ae
+langcode: pt-br
+status: true
+dependencies: {  }
+name: img_card_destaque
+label: img_card_destaque
+effects:
+  9822ad5a-83ba-42a3-825d-4b68153c12c6:
+    uuid: 9822ad5a-83ba-42a3-825d-4b68153c12c6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 418
+      height: 262
+      anchor: center-center
