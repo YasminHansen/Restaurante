@@ -266,7 +266,7 @@ p:first-letter{
 
 .titulo-destaque{
   font-size: 40px;
-  text-shadow: 2px 1px 2px #6D6D6D;}
+  text-shadow: 1px 2px 2px #3f6848;}
 
 .texto-destaque{
   color: #fff;
@@ -286,7 +286,7 @@ p:first-letter{
 }
 
 .itens svg{
-  background-color: #307436;
+  background-color: #3f6848;
   border-radius: 50%;
   color: #fff;
   height: 30px !important;
@@ -685,10 +685,6 @@ li:hover ul {
   align-items: center;
   margin: 0 2px;
 }
-/*.paginas-icones a:hover{
-  width: 41px;
-  height: 41px;
-}*/
 .paginas-icones a.paginas-fb {
   background-color: #f83636;
 }
@@ -711,34 +707,52 @@ li:hover ul {
 /*============================================================
                   3 Cards de Destaque
 =============================================================*/
-.cards-destaque{
-  padding-bottom: 100px;
-}
-.cards-destaque p{
-  max-width: 360px;
+.programas-destaque{
   text-align: center;
-}
-.cards-destaque img{
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  max-width: 360px;
-  min-height: auto;
-  transition-duration: 250ms;
+  padding-top: 50px;
+  font-size: 20px;
+  color: #313330;
 }
 .titulo-cards-destaque{
   max-width: none !important;
   font-size: 32px;
   color: #3e6749;
   text-align: center;
-  padding-top: 70px;
   padding-bottom: 70px;
+}
+.campo-destaque{
+  padding-bottom: 20px;
+}
+.campo-cards-destaque{
+  padding-bottom: 100px;
+}
+.campo-cards-destaque p{
+  text-align: center;
+}
+.campo-cards-destaque img{
+  max-width: 100%;
+  transition-duration: 250ms;
+}
+.card-destaque{
+  border-radius: 15px;
+  overflow: hidden;
+}
+.campo-img-destaque{
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.card-destaque:hover{
+   box-shadow: 4px 5px 30px rgba(0, 0, 0, 0.2);
+}
+.card-destaque:hover .campo-img-destaque{
+  background-color: #3c6749;
 }
 .card-destaque:hover img{
   opacity: 0.8;
   transform: scale(1.05, 1.05);
   transition-duration: 250ms;
+  overflow: hidden;
 }
-
 .turno-destaque{
   font-size: 35px;
   background-color: #ff9934;
@@ -749,11 +763,26 @@ li:hover ul {
 .atividades-destaque{
   background-color: #3c6749;
   padding: 13px 0;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
 }
 .horario-destaque{
   color: #ff9934;
+  min-height: 30px;
+  max-height: 40px;
+}
+.destaque-1-turno{
+  padding-top: 3px;
+}
+.destaque-2-turnos{
+  height: 40px;
+  margin-top: -9px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.campo-atividade-destaque{
+  box-sizing: border-box;
+  overflow: hidden;
 }
 .atividades-destaque a{
   text-decoration: none;
@@ -763,4 +792,18 @@ li:hover ul {
 .atividades-destaque a:hover{
   font-size: 17px;
   transition-duration: 70ms;
+}
+.saiba-mais-destaque{
+  text-align: center;
+  padding-top: 90px;
+}
+.saiba-mais-destaque a{
+  background-color: #d272f8;
+  padding: 15px 60px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 25px;
+}
+.saiba-mais-destaque a:hover {
+  background-color: #ff9934;
 }

@@ -9,7 +9,7 @@ id: paragraph.cards_destaque.field_titulo_card_destaque
 field_name: field_titulo_card_destaque
 entity_type: paragraph
 bundle: cards_destaque
-label: 'titulo card destaque'
+label: Título
 description: ''
 required: true
 translatable: false

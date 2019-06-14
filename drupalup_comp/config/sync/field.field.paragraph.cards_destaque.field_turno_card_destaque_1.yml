@@ -9,11 +9,13 @@ id: paragraph.cards_destaque.field_turno_card_destaque_1
 field_name: field_turno_card_destaque_1
 entity_type: paragraph
 bundle: cards_destaque
-label: turno_card_destaque_1
+label: 'Card 1: Turno'
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: Integral
 default_value_callback: ''
 settings: {  }
 field_type: string

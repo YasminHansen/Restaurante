@@ -1,0 +1,19 @@
+uuid: 62e980b1-e580-4845-bab1-d9d5291ee6ce
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_saiba_mais_destaque
+field_name: field_saiba_mais_destaque
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

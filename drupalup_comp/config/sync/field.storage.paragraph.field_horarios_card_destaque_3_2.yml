@@ -1,11 +1,11 @@
-uuid: 0f3f4c27-c11c-43af-a9e7-9e1cb24f3fdf
+uuid: c314f77b-4ebc-4604-8016-c9bdc0e850b7
 langcode: pt-br
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_horarios_card_destaque_3
-field_name: field_horarios_card_destaque_3
+id: paragraph.field_horarios_card_destaque_3_2
+field_name: field_horarios_card_destaque_3_2
 entity_type: paragraph
 type: string
 settings:

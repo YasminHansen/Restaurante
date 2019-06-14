@@ -11,9 +11,9 @@ id: paragraph.cards_destaque.field_atividades_card_destaque_3
 field_name: field_atividades_card_destaque_3
 entity_type: paragraph
 bundle: cards_destaque
-label: atividades_card_destaque_3
+label: 'Card 3: Link para as atividades'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

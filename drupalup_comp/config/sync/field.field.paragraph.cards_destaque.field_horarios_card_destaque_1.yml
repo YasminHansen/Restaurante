@@ -9,11 +9,13 @@ id: paragraph.cards_destaque.field_horarios_card_destaque_1
 field_name: field_horarios_card_destaque_1
 entity_type: paragraph
 bundle: cards_destaque
-label: horarios_card_destaque_1
+label: 'Card 1: Horários'
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: '7h40 às 19h'
 default_value_callback: ''
 settings: {  }
 field_type: string

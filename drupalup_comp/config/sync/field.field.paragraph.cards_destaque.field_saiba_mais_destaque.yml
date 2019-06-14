@@ -1,19 +1,19 @@
-uuid: dfa4f00d-a483-46a8-8590-7cfe5bc71c26
+uuid: 542f7598-e5fa-4412-b8d0-089a1373a46b
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_atividades_card_destaque_1
+    - field.storage.paragraph.field_saiba_mais_destaque
     - paragraphs.paragraphs_type.cards_destaque
   module:
     - link
-id: paragraph.cards_destaque.field_atividades_card_destaque_1
-field_name: field_atividades_card_destaque_1
+id: paragraph.cards_destaque.field_saiba_mais_destaque
+field_name: field_saiba_mais_destaque
 entity_type: paragraph
 bundle: cards_destaque
-label: 'Card 1: Link para as atividades'
+label: 'Saiba mais'
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''

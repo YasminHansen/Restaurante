@@ -11,9 +11,9 @@ id: paragraph.cards_destaque.field_img_card_destaque_2
 field_name: field_img_card_destaque_2
 entity_type: paragraph
 bundle: cards_destaque
-label: img_card_destaque_2
+label: 'Card 2: Imagem'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
