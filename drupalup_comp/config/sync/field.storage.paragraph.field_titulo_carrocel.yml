@@ -1,11 +1,11 @@
-uuid: e9a5af39-90a0-4de9-97ba-35c6c81a4698
+uuid: 4d6a4e29-5b11-47c8-8801-093a5e394869
 langcode: pt-br
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_titulo_bannerzao
-field_name: field_titulo_bannerzao
+id: paragraph.field_titulo_carrocel
+field_name: field_titulo_carrocel
 entity_type: paragraph
 type: string
 settings:

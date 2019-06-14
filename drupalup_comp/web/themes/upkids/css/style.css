@@ -10,8 +10,9 @@ body{
   padding:0;
   width: 100%;}
 
-p:first-letter{
-  text-transform: capitalize;}
+p:first-letter,
+h1:first-letter{
+  text-transform: capitalize !important;}
 
 .font-pacifico{
   font-family: 'Pacifico', cursive;}
@@ -304,17 +305,26 @@ margin-top: 5px;
 /*============================================================
                       Estilo dos losangos
 =============================================================*/
+.container_losangos{
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+
+}
+
 .imagem_losangos{
+  width: 100%;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  height: 250px;
+  background-position: center center !important;
+  height: auto;
 }
 
   .losango{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 100px;
     transform:rotate(-45deg);
     width: 100px;
@@ -327,18 +337,44 @@ margin-top: 5px;
       font-weight: bold;
     }
 
-    .losango h5{
-      position: absolute;
-      margin: 0 auto;
+    div .field--name-field-titulo-losang-1,
+    div .field--name-field-titulo-losang-2,
+    div .field--name-field-titulo-losang-3{
+      text-align: center;
+      margin: 35px 0;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
     }
+
+     .margem-losangos{
+      margin-top: 40px;
+     }
+
+
+@media only screen and (max-width: 576px){
+  .imagem_losangos{
+      background-position: 25% 0% !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+  .imagem_losangos{
+      background-position: 25% 0% !important;
+    }
+}
+
 
 /*============================================================
                       Estilo do Bannerzão
 =============================================================*/
-.imagem_banner_complex .item img{
-  position: relative;
-    width: 100%;
-    height: 80vh;
+.owl-carousel{
+  display: block !important;
+}
+
+.field--name-field-img-carroucel .img-responsive{
+  height: 750px !important;
 }
 
 .imagem_banner_complex{
@@ -346,19 +382,15 @@ margin-top: 5px;
 }
   .imagem_banner_complex h1{
     position: absolute;
-    top: 50%;
-    width: 100%;
-    height: auto;
-    font-size: 45px;
+    top: 30%;
+    font-size: 6em;
     color: #fff;
-    line-height: 1;
+    line-height: 125px;
+    right: 20%;
+    width: 665px;
+    text-align: right;
+    text-shadow: -5px 2px 5px rgb(84, 84, 84);
     }
-
-  .imagem_banner_complex img{
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
 
   /*==================================
         Área dos cards do banner
@@ -373,6 +405,8 @@ margin-top: 5px;
           margin: 0;
           position: relative;
           text-align: center;
+          z-index: 2;
+          height: 325px;
           }
 
         .card-bannerzao i{
@@ -386,7 +420,7 @@ margin-top: 5px;
 
           .card-bannerzao i img{
             border-radius: 50%;
-            height: 80px;
+            height: 70px;
             width: 80px;
           }
 

@@ -67,5 +67,7 @@ settings:
         weight: 9
       cards_destaque:
         enabled: true
+      carrossel:
         weight: 13
+        enabled: false
 field_type: entity_reference_revisions

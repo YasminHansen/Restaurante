@@ -1,25 +1,25 @@
-uuid: fb0d6d63-bee9-49f6-90d6-9b49dc9eede3
+uuid: 4404128f-4d10-4c6f-a7e4-a181613354a3
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_img_banner_complexo
-    - paragraphs.paragraphs_type.banner_complexo
+    - field.storage.paragraph.field_img_carroucel
+    - paragraphs.paragraphs_type.carrossel
   module:
     - image
-id: paragraph.banner_complexo.field_img_banner_complexo
-field_name: field_img_banner_complexo
+id: paragraph.carrossel.field_img_carroucel
+field_name: field_img_carroucel
 entity_type: paragraph
-bundle: banner_complexo
-label: 'Imagem para o banner complexo'
+bundle: carrossel
+label: Imagem
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   file_directory: '[date:custom:Y]-[date:custom:m]'
-  file_extensions: 'png gif jpg jpeg'
+  file_extensions: 'png jpg jpeg'
   max_filesize: '5 MB'
   max_resolution: ''
   min_resolution: ''

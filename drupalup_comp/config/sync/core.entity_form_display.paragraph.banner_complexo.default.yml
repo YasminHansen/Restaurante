@@ -4,12 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.banner_complexo.field_icone_card_banner
-    - field.field.paragraph.banner_complexo.field_img_banner_complexo
     - field.field.paragraph.banner_complexo.field_img_texto_banner
     - field.field.paragraph.banner_complexo.field_select_cor
     - field.field.paragraph.banner_complexo.field_text_banner_destaque
     - field.field.paragraph.banner_complexo.field_text_card_banner
-    - field.field.paragraph.banner_complexo.field_titulo_bannerzao
     - field.field.paragraph.banner_complexo.field_titulo_card_banner
     - field.field.paragraph.banner_complexo.field_titulo_texto_banner
     - image.style.large
@@ -25,16 +23,8 @@ content:
   field_icone_card_banner:
     weight: 4
     settings:
-      preview_image_style: img_card
-      progress_indicator: throbber
-    third_party_settings: {  }
-    type: image_image
-    region: content
-  field_img_banner_complexo:
-    weight: 0
-    settings:
-      progress_indicator: throbber
       preview_image_style: thumbnail
+      progress_indicator: throbber
     third_party_settings: {  }
     type: image_image
     region: content
@@ -67,14 +57,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
-    region: content
-  field_titulo_bannerzao:
-    weight: 1
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
     region: content
   field_titulo_card_banner:
     weight: 2
