@@ -3,8 +3,8 @@ langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.field.paragraph.carrossel.field_img_carrossel
-    - field.field.paragraph.carrossel.field_titulo_carrossel
+    - field.field.paragraph.carrossel.field_img_carroucel
+    - field.field.paragraph.carrossel.field_titulo_carrocel
     - paragraphs.paragraphs_type.carrossel
   module:
     - image
@@ -13,18 +13,18 @@ targetEntityType: paragraph
 bundle: carrossel
 mode: default
 content:
-  field_img_carrossel:
-    weight: 1
-    label: above
+  field_img_carroucel:
+    weight: 2
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
     type: image
     region: content
-  field_titulo_carrossel:
-    weight: 0
-    label: above
+  field_titulo_carrocel:
+    weight: 3
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }

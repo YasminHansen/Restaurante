@@ -43,26 +43,26 @@
   {% block content %}
     <div class="row" style="background-color:#909090;">
       <div class="col-12">
-        <div class="imagem_losangos" style="background:url({{ file_url(content.field_img_fundo_losang['#items'].entity.uri.value) }});">
-          <div class="container">
+        <div class="container_losangos imagem_losangos" style="background:url({{ file_url(content.field_img_fundo_losang['#items'].entity.uri.value) }});">
+          <div class="container margem-losangos">
 
-            <div class="col-md-4">
+            <div class="col-12 col-md-4 col-lg-4">
               <div class="losango font-pacifico" style="background-color: rgba(65,169,209,.8);">
                 <div class="titulo">{{ content.field_text_losang_1 }}</div>
               </div>
-              <h5 class="">{{ content.field_titulo_losang_1 }}</h5>
+              <h5>{{ content.field_titulo_losang_1 }}</h5>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-md-4 col-lg-4">
               <div class="losango font-pacifico" style="background-color: rgba(231,204,0,.8);">
                 <div class="titulo">{{ content.field_text_losang_2 }}</div>
               </div>
-              <h5 class="">{{ content.field_titulo_losang_2 }}</h5>
+              <h5>{{ content.field_titulo_losang_2 }}</h5>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-md-4 col-lg-4">
               <div class="losango font-pacifico" style="background-color: rgba(255,72,69,.8);">
                 <div class="titulo">{{ content.field_text_losang_3 }}</div>
               </div>
-              <h5 class="">{{ content.field_titulo_losang_3 }}</h5>
+              <h5>{{ content.field_titulo_losang_3 }}</h5>
             </div>
 
           </div>

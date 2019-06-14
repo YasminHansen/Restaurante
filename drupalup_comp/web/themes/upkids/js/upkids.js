@@ -20,26 +20,26 @@
    */
    Drupal.behaviors.upkids = {
     attach(context) {
-    $(".paragraph--type--depoimentos .view-content").owlCarousel({
-      center: true,
-      items:1,
-      loop:true,
-      autoplay:true,
-      autoplayTimeout:5000,
-      autoplayHoverPause:true
-    });
-     $('.play').on('click',function(){
-      owl.trigger('play.owl.autoplay',[1000])
-    })
-     $('.stop').on('click',function(){
-      owl.trigger('stop.owl.autoplay')
-    })
-   },
+      $(".paragraph--type--depoimentos .view-content").owlCarousel({
+        center: true,
+        items:1,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true
+      });
+      $('.play').on('click',function(){
+        owl.trigger('play.owl.autoplay',[1000])
+      })
+      $('.stop').on('click',function(){
+        owl.trigger('stop.owl.autoplay')
+      })
+    },
 
-   detach(context, settings, trigger) {
+    detach(context, settings, trigger) {
 
-   },
- };
+    },
+  };
 })(Drupal, jQuery);
 
 /* owl carousel banner home*/
@@ -47,9 +47,12 @@
 
   Drupal.behaviors.home_carousel = {
     attach(context) {
-      $('.owl-carousel').owlCarousel({
+      $('.field--name-field-carrossel').owlCarousel({
         center: true,
         items:1,
+        /*loop:true,
+        autoplay:true,
+        autoplayTimeout:5000*/
       })
 
     },

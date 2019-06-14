@@ -42,39 +42,10 @@
  {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
   {% block content %}
-    <div class="container-fluid padding-x-0">
-     <div class="row margin-x-0">
-
-      <div class="owl-carousel owl-theme imagem_banner_complex">
-        <div class="item">
-          {{ content.field_img_carrossel[0] }}
-          <div class="container">
-            <h1 class="font-pacifico">{{ content.field_titulo_carrossel[0]}}</h1>
-          </div>
-        </div>
-
-        <div class="item">
-          {{ content.field_img_carrossel[1] }}
-          <h1 class="font-pacifico">{{ content.field_titulo_carrossel[1]}}</h1>
-        </div>
-
-        <div class="item">
-          {{ content.field_img_carrossel[2] }}
-          <h1 class="font-pacifico">{{ content.field_titulo_carrossel[2]}}</h1>
-        </div>
-
-        <div class="item">
-          {{ content.field_img_carrossel[3] }}
-          <h1 class="font-pacifico">{{ content.field_titulo_carrossel[3]}}</h1>
-        </div>
-
-        <div class="item">
-          {{ content.field_img_carrossel[4] }}
-          <h1 class="font-pacifico">{{ content.field_titulo_carrossel[4]}}</h1>
-        </div>
-      </div>
+    {{ content.field_img_carroucel }}
+    <div class="container">
+      <h1 class="font-pacifico">{{ content.field_titulo_carrocel }}</h1>
     </div>
-  </div>
-{% endblock %}
+  {% endblock %}
 </div>
 {% endblock paragraph %}

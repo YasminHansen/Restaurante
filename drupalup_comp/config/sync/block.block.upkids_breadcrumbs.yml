@@ -1,6 +1,6 @@
 uuid: be679085-83f5-4f2a-a29e-21644b0d220b
 langcode: pt-br
-status: true
+status: false
 dependencies:
   module:
     - system

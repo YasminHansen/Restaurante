@@ -46,7 +46,12 @@
   <div{{ attributes.addClass(classes).addClass(bg_color) }}>
   {% block content %}
     <div class="container-fluid padding-x-0">
-      {{ content.field_carrossel.0 }}
+      <div class="row margin-x-0">
+
+        <div class="owl-carousel owl-theme imagem_banner_complex">
+          {{ content.field_carrossel }}
+        </div>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 margin-cards">
@@ -85,7 +90,6 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 box">
-
               <!--Área do destaque-->
               <div class="img-body col-lg-6">
                 {{ content.field_img_texto_banner.0 }}

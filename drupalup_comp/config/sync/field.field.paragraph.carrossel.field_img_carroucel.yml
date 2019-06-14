@@ -1,17 +1,17 @@
-uuid: fc6dbf7e-1813-46e2-a509-25f128dc7ec7
+uuid: 4404128f-4d10-4c6f-a7e4-a181613354a3
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_img_carrossel
+    - field.storage.paragraph.field_img_carroucel
     - paragraphs.paragraphs_type.carrossel
   module:
     - image
-id: paragraph.carrossel.field_img_carrossel
-field_name: field_img_carrossel
+id: paragraph.carrossel.field_img_carroucel
+field_name: field_img_carroucel
 entity_type: paragraph
 bundle: carrossel
-label: img_carrossel
+label: Imagem
 description: ''
 required: true
 translatable: false
