@@ -1,0 +1,58 @@
+uuid: c3b99c73-fbfa-479d-b6de-887a76356b79
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_carrossel
+    - paragraphs.paragraphs_type.banner_complexo
+    - paragraphs.paragraphs_type.carrossel
+  module:
+    - entity_reference_revisions
+id: paragraph.banner_complexo.field_carrossel
+field_name: field_carrossel
+entity_type: paragraph
+bundle: banner_complexo
+label: carrossel
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      carrossel: carrossel
+    target_bundles_drag_drop:
+      3_cards:
+        weight: 11
+        enabled: false
+      banner_complexo:
+        weight: 12
+        enabled: false
+      banner_simples:
+        weight: 13
+        enabled: false
+      cards_destaque:
+        weight: 14
+        enabled: false
+      carrossel:
+        enabled: true
+        weight: 15
+      depoimentos:
+        weight: 16
+        enabled: false
+      losangos:
+        weight: 17
+        enabled: false
+      texto_destaque:
+        weight: 18
+        enabled: false
+      view:
+        weight: 19
+        enabled: false
+      wysywig:
+        weight: 20
+        enabled: false
+field_type: entity_reference_revisions
