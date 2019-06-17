@@ -50,8 +50,8 @@
       $('.field--name-field-carrossel').owlCarousel({
         center: true,
         items:1,
-        /*loop:true,
-        autoplay:true,
+        loop:true,
+        /*autoplay:true,
         autoplayTimeout:5000*/
       })
 
