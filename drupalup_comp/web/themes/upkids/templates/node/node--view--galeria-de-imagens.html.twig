@@ -68,22 +68,16 @@
 
  <article{{ attributes.addClass(classes) }}>
 
-  {#{{ title_prefix }}
-  {% if label and not page %}
-  {% endif %}
-  {{ title_suffix }}}
-  {% if display_submitted %}
-  {% endif %#}
-  <div{{ content_attributes.addClass('content') }}>
-  <div class="depoimento col-12">
-    <div class="">
-      <div class="depoimento-preview">
-        <i class="fas fa-quote-right icone"></i>
-        <div class="depoimento_texto">{{ content.body['0'] }}</div>
-        <img src="{{ file_url(content.field_img_depoimento['#items'].entity.uri.value) }}">
-        <p class="font-pacifico">{{ content.field_nome }}</p>
+   <div{{ content_attributes.addClass('content') }}>
+    <div class="alturaTeste">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 img-item">
+            {{ content.field_imagem_galeria }}
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
 </article>

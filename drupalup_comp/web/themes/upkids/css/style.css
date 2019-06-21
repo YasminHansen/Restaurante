@@ -984,3 +984,17 @@ li:hover ul {
 .saiba-mais-destaque a:hover {
   background-color: #ff9934;
 }
+/*============================================================
+                  Página da galeria de imagens
+=============================================================*/
+.img-item,
+.img-item img{
+  height: 240px;
+  margin: 0 0 20px;
+}
+
+.img-item img:hover{
+  transition: .5s;
+  filter: brightness(.8);
+  cursor: pointer;
+}

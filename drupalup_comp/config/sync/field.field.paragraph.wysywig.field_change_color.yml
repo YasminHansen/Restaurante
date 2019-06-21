@@ -1,0 +1,21 @@
+uuid: 3100fb73-b5ae-47d7-a55e-4d57dff42ebc
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_change_color
+    - paragraphs.paragraphs_type.wysywig
+  module:
+    - options
+id: paragraph.wysywig.field_change_color
+field_name: field_change_color
+entity_type: paragraph
+bundle: wysywig
+label: 'Escolha uma cor'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

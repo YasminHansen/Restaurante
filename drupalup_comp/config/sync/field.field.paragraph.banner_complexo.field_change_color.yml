@@ -1,16 +1,16 @@
-uuid: ec45d860-2b4b-49bb-8eeb-5cac8ebf7191
+uuid: 481885d6-509c-4a7d-a96d-0462d5b0b126
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_campo_select_cor
-    - paragraphs.paragraphs_type.wysywig
+    - field.storage.paragraph.field_change_color
+    - paragraphs.paragraphs_type.banner_complexo
   module:
     - options
-id: paragraph.wysywig.field_campo_select_cor
-field_name: field_campo_select_cor
+id: paragraph.banner_complexo.field_change_color
+field_name: field_change_color
 entity_type: paragraph
-bundle: wysywig
+bundle: banner_complexo
 label: 'Escolha uma cor'
 description: 'Cor para o fundo desta seção.'
 required: false
