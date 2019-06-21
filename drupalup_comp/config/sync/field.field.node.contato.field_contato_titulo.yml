@@ -1,0 +1,21 @@
+uuid: 01226662-2a65-40ec-bf43-a1806644dcd4
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contato_titulo
+    - node.type.contato
+id: node.contato.field_contato_titulo
+field_name: field_contato_titulo
+entity_type: node
+bundle: contato
+label: Título
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Venha nos conhecer'
+default_value_callback: ''
+settings: {  }
+field_type: string

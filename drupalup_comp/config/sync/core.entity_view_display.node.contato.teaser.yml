@@ -1,0 +1,23 @@
+uuid: ed6b4bfb-1f32-4fe8-b665-c9e0522e698b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.contato.field_contato
+    - node.type.contato
+  module:
+    - user
+id: node.contato.teaser
+targetEntityType: node
+bundle: contato
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_contato: true
+  langcode: true

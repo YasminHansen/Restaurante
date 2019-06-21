@@ -65,28 +65,16 @@
  *   in different view modes.
  */
  #}
-{#  {%
- set classes = [
- node.bundle|clean_class,
- node.isPromoted() ? 'is-promoted',
- node.isSticky() ? 'is-sticky',
- not node.isPublished() ? 'is-unpublished',
- view_mode ? view_mode|clean_class,
- 'clearfix',
- ]
- %} #}
  <article{{ attributes.addClass(classes) }}>
- <div class="campo-depoimento container-fluid">
-   <div class="container">
-    <div class="row ">
-        <img class="img-depoimento col-md-4 col-lg-4" src="{{ file_url(content.field_img_depoimento['#items'].entity.uri.value) }} ">
-      <div class="depoimento-info col-md-8 col-lg-8">
-        <i class="fas fa-quote-right icone-depoimento"></i>
-        <p class="texto-depoimento">{{ content.body['0'] }}</p>
-        <p class="nome-depoimento">{{ content.field_nome }}</p>
-      </div>
-
-    </div>
+ <div class="contato-full">
+  <div class="container">
+    <div class="row">
+{#       <div class="col-lg-6"> #}
+        {{ content }}
+{#       </div>
+      <div class="col-lg-6"></div>
+    </div> #}
   </div>
 </div>
+
 </article>

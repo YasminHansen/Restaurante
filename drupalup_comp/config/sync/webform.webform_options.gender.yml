@@ -1,4 +1,4 @@
-uuid: 4d9049b1-cdc4-41c6-ada9-1079449078bf
+uuid: ccfe1d11-93d4-4ed3-988c-3e9241f4b326
 langcode: pt-br
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: K8qTfK5-87DpwTQBkqhgTMR4P0Zz8Z9aNI7OnMlTb0Q
 id: gender
-label: Gênero
+label: Gender
 category: Demographic
 likert: false
 options: "Male: Male\nFemale: Female\n"

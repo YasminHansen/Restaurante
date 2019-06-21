@@ -1,0 +1,32 @@
+uuid: 279c3cb3-a1cf-460a-a912-cfd845714fef
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contato
+    - node.type.contato
+    - webform.webform.contato
+  module:
+    - webform
+id: node.contato.field_contato
+field_name: field_contato
+entity_type: node
+bundle: contato
+label: Contato
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: 1fe1c97a-a849-4bf4-bb97-a63b73850718
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

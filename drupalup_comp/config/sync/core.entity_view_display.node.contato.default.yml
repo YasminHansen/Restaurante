@@ -1,0 +1,48 @@
+uuid: 54b4ea68-aa90-4e87-9c70-7e0c6f8cb421
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.contato.field_contato
+    - field.field.node.contato.field_contato_texto
+    - field.field.node.contato.field_contato_titulo
+    - node.type.contato
+  module:
+    - user
+    - webform
+id: node.contato.default
+targetEntityType: node
+bundle: contato
+mode: default
+content:
+  field_contato:
+    weight: 2
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+  field_contato_texto:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_contato_titulo:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

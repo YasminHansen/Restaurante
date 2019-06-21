@@ -1,4 +1,4 @@
-uuid: 83ec64b9-da77-4d72-8499-652e4124cc2a
+uuid: f37af82a-1a03-41b2-9669-4aad7d9eee21
 langcode: pt-br
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: _7B5YYODi_--G_tOWLcRmuuWsNsOFtDfntkEuwJWQq0
 id: webform_submissions
-label: 'Submissões do webform'
+label: 'Webform submissions'
 module: views
 description: 'Default webform submissions views.'
 tag: ''
@@ -178,7 +178,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: nº
+          label: '#'
           exclude: false
           alter:
             alter_text: false
@@ -586,7 +586,7 @@ display:
       filter_groups:
         operator: AND
         groups: {  }
-      title: 'Submissões do webform'
+      title: 'Webform submissions'
     cache_metadata:
       max-age: -1
       contexts:
@@ -776,7 +776,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: nº
+          label: '#'
           exclude: false
           alter:
             alter_text: false
@@ -1581,7 +1581,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: nº
+          label: '#'
           exclude: false
           alter:
             alter_text: false
@@ -2409,7 +2409,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: nº
+          label: '#'
           exclude: false
           alter:
             alter_text: false

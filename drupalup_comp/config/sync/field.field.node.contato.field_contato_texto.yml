@@ -1,0 +1,19 @@
+uuid: cc7f15d6-67f5-44a1-8f7f-607316b37c99
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contato_texto
+    - node.type.contato
+id: node.contato.field_contato_texto
+field_name: field_contato_texto
+entity_type: node
+bundle: contato
+label: Texto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -65,7 +65,7 @@
  *   in different view modes.
  */
  #}
- {%
+{#  {%
  set classes = [
  node.bundle|clean_class,
  node.isPromoted() ? 'is-promoted',
@@ -74,7 +74,7 @@
  view_mode ? view_mode|clean_class,
  'clearfix',
  ]
- %}
+ %} #}
  <article{{ attributes.addClass(classes) }}>
  <div class="campo-depoimento container-fluid">
    <div class="container">

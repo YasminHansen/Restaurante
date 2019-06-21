@@ -1,0 +1,73 @@
+uuid: 58593128-601f-4d10-8fff-1746d1ec5ac9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.contato.field_contato
+    - field.field.node.contato.field_contato_texto
+    - field.field.node.contato.field_contato_titulo
+    - node.type.contato
+  module:
+    - path
+    - webform
+id: node.contato.default
+targetEntityType: node
+bundle: contato
+mode: default
+content:
+  field_contato:
+    weight: 6
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+  field_contato_texto:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_contato_titulo:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  promote: true
+  uid: true

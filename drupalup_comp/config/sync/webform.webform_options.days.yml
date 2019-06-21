@@ -1,4 +1,4 @@
-uuid: 8a51d7c1-2e27-4d17-8e71-7384162fb165
+uuid: 29cbbd52-9cd0-4049-ba38-cc21794d87dc
 langcode: pt-br
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: YNrKbYrWWjeubUUM8AsQ19KnX7cU1elACR14CZJHmdg
 id: days
-label: Dias
+label: Days
 category: 'Date and time'
 likert: false
 options: "Sunday: Sunday\nMonday: Monday\nTuesday: Tuesday\nWednesday: Wednesday\nThursday: Thursday\nFriday: Friday\nSaturday: Saturday\n"

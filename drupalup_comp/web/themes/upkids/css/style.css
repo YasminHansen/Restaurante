@@ -846,25 +846,25 @@ li:hover ul {
 /*============================================================
                   Contato
 =============================================================*/
-.contato{
+.contato-preview{
   background-color: #3c6749;
   padding: 65px 0;
 }
-.contato .titulo{
+.contato-preview .titulo{
   margin-top: 0;
   color: #F1C22E;
   text-shadow: 0.3px 1px 1px black;
 }
-.contato .texto{
+.contato-preview .texto{
   color: #fff;
   text-shadow: 0.3px 1px 1px black;
 }
-.contato .botao-contato{
+.contato-preview .botao-contato{
   color: #fff;
   margin-top: -40px;
   float: right;
 }
-.contato .botao-contato a{
+.contato-preview .botao-contato a{
   border-radius: 25px;
   text-decoration: none;
   text-transform: uppercase;
@@ -873,7 +873,26 @@ li:hover ul {
   background-color: #d272f8;
   padding: 15px 45px;/
 }
-.contato .botao-contato a:hover{
+.contato-preview .botao-contato a:hover{
   background-color: #ff9934;
+  transition-duration: 250ms;
+}
+/*===================================
+       Contato Página
+=====================================*/
+.contato-full{
+  background-color: pink;
+  padding: 40px 0;
+}
+.contato-full .botao-contato{
+  background-color: #d272f8;
+  border-color: #0000;
+  border-radius: 25px;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  transition-duration: 250ms;
+}
+.contato-full .botao-contato:hover{
+    background-color: #ff9934;
   transition-duration: 250ms;
 }

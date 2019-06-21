@@ -1,4 +1,4 @@
-uuid: 8f890640-43ee-4ec9-8ab8-828e255dfb76
+uuid: 9b3767de-cb3a-453d-b6ba-de92c6a24d49
 langcode: pt-br
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: PEUoedWrfYEX7oZ8CcOukfBTVxar1cPSROX8534esuU
 id: titles
-label: Títulos
+label: Titles
 category: Demographic
 likert: false
 options: "Miss: Miss\nMs: Ms\nMr: Mr\nMrs: Mrs\nDr: Dr\n"
