@@ -1,7 +1,6 @@
 upkids:
   js:
     js/upkids.js: {}
-    js/dropdown.js: {}
   css:
     theme:
       css/style.css: {}

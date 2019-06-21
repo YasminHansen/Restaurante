@@ -9,5 +9,5 @@ label: 'Formulário de contato pessoal'
 recipients: {  }
 reply: ''
 weight: 0
-message: 'Sua mensagem foi enviada.'
+message: 'Your message has been sent.'
 redirect: ''

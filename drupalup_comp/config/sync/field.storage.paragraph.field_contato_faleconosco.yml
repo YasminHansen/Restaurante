@@ -1,0 +1,21 @@
+uuid: 77365db6-c7dd-4725-ac60-7dd2609ee9fb
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_contato_faleconosco
+field_name: field_contato_faleconosco
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

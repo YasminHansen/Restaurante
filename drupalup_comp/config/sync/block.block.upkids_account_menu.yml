@@ -1,6 +1,6 @@
 uuid: c2281630-7962-483b-be27-58d406017a32
 langcode: pt-br
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account

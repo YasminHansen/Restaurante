@@ -1,0 +1,45 @@
+uuid: 8e4d64d2-7eba-4a80-8543-fb5a86f54f75
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.contato.field_contato_botao
+    - field.field.paragraph.contato.field_contato_faleconosco
+    - field.field.paragraph.contato.field_contato_texto
+    - paragraphs.paragraphs_type.contato
+  module:
+    - link
+id: paragraph.contato.default
+targetEntityType: paragraph
+bundle: contato
+mode: default
+content:
+  field_contato_botao:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_contato_faleconosco:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_contato_texto:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

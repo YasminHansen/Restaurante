@@ -1,0 +1,9 @@
+uuid: 260cadf5-8268-4d11-a35c-0d86fc2eddc3
+langcode: pt-br
+status: true
+dependencies: {  }
+id: contato
+label: Contato
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

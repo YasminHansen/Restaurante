@@ -1,0 +1,23 @@
+uuid: 956c234a-0323-4b5e-817e-4fa36777e3e5
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_contato_botao
+    - paragraphs.paragraphs_type.contato
+  module:
+    - link
+id: paragraph.contato.field_contato_botao
+field_name: field_contato_botao
+entity_type: paragraph
+bundle: contato
+label: Botão
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

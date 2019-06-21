@@ -821,11 +821,11 @@ li:hover ul {
 .atividades-destaque a{
   text-decoration: none;
   color: #fff;
-  transition-duration: 70ms;
+  transition-duration: 250ms;
 }
 .atividades-destaque a:hover{
-  font-size: 17px;
-  transition-duration: 70ms;
+  color: #000;
+  transition-duration: 250ms;
 }
 .saiba-mais-destaque{
   text-align: center;
@@ -837,7 +837,43 @@ li:hover ul {
   text-decoration: none;
   color: #fff;
   border-radius: 25px;
+  transition-duration: 250ms;
 }
 .saiba-mais-destaque a:hover {
   background-color: #ff9934;
+  transition-duration: 250ms;
+}
+/*============================================================
+                  Contato
+=============================================================*/
+.contato{
+  background-color: #3c6749;
+  padding: 65px 0;
+}
+.contato .titulo{
+  margin-top: 0;
+  color: #F1C22E;
+  text-shadow: 0.3px 1px 1px black;
+}
+.contato .texto{
+  color: #fff;
+  text-shadow: 0.3px 1px 1px black;
+}
+.contato .botao-contato{
+  color: #fff;
+  margin-top: -40px;
+  float: right;
+}
+.contato .botao-contato a{
+  border-radius: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-duration: 250ms;
+  color: #fff;
+  background-color: #d272f8;
+  padding: 15px 45px;/
+}
+.contato .botao-contato a:hover{
+  background-color: #ff9934;
+  transition-duration: 250ms;
 }

@@ -84,8 +84,9 @@
         </div>
 
         {# Navigation (collapsible) #}
-        {% if page.navigation_collapsible %}
-          <div id="navbar-collapse" class="navbar-collapse collapse">
+         {% if page.navigation_collapsible %}
+          {# <div id="navbar-collapse" class="navbar-collapse collapse"> #}
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             {{ page.navigation_collapsible }}
           </div>
         {% endif %}

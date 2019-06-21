@@ -41,8 +41,9 @@
                {# Must use link() here so it triggers hook_link_alter(). #}
                {{ link(link_title, item.url, link_attributes.addClass(item.in_active_trail ? 'active-trail')) }}
                {% if item.below %}
-                 {{ _self.menu_links(item.below, attributes.removeClass(classes), menu_level + 1, classes, dropdown_classes) }}
+                {{ _self.menu_links(item.below, attributes.removeClass(classes), menu_level + 1, classes, dropdown_classes) }}
                {% endif %}
+
              </div>
            </li>
 

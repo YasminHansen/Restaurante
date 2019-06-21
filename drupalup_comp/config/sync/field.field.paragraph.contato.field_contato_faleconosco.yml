@@ -1,0 +1,19 @@
+uuid: f8952f4d-0c8d-4ed7-a357-fe89d63c282c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_contato_faleconosco
+    - paragraphs.paragraphs_type.contato
+id: paragraph.contato.field_contato_faleconosco
+field_name: field_contato_faleconosco
+entity_type: paragraph
+bundle: contato
+label: Título
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
