@@ -9,37 +9,20 @@
             "role": ""
         }
     ],
-    "repositories": {
-        "0": {
+    "repositories": [
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    },
+    ],
     "require": {
-        "algolia/places": "1.16.1",
-        "ckeditor/autogrow": "4.11.3",
-        "ckeditor/codemirror": "v1.17.7",
-        "ckeditor/fakeobjects": "4.11.3",
-        "ckeditor/image": "4.11.3",
-        "ckeditor/link": "4.11.3",
-        "codemirror/codemirror": "5.44.0",
+        "php": ">=5.6",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
-        "drupal/token": "^1.5",
-        "drupal/webform": "^5.2",
         "drush/drush": "^9.0.0",
-        "jquery/inputmask": "4.0.6",
-        "jquery/intl-tel-input": "15.0.1",
-        "jquery/rateit": "1.1.1",
-        "jquery/select2": "4.0.5",
-        "jquery/textcounter": "0.8.0",
-        "jquery/timepicker": "1.11.14",
-        "php": ">=5.6",
-        "progress-tracker/progress-tracker": "1.4.0",
-        "signature_pad/signature_pad": "2.3.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
@@ -60,9 +43,7 @@
         "classmap": [
             "scripts/composer/ScriptHandler.php"
         ],
-        "files": [
-            "load.environment.php"
-        ]
+        "files": ["load.environment.php"]
     },
     "scripts": {
         "pre-install-cmd": [
@@ -84,24 +65,12 @@
             "drupal/core": "-p2"
         },
         "installer-paths": {
-            "web/core": [
-                "type:drupal-core"
-            ],
-            "web/libraries/{$name}": [
-                "type:drupal-library"
-            ],
-            "web/modules/contrib/{$name}": [
-                "type:drupal-module"
-            ],
-            "web/profiles/contrib/{$name}": [
-                "type:drupal-profile"
-            ],
-            "web/themes/contrib/{$name}": [
-                "type:drupal-theme"
-            ],
-            "drush/Commands/{$name}": [
-                "type:drupal-drush"
-            ]
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/{$name}": ["type:drupal-drush"]
         },
         "drupal-scaffold": {
             "initial": {

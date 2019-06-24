@@ -26,10 +26,9 @@ content:
   field_contato_texto:
     weight: 1
     label: hidden
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
-    type: string
+    type: basic_string
     region: content
   field_contato_titulo:
     weight: 0

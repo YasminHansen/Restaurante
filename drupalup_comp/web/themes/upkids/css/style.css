@@ -157,11 +157,6 @@ h1:first-letter{
   padding-left: 200px;
   color: #666960;
 }
-/*.field--name-field-nome{
-  position: absolute;
-  left: 50%;
-  color: #fd4d3e;
-}*/
 .paragraph--type--depoimentos .view-content .owl-item {
   float: left;
 }
@@ -881,8 +876,20 @@ li:hover ul {
        Contato Página
 =====================================*/
 .contato-full{
-  background-color: pink;
-  padding: 40px 0;
+  background: url("../images/fundo-verde.jpg");
+  padding: 40px 10px;
+}
+.contato-titulo{
+  color: #F1C22E;
+}
+.contato-texto{
+  color: #fff;
+  padding: 5px 0 15px 0;
+}
+.contato-titulo,
+.contato-texto{
+  text-shadow: 0.3px 1px 1px black;
+  text-align: center;
 }
 .contato-full .botao-contato{
   background-color: #d272f8;
@@ -893,6 +900,31 @@ li:hover ul {
   transition-duration: 250ms;
 }
 .contato-full .botao-contato:hover{
-    background-color: #ff9934;
+  background-color: #ff9934;
   transition-duration: 250ms;
+}
+.contato-largura{
+  width: 100% !important;
+}
+@media (min-width: 768px){
+  .contato-full{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .contato-titulo,
+  .contato-texto{
+    text-align: left;
+  }
+}
+@media (min-width: 991px){
+  .form-control{
+    width: 49% !important;
+  }
+  .contato-campo-direito{
+    float: right;
+    margin-top: -49px;
+  }
+  .contato-mensagem{
+    width: 100% !important;
+  }
 }

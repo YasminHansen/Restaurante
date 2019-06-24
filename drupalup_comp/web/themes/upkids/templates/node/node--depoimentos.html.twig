@@ -68,13 +68,13 @@
 
  <article{{ attributes.addClass(classes) }}>
 
-  {#{{ title_prefix }}
+  {{ title_prefix }}
   {% if label and not page %}
   {% endif %}
-  {{ title_suffix }}#}
-{#   {% if display_submitted %}
+  {{ title_suffix }}
+   {% if display_submitted %}
   {% endif %}
-  <div{{ content_attributes.addClass('content') }}> #}
+  <div{{ content_attributes.addClass('content') }}>
   <div class="owl-carousel owl-theme">
     <div class="depoimento col-12">
       <div class="depoimento-preview">

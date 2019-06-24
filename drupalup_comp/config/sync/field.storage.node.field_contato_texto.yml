@@ -1,4 +1,4 @@
-uuid: b9241862-dbb3-458a-884c-ac0364a6b6b9
+uuid: e2b8bbaf-476f-4231-8a21-6dcc29314db1
 langcode: pt-br
 status: true
 dependencies:
@@ -7,10 +7,8 @@ dependencies:
 id: node.field_contato_texto
 field_name: field_contato_texto
 entity_type: node
-type: string
+type: string_long
 settings:
-  max_length: 255
-  is_ascii: false
   case_sensitive: false
 module: core
 locked: false

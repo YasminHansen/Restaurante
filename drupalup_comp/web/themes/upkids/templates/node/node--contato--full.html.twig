@@ -69,12 +69,10 @@
  <div class="contato-full">
   <div class="container">
     <div class="row">
-{#       <div class="col-lg-6"> #}
-        {{ content }}
-{#       </div>
-      <div class="col-lg-6"></div>
-    </div> #}
+      <h3 class="contato-titulo font-pacifico">{{ content.field_contato_titulo }}</h3>
+      <div class="contato-texto">{{ content.field_contato_texto}}</div>
+      {{ content.field_contato }}
+    </div>
   </div>
-</div>
 
 </article>

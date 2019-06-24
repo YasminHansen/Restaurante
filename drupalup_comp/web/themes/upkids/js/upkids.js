@@ -23,10 +23,10 @@
       $(".paragraph--type--depoimentos .view-content").owlCarousel({
         center: true,
         items:1,
-        // loop:true,
-        // autoplay:true,
-        // autoplayTimeout:5000,
-        // autoplayHoverPause:true
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true
       });
       // $('.play').on('click',function(){
       //   owl.trigger('play.owl.autoplay',[1000])

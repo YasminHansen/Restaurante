@@ -1,4 +1,4 @@
-uuid: cc7f15d6-67f5-44a1-8f7f-607316b37c99
+uuid: 26bd7e07-9444-4cdf-9de7-b1282793ec79
 langcode: pt-br
 status: true
 dependencies:
@@ -16,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: string_long
