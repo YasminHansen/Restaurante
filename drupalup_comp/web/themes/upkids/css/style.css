@@ -8,14 +8,17 @@ body{
   font-size: 16px;
   margin: 0;
   padding:0;
-  width: 100%;}
+  width: 100%;
+}
 
 p:first-letter,
 h1:first-letter{
-  text-transform: capitalize !important;}
+  text-transform: capitalize !important;
+}
 
 .font-pacifico{
-  font-family: 'Pacifico', cursive;}
+  font-family: 'Pacifico', cursive;
+}
 
 .paragraph-green-gb{
     background-color: #316F49;
@@ -23,7 +26,8 @@ h1:first-letter{
   }
 
 .text-green{
-  color: #307436;}
+  color: #307436;
+}
 
 .bg-standard{
   background-size: cover !important;
@@ -34,17 +38,20 @@ h1:first-letter{
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+
 .margin-y-0{
-  margin-top: 0 !important;
   margin-bottom: 0 !important;
+  margin-top: 0 !important;
 }
+
 .padding-x-0{
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
 .padding-y-0{
-  padding-top: 0 !important;
   padding-bottom: 0 !important;
+  padding-top: 0 !important;
 }
 
 /*============================================================
@@ -57,13 +64,13 @@ h1:first-letter{
   }
 
     .title-highlight{
-      margin-bottom: 0;
       color: #fff;
       font-size: 60px;
       /*font-weight: bold;*/
-      text-shadow: 2px 2px 3px black;
+      margin-bottom: 0;
       padding: 50px;
       text-align: center;
+      text-shadow: 2px 2px 3px black;
     }
 
 /*============================================================
@@ -74,19 +81,21 @@ h1:first-letter{
     color: #fff;
     font-weight: bold;
     margin:auto;
-    width: 228px;
     text-shadow: 2px 2px 3px black;
+    width: 228px;
   }
 
   .card p{
     font-size: 13px;
     margin-bottom: 17px;
-    width: 80%;}
+    width: 80%;
+  }
 
   .card img{
     display: flex;
     justify-content: center;
-    margin: 20px auto;}
+    margin: 20px auto;
+  }
 
 /*============================================================
                       Estilo do wysiwyg
@@ -102,8 +111,8 @@ h1:first-letter{
 }
 
 .field--name-field-texto-wysiwyg img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 .wysiwyg {
@@ -121,53 +130,61 @@ h1:first-letter{
 =============================================================*/
 .depoimento{
   text-align: center;
-/*  color: #f94c45;*/
 }
+
 .depoimento_topo{
-  padding-top: 100px;
   color: #1C6F18;
   font-size: 20px;
+  padding-top: 100px;
 }
+
 .depoimento_titulo{
   color: #DC7D00;
   font-size: 37px;
-/*  padding-bottom: 30px;*/
 }
+
 .depoimento a:hover{
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
 }
+
 .icone{
   color: #d272f8;
   font-size: 2em;
-  margin-top: 60px;
   margin-bottom: 50px;
+  margin-top: 60px;
 }
+
 .depoimento img{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
   border: 3px solid #f0c63c;
+  border-radius: 50%;
+  height: 100px;
   margin-top: 20px;
   margin-bottom: 10px;
+  width: 100px;
 }
+
 .depoimento_texto{
-  font-style: italic;
-  padding-right: 200px;
-  padding-left: 200px;
   color: #666960;
+  font-style: italic;
+  padding-left: 200px;
+  padding-right: 200px;
 }
+
 .paragraph--type--depoimentos .view-content .owl-item {
   float: left;
 }
+
 .owl-item:nth-child(odd) .depoimento img{
   border-color: #d272f8;
 }
+
 @media (max-width: 768px){
   .depoimento_texto{
     font-style: italic;
+    padding-left: 10px;
     padding-right: 10px;
-    padding-left: 10px;}
+  }
 }
 
 /*================================================
@@ -176,70 +193,86 @@ h1:first-letter{
 .depoimento-topo-d{
   padding-top: 10px;
 }
+
 .depoimento-titulo-d{
   padding-bottom: 20px;
 }
+
 .campo-depoimento{
-  padding-top: 30px;
+  background-color: #dc7b29;
   padding-bottom: 30px;
+  padding-top: 30px;
   text-align: center;
-    background-color: #dc7b29;
 }
+
 .img-depoimento{
   max-width: 315px;
   padding-bottom: 25px;
 }
+
 .icone-depoimento{
   color: #f7b816;
   font-size: 2em;
   margin-bottom: 20px;
 }
+
 .depoimento-info {
-  text-align: center;
   color: #fff;
+  text-align: center;
   text-shadow: 0.3px 1px 1px black;
 }
+
 .views-row:nth-child(odd) .campo-depoimento {
   background-color: #dc7b29;
 }
+
 .views-row:nth-child(even) .campo-depoimento {
   background: url("../images/fundo-verde.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .views-row:nth-child(even) .field--name-field-nome{
   color: #dc7b29;
 }
+
 @media(min-width: 768px){
   .img-depoimento{
     max-width: 250px;
     float: left;
   }
+
   .depoimento-info{
+    float: right;
     max-width: 500px;
     text-align: left;
-    float: right;
   }
+
   .views-row:nth-child(odd) .campo-depoimento img:nth-child(odd){
     float: right;
   }
+
   .views-row:nth-child(odd) .depoimento-info{
     float: left;
     text-align: right;
   }
 }
+
 @media(min-width: 991px){
   .img-depoimento{
     max-width: 350px;
   }
+
   .depoimento-info{
-    text-align: left;
     float: right;
     max-width: none;
+    text-align: left;
   }
+
   .views-row:nth-child(odd) .campo-depoimento img:nth-child(odd){
     float: right;
   }
+
   .views-row:nth-child(odd) .depoimento-info{
     float: left;
     text-align: right;
@@ -256,8 +289,8 @@ h1:first-letter{
 }
 
 .motivo-destaque{
-  text-transform: uppercase;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .titulo-destaque{
@@ -271,14 +304,14 @@ h1:first-letter{
 }
 
 .imagem-destaque{
-  position: absolute;
   bottom: 0;
+  position: absolute;
   right: 0px;
 }
 
 .lista .itens {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .itens svg{
@@ -290,57 +323,57 @@ h1:first-letter{
 }
 
 .itens p{
-width: 100%;
-margin-left: 10px;
-padding-top: 8px;
-font-size: 15px;
-margin-top: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding-top: 8px;
+  width: 100%;
 }
 
 /*============================================================
                       Estilo dos losangos
 =============================================================*/
 .container_losangos{
-  min-height: 450px;
-  display: flex;
   align-items: center;
-
+  display: flex;
+  min-height: 450px;
 }
 
 .imagem_losangos{
-  width: 100%;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center center !important;
   height: auto;
+  width: 100%;
 }
 
   .losango{
-    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    height: 100px;
+    margin: 0 auto;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 5px;
-    height: 100px;
     transform:rotate(-45deg);
+    text-align: center;
     width: 100px;
-    color: #fff;
-    margin: 0 auto;}
+  }
 
     .losango .titulo{
-      transform:rotate(45deg);
       font-size:  2.857em;
       font-weight: bold;
+      transform:rotate(45deg);
     }
 
     div .field--name-field-titulo-losang-1,
     div .field--name-field-titulo-losang-2,
     div .field--name-field-titulo-losang-3{
-      text-align: center;
-      margin: 35px 0;
       color: #fff;
       font-family: 'Poppins', sans-serif;
       font-weight: 700;
       font-size: 18px;
+      margin: 35px 0;
+      text-align: center;
     }
 
      .margem-losangos{
@@ -368,55 +401,60 @@ margin-top: 5px;
   display: block !important;
 }
 
-.field--name-field-img-carroucel .img-responsive{
-  height: 750px !important;
+.field--name-field-img-carroucel .img-responsive,
+.field--name-field-img-carroucel a.img-responsive
+{
+  height: 450px !important;
+  /*height: 600px !important; para tela grande*/
+  width: 100%;
 }
 
 .imagem_banner_complex{
   cursor: pointer;
 }
+
   .imagem_banner_complex h1{
-    position: absolute;
-    top: 30%;
-    font-size: 6em;
     color: #fff;
-    line-height: 125px;
-    right: 20%;
-    width: 665px;
+    font-size: 3em;
+    line-height: 70px; /*125px; tela grande*/
+    position: absolute;
+    right: 20px;
     text-align: right;
     text-shadow: -5px 2px 5px rgb(84, 84, 84);
-    }
+    top: 25%;
+    width: 340px;
+  }
 
   /*==================================
         Área dos cards do banner
   ====================================*/
-        .margin-cards{
-          /*Margem base para mobile - não remover*/
+        .margin-cards{/*Margem base para mobile - não remover*/
           margin: 80px 0;
         }
 
         .card-bannerzao{
-          padding: 0 20px 25px 20px;
+          height: 325px;
           margin: 0;
+          padding: 0 20px 25px 20px;
           position: relative;
           text-align: center;
           z-index: 2;
-          height: 325px;
-          }
+        }
 
         .card-bannerzao i{
-          position: relative;
-          top: -30px;
           border-radius: 50%;
           height: 80px;
-          width: 80px;
           left: calc(50% - 40px);
-          }
+          position: relative;
+          top: -30px;
+          width: 80px;
+        }
 
           .card-bannerzao i img{
             border-radius: 50%;
-            height: 70px;
+            height: 60px;
             width: 80px;
+            padding: 11px 10px 2px 10px;
           }
 
         .card-bannerzao h2{
@@ -430,10 +468,11 @@ margin-top: 5px;
         }
 
         .card-bannerzao a{
-          margin-bottom: 15px;
           border-radius: 25px;
+          color: #fff;
+          margin-bottom: 15px;
           padding: 7px 30px;
-          color: #fff;}
+        }
 
         .card-bannerzao:hover{
           transform: translateY(-8px);
@@ -443,6 +482,7 @@ margin-top: 5px;
       .card1 img{
           background-color: #FD4D40;
         }
+
         .card1 .btn{
           background-color: #F1C22E;
         }
@@ -451,6 +491,7 @@ margin-top: 5px;
       .card2 img {
           background-color: #F1C22E;
         }
+
         .card2 .btn{
           background-color: #16C3B0;
         }
@@ -459,6 +500,7 @@ margin-top: 5px;
       .card3 img{
           background-color: #16C3B0;
         }
+
         .card3 .btn{
           background-color: #FD4D40;
         }
@@ -481,12 +523,12 @@ margin-top: 5px;
     }
 
     .box .body button{
-      border-radius: 25px;
-      position: relative;
-      padding: 13px 40px;
-      top: 25px;
-      color: #fff;
       background-color: #E800FD;
+      border-radius: 25px;
+      color: #fff;
+      padding: 13px 40px;
+      position: relative;
+      top: 25px;
     }
 
     .box .body button:hover{
@@ -497,17 +539,69 @@ margin-top: 5px;
 /*==================================
         Área dos breakpoints
   ====================================*/
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 576px) {
   .imagem_banner_complex h1{
-    width: auto;
-    text-align: right;
-    left: 375px;
-    top: 100px;
-}
-  .margin-cards{
-    margin: -130px 0 80px !important;
+    font-size: 4em;
+    line-height: 85px; /*125px; tela grande*/
+    right: 20px;
+    width: 440px;
   }
 }
+@media only screen and (min-width: 992px) {
+  .imagem_banner_complex h1{
+    left: 375px;
+    text-align: right;
+    top: 100px;
+    width: auto;
+  }
+
+  .margin-cards{
+    margin: -145px 0 80px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .field--name-field-img-carroucel .img-responsive,
+  .field--name-field-img-carroucel a.img-responsive{
+    height: 600px !important;
+  }
+
+  .imagem_banner_complex h1{
+    color: #fff;
+    font-size: 6em;
+    left: 520px;
+    line-height: 125px;
+    position: absolute;
+    text-align: right;
+    text-shadow: -5px 2px 5px rgb(84, 84, 84);
+    width: 665px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .imagem_banner_complex h1{
+    left:658px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .imagem_banner_complex h1{
+    left:755px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .imagem_banner_complex h1{
+    left:814px;
+  }
+}
+/*==================================
+        Área do Modal do Carrossel
+====================================*/
+
+
+
+
 /*============================================================
                       Estilo Menu Topo
 =============================================================*/
@@ -518,20 +612,23 @@ margin-top: 5px;
 .navbar{
   background-color: #fff;
 }
+
 .menu{
+  font-size: 14px;
   float: right;
   padding-top: 16px;
-  font-size: 14px;
 }
+
 .menu-botoes{
   border-radius: 25px;
+  font-weight: bold;
   padding: 12px 0px;
   text-transform: uppercase;
-  font-weight: bold;
 }
+
 .menu-botoes a{
-  padding: 12px 30px;
   color: grey;
+  padding: 12px 30px;
   text-decoration: none;
 }
 
@@ -539,12 +636,15 @@ margin-top: 5px;
 .dropdown-menu li:hover .menu-botoes{
   background-color: #d272f8;
 }
+
 .menu-botoes a:hover{
   color: #fff;
 }
+
 .menu-botoes:hover a.dropdown-toggle{
   color: #fff;
 }
+
 li:hover ul {
   display: block;
 }
@@ -554,17 +654,20 @@ li:hover ul {
 .dropdown-menu li:hover .menu-botoes a{
   color: #fff;
 }
+
 .dropdown-menu{
   background-color: #fff;
-  width: max-content;
   padding: 0;
+  width: max-content;
 }
+
 .dropdown-menu li .menu-botoes{
   border-radius: 0;
   background-color: #fff;;
   color: #d1e7e7;
   padding: 10px;
 }
+
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
@@ -576,24 +679,28 @@ li:hover ul {
                       Estilo Footer
 =============================================================*/
 .footer{
-  padding: 0 !important;
   margin-top: -1px !important;
+  padding: 0 !important;
 }
 
 .footer-region{
   background: url("../images/bg.jpg");
+  background-position: center;
+  min-height: 475px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-position: center;
 }
+
 .footer.container-fluid{
-  padding-right: 0;
   padding-left: 0;
+  padding-right: 0;
 }
+
 .footer-blocos{
-  padding-top: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
+
 .grid-teste{
   display: grid;
  }
@@ -604,16 +711,19 @@ li:hover ul {
     margin-left: 15px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991px){
   .grid-teste{
     grid-template-columns: repeat( auto-fit, minmax(360px, 2fr) );
     margin-left: 15px;
   }
 }
+
 @media (min-width: 991px){
   .grid-teste{
     grid-template-columns: repeat( auto-fit, minmax(200px, 4fr) );
   }
+
   .footer-blocos{
     margin-right: 15px;
   }
@@ -624,24 +734,29 @@ li:hover ul {
 .menu-footer{
   padding-top: 20px;
 }
+
 .menu-footer .font-pacifico{
-  font-size: 25px;
   color: #F1C22E;
+  font-size: 25px;
   text-shadow: 0.3px 1px 1px black;
 }
+
 .menu-footer a{
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
   text-shadow: 0.3px 1px 1px black;
 }
+
 .menu-footer ul{
   padding-left: 0;
 }
+
 .menu-footer li{
   list-style: none;
   padding-top: 15px; /**/
   padding-bottom: 15px; /**/
 }
+
 .menu-footer a:hover{
   color: #FD4D40;
   text-decoration: none;
@@ -656,10 +771,11 @@ li:hover ul {
        Estilo Contato Footer
 =====================================*/
 .contactinfo-menu .font-pacifico{
-  font-size: 25px;
   color: #F1C22E;
+  font-size: 25px;
   text-shadow: 0.3px 1px 1px black;
 }
+
 .contactinfo-menu ul{
   padding-left: 0;
 }
@@ -668,12 +784,13 @@ li:hover ul {
   color: #F1C22E;
   margin-right: 10px;
 }
+
 .contactinfo-menu li{
   color: #fff;
-  text-shadow: 0.3px 1px 1px black;
   list-style: none;
   padding-top: 15px;
   padding-bottom: 15px;
+  text-shadow: 0.3px 1px 1px black;
 }
 /*===================================
        Estilo Logo Footer
@@ -686,49 +803,59 @@ li:hover ul {
        Estilo Redes Sociais Footer
 =====================================*/
 .paginas-titulo .font-pacifico{
-  font-size: 25px;
   color: #F1C22E;
+  font-size: 25px;
   text-shadow: 0.3px 1px 1px black;
 }
+
 .paginas-text{
   color: #fff;
   text-shadow: 0.3px 1px 1px black;
 }
+
 .paginas-titulo svg{
-  width: 30px;
   height: 30px;
+  width: 30px;
 }
+
 .paginas-icones{
   display: inline-flex;
 }
+
 .paginas-icones a{
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
+  align-items: center;
   border: 1px solid #fff;
   border-radius: 50px;
-  position: relative;
   display: flex;
-  justify-content: center;
+  font-size: 20px;
   flex-direction: column;
-  align-items: center;
+  height: 40px;
+  justify-content: center;
   margin: 0 2px;
+  position: relative;
+  width: 40px;
 }
+
 .paginas-icones a.paginas-fb {
   background-color: #f83636;
 }
+
 .paginas-titulo .paginas-fb svg{
-    color: #fff;
+  color: #fff;
 }
+
 .paginas-icones a:hover.paginas-fb {
   background-color: #fb1c1c;
 }
+
 .paginas-icones a.paginas-insta{
   background-color:#fbb535;
 }
+
 .paginas-icones a:hover.paginas-insta{
   background-color:#ffa90b;
 }
+
 .paginas-titulo .paginas-insta svg{
   color: #fff;
 }
@@ -737,103 +864,124 @@ li:hover ul {
                   3 Cards de Destaque
 =============================================================*/
 .programas-destaque{
-  text-align: center;
-  padding-top: 50px;
-  font-size: 20px;
   color: #313330;
-}
-.titulo-cards-destaque{
-  max-width: none !important;
-  font-size: 32px;
-  color: #3e6749;
+  font-size: 20px;
+  padding-top: 50px;
   text-align: center;
-  padding-bottom: 70px;
 }
+
+.titulo-cards-destaque{
+  color: #3e6749;
+  font-size: 32px;
+  max-width: none !important;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
 .campo-destaque{
   padding-bottom: 20px;
 }
+
 .campo-cards-destaque{
   padding-bottom: 100px;
 }
+
 .campo-cards-destaque p{
   text-align: center;
 }
+
 .campo-cards-destaque img{
   max-width: 100%;
   transition-duration: 250ms;
 }
+
 .card-destaque{
   border-radius: 15px;
   overflow: hidden;
 }
+
 .campo-img-destaque{
   box-sizing: border-box;
   overflow: hidden;
 }
+
 .card-destaque:hover{
-   box-shadow: 4px 5px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 5px 30px rgba(0, 0, 0, 0.2);
 }
+
 .card-destaque:hover .campo-img-destaque{
   background-color: #3c6749;
 }
+
 .card-destaque:hover img{
   opacity: 0.8;
+  overflow: hidden;
   transform: scale(1.05, 1.05);
   transition-duration: 250ms;
-  overflow: hidden;
 }
+
 .turno-destaque{
-  font-size: 35px;
   background-color: #ff9934;
   color: #fff;
+  font-size: 35px;
   padding-top: 15px;
   padding-bottom: 20px;
 }
+
 .atividades-destaque{
   background-color: #3c6749;
   padding: 13px 0;
 }
+
 .horario-destaque{
   color: #ff9934;
   min-height: 30px;
   max-height: 40px;
 }
+
 .destaque-1-turno{
   padding-top: 3px;
 }
+
 .destaque-2-turnos{
+  align-items: center;
+  display: flex;
   height: 40px;
+  justify-content: center;
   margin-top: -9px;
   margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
+
 .campo-atividade-destaque{
   box-sizing: border-box;
   overflow: hidden;
 }
+
 .atividades-destaque a{
-  text-decoration: none;
   color: #fff;
   transition-duration: 250ms;
+  text-decoration: none;
 }
+
 .atividades-destaque a:hover{
   color: #000;
   transition-duration: 250ms;
 }
+
 .saiba-mais-destaque{
-  text-align: center;
   padding-top: 90px;
+  text-align: center;
 }
+
 .saiba-mais-destaque a{
+  color: #fff;
   background-color: #d272f8;
+  border-radius: 25px;
   padding: 15px 60px;
   text-decoration: none;
-  color: #fff;
-  border-radius: 25px;
   transition-duration: 250ms;
 }
+
 .saiba-mais-destaque a:hover {
   background-color: #ff9934;
   transition-duration: 250ms;
@@ -927,4 +1075,18 @@ li:hover ul {
   .contato-mensagem{
     width: 100% !important;
   }
+}
+/*============================================================
+                  Página da galeria de imagens
+=============================================================*/
+.img-item,
+.img-item img{
+  height: 240px;
+  margin: 0 0 20px;
+}
+
+.img-item img:hover{
+  transition: .5s;
+  filter: brightness(.8);
+  cursor: pointer;
 }

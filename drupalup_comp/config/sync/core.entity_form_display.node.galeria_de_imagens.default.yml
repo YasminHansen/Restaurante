@@ -1,0 +1,69 @@
+uuid: 3285d842-e0cc-4f19-a8be-b887228d76af
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.galeria_de_imagens.field_imagem_galeria
+    - image.style.thumbnail
+    - node.type.galeria_de_imagens
+  module:
+    - image
+    - path
+id: node.galeria_de_imagens.default
+targetEntityType: node
+bundle: galeria_de_imagens
+mode: default
+content:
+  field_imagem_galeria:
+    weight: 6
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 2
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true
