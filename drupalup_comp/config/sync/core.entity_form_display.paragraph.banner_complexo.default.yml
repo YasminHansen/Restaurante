@@ -4,10 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.banner_complexo.field_carrossel
-    - field.field.paragraph.banner_complexo.field_change_color
     - field.field.paragraph.banner_complexo.field_icone_card_banner
     - field.field.paragraph.banner_complexo.field_img_texto_banner
-    - field.field.paragraph.banner_complexo.field_link_para_modal
+    - field.field.paragraph.banner_complexo.field_select_cor
     - field.field.paragraph.banner_complexo.field_text_banner_destaque
     - field.field.paragraph.banner_complexo.field_text_card_banner
     - field.field.paragraph.banner_complexo.field_titulo_card_banner
@@ -16,7 +15,6 @@ dependencies:
     - paragraphs.paragraphs_type.banner_complexo
   module:
     - image
-    - link
     - paragraphs
     - text
 id: paragraph.banner_complexo.default
@@ -36,14 +34,8 @@ content:
     third_party_settings: {  }
     type: entity_reference_paragraphs
     region: content
-  field_change_color:
-    weight: 8
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
   field_icone_card_banner:
-    weight: 3
+    weight: 2
     settings:
       preview_image_style: thumbnail
       progress_indicator: throbber
@@ -51,30 +43,20 @@ content:
     type: image_image
     region: content
   field_img_texto_banner:
-    weight: 5
+    weight: 4
     settings:
       preview_image_style: large
       progress_indicator: throbber
     third_party_settings: {  }
     type: image_image
     region: content
-  field_link_para_modal:
-    weight: 1
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
+  field_select_cor:
+    weight: 7
+    settings: {  }
     third_party_settings: {  }
-    type: link_default
+    type: options_select
     region: content
   field_text_banner_destaque:
-    weight: 7
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_text_card_banner:
     weight: 6
     settings:
       rows: 5
@@ -82,8 +64,16 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
+  field_text_card_banner:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
   field_titulo_card_banner:
-    weight: 2
+    weight: 1
     settings:
       size: 60
       placeholder: ''
@@ -91,7 +81,7 @@ content:
     type: string_textfield
     region: content
   field_titulo_texto_banner:
-    weight: 4
+    weight: 3
     settings:
       size: 60
       placeholder: ''

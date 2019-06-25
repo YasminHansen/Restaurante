@@ -735,7 +735,8 @@ li:hover ul {
   padding-top: 20px;
 }
 
-.menu-footer .font-pacifico{
+.menu-footer p:first-child{
+  font-family: 'Pacifico', cursive;
   color: #F1C22E;
   font-size: 25px;
   text-shadow: 0.3px 1px 1px black;
@@ -770,7 +771,8 @@ li:hover ul {
 /*===================================
        Estilo Contato Footer
 =====================================*/
-.contactinfo-menu .font-pacifico{
+.contactinfo-menu p:first-child{
+  font-family: 'Pacifico', cursive;
   color: #F1C22E;
   font-size: 25px;
   text-shadow: 0.3px 1px 1px black;
@@ -802,18 +804,19 @@ li:hover ul {
 /*===================================
        Estilo Redes Sociais Footer
 =====================================*/
-.paginas-titulo .font-pacifico{
+
+.paginas-bloco p{
+  color: #fff;
+  text-shadow: 0.3px 1px 1px black;
+}
+.paginas-bloco p:first-child{
+  font-family: 'Pacifico', cursive;
   color: #F1C22E;
   font-size: 25px;
   text-shadow: 0.3px 1px 1px black;
 }
 
-.paginas-text{
-  color: #fff;
-  text-shadow: 0.3px 1px 1px black;
-}
-
-.paginas-titulo svg{
+.paginas-bloco svg{
   height: 30px;
   width: 30px;
 }
@@ -822,7 +825,12 @@ li:hover ul {
   display: inline-flex;
 }
 
-.paginas-icones a{
+/*.paginas-bloco div{
+  display: inline-flex;
+}*/
+/*.paginas-icones a{*/
+
+.paginas-bloco a{
   align-items: center;
   border: 1px solid #fff;
   border-radius: 50px;
@@ -836,11 +844,12 @@ li:hover ul {
   width: 40px;
 }
 
+/*.paginas-bloco a.fa-facebook-f{*/
 .paginas-icones a.paginas-fb {
   background-color: #f83636;
 }
 
-.paginas-titulo .paginas-fb svg{
+.paginas-bloco .paginas-fb svg{
   color: #fff;
 }
 
@@ -856,7 +865,7 @@ li:hover ul {
   background-color:#ffa90b;
 }
 
-.paginas-titulo .paginas-insta svg{
+.paginas-bloco .paginas-insta svg{
   color: #fff;
 }
 

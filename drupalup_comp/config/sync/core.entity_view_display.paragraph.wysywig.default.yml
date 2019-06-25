@@ -3,7 +3,7 @@ langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.field.paragraph.wysywig.field_change_color
+    - field.field.paragraph.wysywig.field_campo_select_cor
     - field.field.paragraph.wysywig.field_texto_wysiwyg
     - field.field.paragraph.wysywig.field_titulo_wysiwyg
     - paragraphs.paragraphs_type.wysywig
@@ -15,8 +15,8 @@ targetEntityType: paragraph
 bundle: wysywig
 mode: default
 content:
-  field_change_color:
-    weight: 4
+  field_campo_select_cor:
+    weight: 3
     label: above
     settings: {  }
     third_party_settings: {  }
