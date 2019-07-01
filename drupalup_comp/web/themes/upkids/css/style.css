@@ -288,6 +288,10 @@ h1:first-letter{
   position: relative;
 }
 
+.container-destaque{
+  padding: 50px 0;
+}
+
 .motivo-destaque{
   font-weight: bold;
   text-transform: uppercase;
@@ -300,8 +304,8 @@ h1:first-letter{
 
 .texto-destaque{
   color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px;
+/*  padding-top: 50px;
+  padding-bottom: 50px;*/
   text-align: center;
 }
 
@@ -336,7 +340,7 @@ h1:first-letter{
 }
 @media(min-width: 992px){
   .imagem-destaque{
-    max-width: 100%;
+    width: 100%;
   }
 }
 /*============================================================
