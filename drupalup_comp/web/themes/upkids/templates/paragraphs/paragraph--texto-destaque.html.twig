@@ -45,7 +45,7 @@
     <div class="imagem-fundo-destaque" style="background:url({{ file_url(content.field_imagem_fundo['#items'].entity.uri.value) }});">
       <div class="container texto-destaque">
         <div class="row">
-          <div class="col-lg-8 col-md-12 col-sm-12">
+          <div class="conteudo-destaque col-12 col-md-8">
             <p class="motivo-destaque text-green">{{ content.field_motivo_destaque[0] }}</p>
             <p class="font-pacifico titulo-destaque text-green">{{ content.field_titulo_destaque['0'] }}</p>
             <p>{{ content.field_texto_destaque['0'] }}</p>
@@ -67,11 +67,7 @@
               </div>
             </div>
           </div>
-
-   {#        <div class="imagem-destaque visible-lg col-sm-12 col-md-12 col-lg-4">
-            {{ content.field_img_destaque }} #}
-            <img  class="imagem-destaque {# visible-lg #} col-sm-12 col-md-12 col-lg-4" src="{{ file_url(content.field_img_destaque['#items'].entity.uri.value) }}">
- {#          </div> #}
+            <img  class="imagem-destaque col-12 col-md-4" src="{{ file_url(content.field_img_destaque['#items'].entity.uri.value) }}">
         </div>
       </div>
     </div>

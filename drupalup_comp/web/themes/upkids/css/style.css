@@ -135,7 +135,7 @@ h1:first-letter{
 .depoimento_topo{
   color: #1C6F18;
   font-size: 20px;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .depoimento_titulo{
@@ -295,24 +295,23 @@ h1:first-letter{
 
 .titulo-destaque{
   font-size: 40px;
-  text-shadow: 1px 2px 1.5px #000;}
+  text-shadow: 1px 2px 1.5px #000;
+}
 
 .texto-destaque{
   color: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-.texto-destaque{
   text-align: center;
+}
+
+.conteudo-destaque{
+  text-align: left;
 }
 .imagem-destaque{
   bottom: 0;
-  position: relative;
-  right: 20px;
   margin-bottom: -48px;
-}
-.imagem-destaque{
-    max-width: 350px;
+  max-width: 350px;
 }
 
 .lista .itens {
@@ -335,16 +334,9 @@ h1:first-letter{
   padding-top: 8px;
   width: 100%;
 }
-/*@media(max-width: 991px){
-  .img-depoimento{
-
-  }
-}*/
-@media(min-width: 991px){
-  .img-depoimento img{
-    bottom: 0;
-    position: absolute !important;
-/*    right: 20px;*/
+@media(min-width: 992px){
+  .imagem-destaque{
+    max-width: 100%;
   }
 }
 /*============================================================
@@ -889,7 +881,6 @@ li:hover ul {
 .programas-destaque{
   color: #313330;
   font-size: 20px;
-  padding-top: 50px;
   text-align: center;
 }
 
@@ -995,7 +986,7 @@ li:hover ul {
 
 .saiba-mais-destaque{
   padding-top: 90px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
