@@ -4,9 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.banner_complexo.field_carrossel
+    - field.field.paragraph.banner_complexo.field_change_color
     - field.field.paragraph.banner_complexo.field_icone_card_banner
     - field.field.paragraph.banner_complexo.field_img_texto_banner
-    - field.field.paragraph.banner_complexo.field_select_cor
     - field.field.paragraph.banner_complexo.field_text_banner_destaque
     - field.field.paragraph.banner_complexo.field_text_card_banner
     - field.field.paragraph.banner_complexo.field_titulo_card_banner
@@ -31,6 +31,13 @@ content:
     third_party_settings: {  }
     type: entity_reference_revisions_entity_view
     region: content
+  field_change_color:
+    weight: 8
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
   field_icone_card_banner:
     weight: 2
     label: hidden
@@ -48,13 +55,6 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
-    region: content
-  field_select_cor:
-    weight: 7
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: list_key
     region: content
   field_text_banner_destaque:
     weight: 6

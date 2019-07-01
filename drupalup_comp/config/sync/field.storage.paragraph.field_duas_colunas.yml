@@ -1,0 +1,18 @@
+uuid: 42261efb-2461-4686-b516-9b1cfd56182c
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_duas_colunas
+field_name: field_duas_colunas
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

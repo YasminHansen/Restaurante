@@ -1,0 +1,25 @@
+uuid: f06baaaa-66b7-4925-b23b-265f2486856e
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f5d04152-a333-4e27-81f4-b65ec51f5fec'
+  module:
+    - block_content
+  theme:
+    - upkids
+id: logo_2
+theme: upkids
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:f5d04152-a333-4e27-81f4-b65ec51f5fec'
+settings:
+  id: 'block_content:f5d04152-a333-4e27-81f4-b65ec51f5fec'
+  label: Logo
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

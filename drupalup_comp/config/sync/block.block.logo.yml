@@ -1,11 +1,7 @@
 uuid: f2284eea-c5dc-4db2-86cd-d388edd771ce
 langcode: pt-br
-status: true
+status: false
 dependencies:
-  content:
-    - 'block_content:basic:11829f31-c226-4383-a550-449071161bb1'
-  module:
-    - block_content
   theme:
     - upkids
 id: logo

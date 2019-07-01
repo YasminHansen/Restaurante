@@ -1,0 +1,19 @@
+uuid: c4af7117-db86-49d7-9ace-4ee0762e4c4b
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_video
+field_name: field_video
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

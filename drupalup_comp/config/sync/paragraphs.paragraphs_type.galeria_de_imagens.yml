@@ -1,0 +1,9 @@
+uuid: 3eff4210-539d-4020-bcce-2aaab89e8e7a
+langcode: pt-br
+status: true
+dependencies: {  }
+id: galeria_de_imagens
+label: 'Galeria de imagens'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,23 @@
+uuid: 96ca219c-166d-4695-9bb4-14fd266e3d0d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_video
+    - paragraphs.paragraphs_type.carrossel
+  module:
+    - link
+id: paragraph.carrossel.field_video
+field_name: field_video
+entity_type: paragraph
+bundle: carrossel
+label: 'Link para vídeo'
+description: 'Link para vincular um vídeo ao item do carrossel.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
