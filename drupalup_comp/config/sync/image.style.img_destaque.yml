@@ -5,11 +5,11 @@ dependencies: {  }
 name: img_destaque
 label: Img_destaque
 effects:
-  91bcc3aa-4088-4921-a14e-14b6b3303c91:
-    uuid: 91bcc3aa-4088-4921-a14e-14b6b3303c91
+  9abf235d-52b6-4821-b1ba-254d3a051ad0:
+    uuid: 9abf235d-52b6-4821-b1ba-254d3a051ad0
     id: image_scale
     weight: 1
     data:
-      width: 300
+      width: 360
       height: null
       upscale: false

@@ -12,7 +12,7 @@ id: contato
 title: Contato
 description: ''
 category: ''
-elements: "nome:\n  '#type': textfield\n  '#title': Nome\n  '#title_display': invisible\n  '#description_display': invisible\n  '#placeholder': Nome\n  '#required': true\n  '#required_error': 'Preencha este campo.'\ne_mail:\n  '#type': email\n  '#title': E-mail\n  '#title_display': invisible\n  '#description_display': invisible\n  '#placeholder': E-mail\n  '#required': true\n  '#required_error': 'Preencha este campo.'\n  '#attributes':\n    class:\n      - contato-campo-direito\nidade_do_seu_filho_a_:\n  '#type': number\n  '#title': 'Idade do seu filho(a)'\n  '#title_display': invisible\n  '#description_display': invisible\n  '#placeholder': 'Idade do seu filho(a)'\n  '#attributes':\n    class:\n      - contato-largura\n  '#min': '1'\n  '#max': '6'\ntelefone:\n  '#type': tel\n  '#title': Telefone\n  '#title_display': invisible\n  '#description_display': invisible\n  '#placeholder': Telefone\n  '#required': true\n  '#attributes':\n    class:\n      - 'contato-campo-direito contato-largura'\nmensagem:\n  '#type': textarea\n  '#title': Mensagem\n  '#title_display': invisible\n  '#description_display': invisible\n  '#placeholder': Mensagem\n  '#attributes':\n    class:\n      - contato-mensagem\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Enviar\n  '#submit__attributes':\n    class:\n      - botao-contato"
+elements: "nome:\n  '#type': textfield\n  '#title': Nome\n  '#title_display': invisible\n  '#description_display': invisible\n  '#placeholder': Nome\n  '#required': true\n  '#required_error': 'Preencha este campo.'\ne_mail:\n  '#type': email\n  '#title': E-mail\n  '#title_display': invisible\n  '#description_display': invisible\n  '#placeholder': E-mail\n  '#required': true\n  '#required_error': 'Preencha este campo.'\n  '#attributes':\n    class:\n      - contato-campo-direito\nidade_do_seu_filho_a_:\n  '#type': number\n  '#title': 'Idade do seu filho(a)'\n  '#title_display': invisible\n  '#description_display': invisible\n  '#placeholder': 'Idade do seu filho(a)'\n  '#attributes':\n    class:\n      - contato-largura\n  '#min': '1'\n  '#max': '6'\ntelefone:\n  '#type': tel\n  '#title': Telefone\n  '#title_display': invisible\n  '#description_display': invisible\n  '#placeholder': Telefone\n  '#required': true\n  '#required_error': 'Preencha este campo.'\n  '#attributes':\n    class:\n      - 'contato-campo-direito contato-largura'\nmensagem:\n  '#type': textarea\n  '#title': Mensagem\n  '#title_display': invisible\n  '#description_display': invisible\n  '#placeholder': Mensagem\n  '#attributes':\n    class:\n      - contato-mensagem\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Enviar\n  '#submit__attributes':\n    class:\n      - botao-contato"
 css: ''
 javascript: ''
 settings:
@@ -93,13 +93,17 @@ settings:
   draft_saved_message: ''
   draft_loaded_message: ''
   confirmation_type: page
-  confirmation_title: ''
-  confirmation_message: ''
-  confirmation_url: ''
-  confirmation_attributes: {  }
-  confirmation_back: true
-  confirmation_back_label: ''
-  confirmation_back_attributes: {  }
+  confirmation_title: 'Sua mensagem foi enviada.'
+  confirmation_message: "Sua mensagem foi enviada.<br />\r\n<br />\r\nObrigado por nos contatar!<br />\r\n<br />\r\nEm breve algu&eacute;m entrar&aacute; em contato com voc&ecirc;."
+  confirmation_url: /quem_somos
+  confirmation_attributes:
+    class:
+      - contato-full
+  confirmation_back: false
+  confirmation_back_label: Início
+  confirmation_back_attributes:
+    class:
+      - contato-confirmacao-botao
   confirmation_exclude_query: false
   confirmation_exclude_token: false
   limit_total: null

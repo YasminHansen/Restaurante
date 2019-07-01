@@ -68,9 +68,10 @@
             </div>
           </div>
 
-          <div class="imagem-destaque visible-lg col-lg-4">
-            {{ content.field_img_destaque }}
-          </div>
+   {#        <div class="imagem-destaque visible-lg col-sm-12 col-md-12 col-lg-4">
+            {{ content.field_img_destaque }} #}
+            <img  class="imagem-destaque {# visible-lg #} col-sm-12 col-md-12 col-lg-4" src="{{ file_url(content.field_img_destaque['#items'].entity.uri.value) }}">
+ {#          </div> #}
         </div>
       </div>
     </div>

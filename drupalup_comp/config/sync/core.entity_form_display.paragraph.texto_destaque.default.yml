@@ -28,7 +28,7 @@ content:
     type: image_image
     region: content
   field_img_destaque:
-    weight: 4
+    weight: 6
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail

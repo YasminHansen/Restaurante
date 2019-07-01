@@ -1,0 +1,9 @@
+uuid: 4ae0da6e-fee0-4e7c-a5c3-4868d486f8a1
+langcode: pt-br
+status: true
+dependencies: {  }
+id: losangos
+label: losangos
+icon_uuid: null
+description: 'Adicione uma área com losangos informativos.'
+behavior_plugins: {  }

@@ -300,18 +300,24 @@ h1:first-letter{
 
 .titulo-destaque{
   font-size: 40px;
-  text-shadow: 1px 2px 2px #3f6848;}
+  text-shadow: 1px 2px 1.5px #000;}
 
 .texto-destaque{
   color: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
+.texto-destaque{
+  text-align: center;
+}
 .imagem-destaque{
   bottom: 0;
-  position: absolute;
-  right: 0px;
+  position: relative;
+  right: 20px;
+  margin-bottom: -48px;
+}
+.imagem-destaque{
+    max-width: 350px;
 }
 
 .lista .itens {
@@ -334,7 +340,18 @@ h1:first-letter{
   padding-top: 8px;
   width: 100%;
 }
+/*@media(max-width: 991px){
+  .img-depoimento{
 
+  }
+}*/
+@media(min-width: 991px){
+  .img-depoimento img{
+    bottom: 0;
+    position: absolute !important;
+/*    right: 20px;*/
+  }
+}
 /*============================================================
                       Estilo dos losangos
 =============================================================*/
@@ -684,11 +701,12 @@ li:hover ul {
                       Estilo Footer
 =============================================================*/
 .footer{
-  margin-top: -1px !important;
   padding: 0 !important;
+  margin-top: -1px !important;
 }
 
 .footer-region{
+    margin-top: -1px !important;
   background: url("../images/bg.jpg");
   background-position: center;
   min-height: 475px;
@@ -714,6 +732,7 @@ li:hover ul {
   .grid-teste{
     grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
     margin-left: 15px;
+    margin-right: 15px;
   }
 }
 
@@ -826,14 +845,9 @@ li:hover ul {
   width: 30px;
 }
 
-.paginas-icones{
+.paginas-bloco .field--name-body div{
   display: inline-flex;
 }
-
-/*.paginas-bloco div{
-  display: inline-flex;
-}*/
-/*.paginas-icones a{*/
 
 .paginas-bloco a{
   align-items: center;
@@ -849,30 +863,30 @@ li:hover ul {
   width: 40px;
 }
 
-/*.paginas-bloco a.fa-facebook-f{*/
-.paginas-icones a.paginas-fb {
+.paginas-bloco a:nth-child(1) {
   background-color: #f83636;
 }
 
-.paginas-bloco .paginas-fb svg{
+.paginas-bloco a:nth-child(1) svg{
   color: #fff;
 }
 
-.paginas-icones a:hover.paginas-fb {
+.paginas-bloco a:nth-child(1):hover {
   background-color: #fb1c1c;
 }
 
-.paginas-icones a.paginas-insta{
+.paginas-bloco a:nth-child(2){
   background-color:#fbb535;
 }
 
-.paginas-icones a:hover.paginas-insta{
+.paginas-bloco a:nth-child(2) svg{
+  color: #fff;
+}
+
+.paginas-bloco a:nth-child(2):hover {
   background-color:#ffa90b;
 }
 
-.paginas-bloco .paginas-insta svg{
-  color: #fff;
-}
 
 /*============================================================
                   3 Cards de Destaque
@@ -912,6 +926,7 @@ li:hover ul {
 .card-destaque{
   border-radius: 15px;
   overflow: hidden;
+  transition: 400ms;
 }
 
 .campo-img-destaque{
@@ -920,7 +935,8 @@ li:hover ul {
 }
 
 .card-destaque:hover{
-  box-shadow: 4px 5px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.2);
+  transition: 350ms;
 }
 
 .card-destaque:hover .campo-img-destaque{
@@ -984,6 +1000,7 @@ li:hover ul {
 
 .saiba-mais-destaque{
   padding-top: 90px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -1053,7 +1070,8 @@ li:hover ul {
   text-shadow: 0.3px 1px 1px black;
   text-align: center;
 }
-.contato-full .botao-contato{
+.contato-full .botao-contato,
+.contato-confirmacao .contato-confirmacao-botao{
   background-color: #d272f8;
   border-color: #0000;
   border-radius: 25px;
@@ -1090,6 +1108,13 @@ li:hover ul {
     width: 100% !important;
   }
 }
+/*===================================
+    Contato Página de confirmação
+=====================================*/
+.contato-confirmacao{
+  color: #fff;
+}
+
 /*============================================================
                   Página da galeria de imagens
 =============================================================*/

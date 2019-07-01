@@ -1,0 +1,6 @@
+cards_de_destaque:
+  path: /cards_de_destaque
+  defaults:
+    _controller: Drupal\cards_de_destaque\Controller\CardsDestaqueController::cardsDestaque
+  requirements:
+    _permission: 'access content'
