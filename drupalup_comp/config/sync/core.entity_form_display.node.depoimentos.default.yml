@@ -7,12 +7,10 @@ dependencies:
     - field.field.node.depoimentos.field_img_depoimento
     - field.field.node.depoimentos.field_nome
     - field.field.node.depoimentos.field_titulo_depoimento
-    - field.field.node.depoimentos.field_videos
     - image.style.thumbnail
     - node.type.depoimentos
   module:
     - image
-    - link
     - text
 id: node.depoimentos.default
 targetEntityType: node
@@ -43,14 +41,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-    region: content
-  field_videos:
-    weight: 26
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
     region: content
   title:
     type: string_textfield

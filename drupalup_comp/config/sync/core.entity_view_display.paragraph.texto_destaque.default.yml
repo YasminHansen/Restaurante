@@ -9,7 +9,7 @@ dependencies:
     - field.field.paragraph.texto_destaque.field_motivo_destaque
     - field.field.paragraph.texto_destaque.field_texto_destaque
     - field.field.paragraph.texto_destaque.field_titulo_destaque
-    - image.style.img_destaque
+    - image.style.thumbnail
     - paragraphs.paragraphs_type.texto_destaque
   module:
     - image
@@ -29,10 +29,10 @@ content:
       image_link: ''
     third_party_settings: {  }
   field_img_destaque:
-    weight: 4
+    weight: 6
     label: hidden
     settings:
-      image_style: img_destaque
+      image_style: thumbnail
       image_link: ''
     third_party_settings: {  }
     type: image
