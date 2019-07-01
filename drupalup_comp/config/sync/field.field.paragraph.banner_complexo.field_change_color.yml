@@ -1,14 +1,14 @@
-uuid: 24cdeab6-6155-41c3-a2f6-395681782f48
+uuid: 481885d6-509c-4a7d-a96d-0462d5b0b126
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_select_cor
+    - field.storage.paragraph.field_change_color
     - paragraphs.paragraphs_type.banner_complexo
   module:
     - options
-id: paragraph.banner_complexo.field_select_cor
-field_name: field_select_cor
+id: paragraph.banner_complexo.field_change_color
+field_name: field_change_color
 entity_type: paragraph
 bundle: banner_complexo
 label: 'Escolha uma cor'

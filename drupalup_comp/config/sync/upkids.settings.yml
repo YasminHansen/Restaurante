@@ -29,3 +29,6 @@ table: ''
 navbar_position: ''
 navbar_inverse: 0
 langcode: pt-br
+modal_size: modal-lg
+modal_show: 1
+modal_backdrop: 'true'

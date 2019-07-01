@@ -1,0 +1,25 @@
+uuid: c632528b-5b0a-485a-ad6a-ba1dff6a553e
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:18c62e3d-20db-4d2d-9b05-0121246ec909'
+  module:
+    - block_content
+  theme:
+    - upkids
+id: paginas_2
+theme: upkids
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:18c62e3d-20db-4d2d-9b05-0121246ec909'
+settings:
+  id: 'block_content:18c62e3d-20db-4d2d-9b05-0121246ec909'
+  label: Páginas
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

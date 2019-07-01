@@ -1,0 +1,23 @@
+uuid: cb85565e-d97e-46cf-8bd2-3ef3a8d50707
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_duas_colunas
+    - paragraphs.paragraphs_type.wysywig
+id: paragraph.wysywig.field_duas_colunas
+field_name: field_duas_colunas
+entity_type: paragraph
+bundle: wysywig
+label: 'Ativar modo de 2 colunas'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desliga
+field_type: boolean

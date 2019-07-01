@@ -1,11 +1,7 @@
 uuid: c2272730-060d-4c69-b7c4-b2e0d2071c7d
 langcode: pt-br
-status: true
+status: false
 dependencies:
-  content:
-    - 'block_content:basic:2d54f0cc-cc0b-46dd-adcf-0661df4226d1'
-  module:
-    - block_content
   theme:
     - upkids
 id: menufooter

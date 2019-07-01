@@ -23,7 +23,12 @@ h1:first-letter{
 .paragraph-green-gb{
     background-color: #316F49;
     color:#fff;
-  }
+}
+
+.paragraph-default-gb{
+  background-color: #fff;
+  color:#000;
+}
 
 .text-green{
   color: #307436;

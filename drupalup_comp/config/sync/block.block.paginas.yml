@@ -1,11 +1,7 @@
 uuid: c8480757-358d-4873-bfb8-6de9ab7e35ce
 langcode: pt-br
-status: true
+status: false
 dependencies:
-  content:
-    - 'block_content:basic:be1df392-8ef7-4ec4-b6f6-f44087c47b82'
-  module:
-    - block_content
   theme:
     - upkids
 id: paginas

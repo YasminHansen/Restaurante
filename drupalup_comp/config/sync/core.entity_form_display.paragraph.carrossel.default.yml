@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.paragraph.carrossel.field_img_carroucel
     - field.field.paragraph.carrossel.field_titulo_carrocel
+    - field.field.paragraph.carrossel.field_video
     - image.style.thumbnail
     - paragraphs.paragraphs_type.carrossel
   module:
     - image
+    - link
 id: paragraph.carrossel.default
 targetEntityType: paragraph
 bundle: carrossel
@@ -29,6 +31,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_video:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
     region: content
 hidden:
   created: true

@@ -1,16 +1,16 @@
-uuid: ed6b4bfb-1f32-4fe8-b665-c9e0522e698b
+uuid: 1c9b6da1-a5b4-4f1e-be6d-ca3a7e89d1b0
 langcode: pt-br
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.contato.field_contato
-    - node.type.contato
+    - field.field.node.galeria_de_imagens.field_imagem_galeria
+    - node.type.galeria_de_imagens
   module:
     - user
-id: node.contato.teaser
+id: node.galeria_de_imagens.teaser
 targetEntityType: node
-bundle: contato
+bundle: galeria_de_imagens
 mode: teaser
 content:
   links:
@@ -19,7 +19,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
-  field_contato: true
-  field_contato_texto: true
-  field_contato_titulo: true
+  field_imagem_galeria: true
   langcode: true

@@ -3,7 +3,8 @@ langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.field.paragraph.wysywig.field_campo_select_cor
+    - field.field.paragraph.wysywig.field_change_color
+    - field.field.paragraph.wysywig.field_duas_colunas
     - field.field.paragraph.wysywig.field_texto_wysiwyg
     - field.field.paragraph.wysywig.field_titulo_wysiwyg
     - paragraphs.paragraphs_type.wysywig
@@ -14,11 +15,18 @@ targetEntityType: paragraph
 bundle: wysywig
 mode: default
 content:
-  field_campo_select_cor:
-    weight: 4
+  field_change_color:
+    weight: 5
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
+  field_duas_colunas:
+    weight: 6
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
     region: content
   field_texto_wysiwyg:
     weight: 1
